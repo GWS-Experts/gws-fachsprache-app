@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" role="img" aria-label="GWS – The Experts">
+  <!-- Platzhalter-Wortmarke. Ersetze diese Datei durch das Original-Logo (public/gws-logo.svg oder .png). -->
+  <rect x="0" y="6" width="52" height="52" rx="8" fill="#0b3d6e"/>
+  <text x="26" y="41" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#ffffff">GWS</text>
+  <text x="64" y="30" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0b3d6e">GWS</text>
+  <text x="64" y="50" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#e2741d" letter-spacing="1">THE EXPERTS</text>
+</svg>
