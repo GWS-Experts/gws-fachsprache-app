@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Logo } from "@/components/Logo";
 import { LanguageSwitch } from "@/components/LanguageSwitch";
 
@@ -12,6 +13,7 @@ export function AuthShell({ title, intro, children }: { title: string; intro?: s
       </header>
       <main className="flex flex-1 items-start justify-center bg-gradient-to-b from-primary-light to-page px-4 py-12">
         <div className="card w-full max-w-md p-8">
+          <Image src="/gws-logo.png" alt="" width={96} height={96} className="mx-auto mb-4 h-24 w-24" />
           <h1 className="text-2xl font-bold text-primary">{title}</h1>
           {intro && <p className="mt-2 text-sm text-muted">{intro}</p>}
           <div className="mt-6">{children}</div>

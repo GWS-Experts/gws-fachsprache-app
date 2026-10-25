@@ -13,14 +13,14 @@ export default async function LearnPage() {
 
   return (
     <div className="space-y-6">
-      <section className="rounded-lg bg-primary p-6 text-white">
+      <section className="rounded-lg bg-gradient-to-br from-primary to-accent p-6 text-white">
         <p className="text-sm opacity-80">{t("hello", { name: profile.first_name || profile.email })}</p>
         <h1 className="mt-1 text-2xl font-bold">{t("title")}</h1>
         <p className="mt-2 max-w-2xl text-sm opacity-90">{t("intro")}</p>
         <div className="mt-4 max-w-md rounded-md bg-white/10 p-3">
           <p className="mb-2 text-xs font-semibold uppercase tracking-wide opacity-80">{t("overall")}</p>
           <div className="h-2.5 overflow-hidden rounded-full bg-white/20">
-            <div className="h-full rounded-full bg-accent" style={{ width: `${stats.percent}%` }} />
+            <div className="h-full rounded-full bg-lime" style={{ width: `${stats.percent}%` }} />
           </div>
           <p className="mt-2 text-sm">{t("lessonsDone", { done: stats.doneLessons, total: stats.totalLessons })}</p>
         </div>

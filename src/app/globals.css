@@ -1,16 +1,13 @@
 @import "tailwindcss";
 
-/*
- * GWS-Farben. Die Website gws-transfer.com konnte nicht automatisch ausgelesen
- * werden; die Werte sind an einen seriösen Blau-Ton angelehnt und lassen sich
- * hier zentral anpassen.
- */
+/* GWS-Farben, abgeleitet aus dem Logo (Navy, Weltkugel-Blau, Grün-Gelb). */
 :root {
-  --gws-primary: #0b3d6e;
-  --gws-primary-dark: #082c50;
-  --gws-primary-light: #e7eef6;
-  --gws-accent: #e2741d;
-  --gws-accent-light: #fdf1e6;
+  --gws-primary: #0b2f63;
+  --gws-primary-dark: #061d40;
+  --gws-primary-light: #e8eef7;
+  --gws-accent: #1a7fc1;
+  --gws-accent-light: #e6f2fa;
+  --gws-lime: #a8bf2e;
   --gws-bg: #f5f7fa;
   --gws-surface: #ffffff;
   --gws-text: #1c2733;
@@ -28,6 +25,7 @@
   --color-primary-light: var(--gws-primary-light);
   --color-accent: var(--gws-accent);
   --color-accent-light: var(--gws-accent-light);
+  --color-lime: var(--gws-lime);
   --color-page: var(--gws-bg);
   --color-surface: var(--gws-surface);
   --color-ink: var(--gws-text);
