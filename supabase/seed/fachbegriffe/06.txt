@@ -1,0 +1,74 @@
+## diagnostik|🔬|Untersuchungen und Diagnostik|Examinations and diagnostics|Blutabnahme, Bildgebung und Untersuchungen – Patienten vorbereiten und verständlich informieren.|Blood tests, imaging and examinations – prepare patients and explain clearly.
+die|Untersuchung|die Untersuchungen|Arzt prüft den Körper oder macht Tests, um eine Krankheit zu erkennen|examination; test|Nach dem Frühstück haben Sie eine Untersuchung.
+die|Diagnose|die Diagnosen|vom Arzt festgestellte Krankheit|diagnosis|Die Diagnose lautet Pneumonie.
+der|Befund|die Befunde|Ergebnis einer Untersuchung|finding; result|Der Befund vom Röntgen ist da.
+die|Blutentnahme|die Blutentnahmen|Blut wird aus der Vene abgenommen; Alltagswort: Blut abnehmen|blood sample; blood draw|Morgen früh ist nüchtern Blutentnahme.
+das|Blutbild|die Blutbilder|Laboruntersuchung der Blutzellen|blood count|Im Blutbild sind die Leukozyten erhöht.
+der|Laborwert|die Laborwerte|Ergebnis einer Laboruntersuchung|lab value|Die Laborwerte sind heute besser.
+die|Stauung|die Stauungen|Band am Arm, damit die Vene für die Blutabnahme gut sichtbar wird; Fachwort: Stauschlauch|tourniquet|Ich lege jetzt die Stauung an.
+das|Röntgen|| Untersuchung mit Röntgenstrahlen, z. B. von Knochen oder Lunge|X-ray|Nach dem Sturz wird die Hüfte geröntgt.
+die|Computertomografie|die Computertomografien|Schichtaufnahmen des Körpers mit Röntgenstrahlen; kurz CT|CT scan|Für das CT bekommt er Kontrastmittel.
+die|Magnetresonanztomografie|die Magnetresonanztomografien|Schichtaufnahmen mit Magnetfeld, ohne Röntgenstrahlen; kurz MRT|MRI scan|Vor dem MRT müssen alle Metallteile abgelegt werden.
+der|Ultraschall|die Ultraschalle|Untersuchung mit Schallwellen; Fachwort: Sonografie|ultrasound|Beim Ultraschall wird die Blase angeschaut.
+das|Kontrastmittel|die Kontrastmittel|Mittel, das Organe im Bild besser sichtbar macht|contrast medium|Haben Sie eine Allergie gegen Kontrastmittel?
+das|Elektrokardiogramm|die Elektrokardiogramme|Aufzeichnung der Herzströme; kurz EKG|electrocardiogram (ECG)|Ich schreibe jetzt ein EKG.
+die|Magenspiegelung|die Magenspiegelungen|Untersuchung mit einer Kamera durch den Mund in den Magen; Fachwort: Gastroskopie|gastroscopy|Für die Magenspiegelung müssen Sie nüchtern sein.
+die|Darmspiegelung|die Darmspiegelungen|Untersuchung mit einer Kamera durch den After in den Darm; Fachwort: Koloskopie|colonoscopy|Vor der Darmspiegelung trinken Sie eine Abführlösung.
+die|Biopsie|die Biopsien|Entnahme einer kleinen Gewebeprobe zur Untersuchung|biopsy|Bei der Biopsie wird eine Gewebeprobe entnommen.
+die|Urinprobe|die Urinproben|kleine Menge Urin für das Labor|urine sample|Bitte geben Sie eine Urinprobe aus dem Mittelstrahl ab.
+der|Mittelstrahlurin|| Urin aus der Mitte des Wasserlassens, für eine saubere Probe|midstream urine|Ich erkläre Ihnen, wie Sie den Mittelstrahlurin auffangen.
+die|Stuhlprobe|die Stuhlproben|kleine Menge Stuhl für das Labor|stool sample|Wir brauchen eine Stuhlprobe auf Clostridien.
+der|Abstrich|die Abstriche|Probe von Haut oder Schleimhaut mit einem Wattestäbchen|swab|Bei der Aufnahme machen wir einen MRSA-Abstrich aus Nase und Rachen.
+die|Blutkultur|die Blutkulturen|Blutprobe, mit der Bakterien im Blut gesucht werden|blood culture|Bei Fieber über 38,5 °C werden Blutkulturen abgenommen.
+die|Punktion|die Punktionen|Einstich mit einer Nadel, um Flüssigkeit zu entnehmen|puncture; aspiration|Bei der Punktion wird Wasser aus dem Bauch abgelassen.
+die|Lungenfunktionsprüfung|die Lungenfunktionsprüfungen|Test, wie gut die Lunge arbeitet|lung function test; spirometry|Bei COPD macht man regelmäßig eine Lungenfunktionsprüfung.
+die|Aufklärung|die Aufklärungen|Arzt erklärt eine Untersuchung oder OP mit Risiken; Patient unterschreibt danach|informed consent discussion|Die Aufklärung für die OP macht der Arzt.
+die|Einverständniserklärung|die Einverständniserklärungen|Unterschrift, dass der Patient einer Behandlung zustimmt|consent form|Die Einverständniserklärung ist unterschrieben.
+die|Visite|die Visiten|Arzt und Pflege besuchen gemeinsam die Patienten und besprechen die Behandlung|ward round|Bei der Visite fragt der Arzt nach Ihren Beschwerden.
+die|körperliche Untersuchung|die körperlichen Untersuchungen|Arzt untersucht durch Ansehen, Abtasten, Abhören und Abklopfen|physical examination|Bei der körperlichen Untersuchung war der Bauch weich.
+|abhören (hört ab, hat abgehört)||mit dem Stethoskop Herz und Lunge hören; Fachwort: auskultieren|listen (with a stethoscope); auscultate|Die Ärztin hört die Lunge ab.
+|abtasten (tastet ab, hat abgetastet)||mit den Händen fühlen; Fachwort: palpieren|palpate; feel|Der Arzt tastet den Bauch ab.
+
+## notfall|🚨|Notfall und Erste Hilfe|Emergencies and first aid|Notfälle erkennen, richtig handeln und klar kommunizieren.|Recognise emergencies, act correctly and communicate clearly.
+der|Notfall|die Notfälle|plötzliche, lebensbedrohliche Situation|emergency|Im Notfall drücke ich den Notrufknopf.
+der|Notruf|die Notrufe|Anruf oder Alarm, um sofort Hilfe zu holen|emergency call|Ich setze sofort einen Notruf ab.
+das|Reanimationsteam|die Reanimationsteams|Team, das bei Herz-Kreislauf-Stillstand kommt|resuscitation team; crash team|Ich alarmiere das Reanimationsteam.
+der|Herz-Kreislauf-Stillstand|die Herz-Kreislauf-Stillstände|Herz pumpt nicht mehr, kein Puls, keine Atmung|cardiac arrest|Bei Herz-Kreislauf-Stillstand beginne ich sofort mit der Herzdruckmassage.
+die|Reanimation|die Reanimationen|Wiederbelebung mit Herzdruckmassage und Beatmung|resuscitation; CPR|Die Reanimation war erfolgreich.
+die|Herzdruckmassage|die Herzdruckmassagen|rhythmisches Drücken auf das Brustbein, 100 bis 120 Mal pro Minute|chest compressions|Die Herzdruckmassage erfolgt im Verhältnis 30 zu 2.
+die|Beatmung|die Beatmungen|Luft wird in die Lunge gegeben, z. B. mit Beatmungsbeutel|ventilation; rescue breathing|Nach 30 Kompressionen folgen 2 Beatmungen.
+der|Defibrillator|die Defibrillatoren|Gerät, das mit Stromstoß das Herz wieder in den richtigen Rhythmus bringen kann; kurz Defi, AED|defibrillator|Holen Sie bitte den Defibrillator!
+der|Notfallwagen|die Notfallwagen|Wagen mit Medikamenten und Geräten für den Notfall|crash cart; emergency trolley|Der Notfallwagen wird jeden Tag kontrolliert.
+der|Schock|die Schocks|lebensbedrohliches Kreislaufversagen mit niedrigem Blutdruck und schnellem Puls|shock|Der Patient ist kaltschweißig und zeigt Zeichen eines Schocks.
+der|anaphylaktische Schock|die anaphylaktischen Schocks|schwerste allergische Reaktion mit Kreislaufversagen|anaphylactic shock|Nach dem Antibiotikum kam es zu einem anaphylaktischen Schock.
+der|Sturz|die Stürze|Hinfallen|fall|Nach dem Sturz kontrolliere ich die Vitalzeichen und informiere den Arzt.
+das|Sturzprotokoll|die Sturzprotokolle|Dokument, in dem ein Sturz genau beschrieben wird|fall report|Ich fülle das Sturzprotokoll aus.
+die|Aspiration|die Aspirationen|Verschlucken: Fremdkörper oder Nahrung gerät in die Atemwege|aspiration; choking|Bei Aspiration klopfe ich kräftig auf den Rücken.
+der|Krampfanfall|die Krampfanfälle|unkontrollierte Muskelzuckungen durch Fehlfunktion im Gehirn|seizure|Während des Krampfanfalls bleibe ich beim Patienten und schaue auf die Uhr.
+der|Blutzuckerabfall|die Blutzuckerabfälle|Blutzucker sinkt plötzlich stark ab; Unterzucker|drop in blood sugar|Bei einem Blutzuckerabfall gebe ich Traubenzucker.
+die|Atemwege|| Weg der Luft von Mund und Nase bis in die Lunge (Plural)|airway|Ich mache die Atemwege frei.
+das|ABCDE-Schema|| Reihenfolge der Notfalleinschätzung: Atemwege, Atmung, Kreislauf, neurologischer Zustand, Exposition|ABCDE approach|Ich gehe nach dem ABCDE-Schema vor.
+der|Notarzt|die Notärzte|Arzt, der im Notfall schnell kommt|emergency physician|Der Notarzt ist in fünf Minuten da.
+|kaltschweißig||Haut ist kalt und nass vom Schweiß; Zeichen für Schock oder Unterzucker|cold and clammy|Die Patientin ist blass und kaltschweißig.
+
+## operation|🏥|Operation und perioperative Pflege|Surgery and perioperative care|Vor und nach der Operation: Vorbereitung, Narkose, Überwachung und Schmerztherapie.|Before and after surgery: preparation, anaesthesia, monitoring and pain management.
+die|Operation|die Operationen|chirurgischer Eingriff; kurz OP|operation; surgery|Die Operation ist für morgen 8 Uhr geplant.
+der|Eingriff|die Eingriffe|Operation oder ärztliche Maßnahme am Körper|procedure; intervention|Der Eingriff hat eine Stunde gedauert.
+die|OP-Vorbereitung|die OP-Vorbereitungen|alles, was vor der Operation erledigt werden muss|preoperative preparation|Zur OP-Vorbereitung gehört das Duschen und die Rasur.
+die|Nüchternheit|| nichts essen und trinken vor der Narkose|fasting (before surgery)|Die Nüchternheit gilt ab Mitternacht.
+die|Narkose|die Narkosen|künstlicher Tiefschlaf, damit der Patient bei der OP nichts spürt; Fachwort: Anästhesie|general anaesthesia|Die Narkose wird vom Anästhesisten eingeleitet.
+die|örtliche Betäubung|die örtlichen Betäubungen|nur ein Körperteil wird betäubt; Fachwort: Lokalanästhesie|local anaesthesia|Der kleine Eingriff erfolgt in örtlicher Betäubung.
+die|Prämedikation|die Prämedikationen|Medikament vor der OP, z. B. zur Beruhigung|premedication|Die Prämedikation bekommt er eine Stunde vor der OP.
+das|OP-Hemd|die OP-Hemden|Hemd, das der Patient bei der Operation trägt|hospital gown; surgical gown|Bitte ziehen Sie das OP-Hemd an.
+die|Checkliste|die Checklisten|Liste zum Abhaken, damit vor der OP nichts vergessen wird|checklist|Die OP-Checkliste ist vollständig ausgefüllt.
+der|Aufwachraum|die Aufwachräume|Raum, in dem Patienten nach der Narkose überwacht werden|recovery room|Nach der OP kommt sie in den Aufwachraum.
+die|Überwachung|die Überwachungen|regelmäßiges Kontrollieren von Vitalzeichen und Zustand|monitoring|Nach der OP erfolgt eine engmaschige Überwachung.
+|engmaschig||in kurzen Abständen, sehr häufig|close; frequent|Die Vitalzeichen werden engmaschig kontrolliert.
+die|Nachblutung|die Nachblutungen|Blutung nach einer Operation|postoperative bleeding|Ich kontrolliere den Verband auf Nachblutung.
+die|Schmerztherapie|die Schmerztherapien|Behandlung von Schmerzen|pain management|Die Schmerztherapie erfolgt nach Schema.
+die|Schmerzpumpe|die Schmerzpumpen|Gerät, mit dem der Patient sich selbst Schmerzmittel geben kann; Fachwort: PCA-Pumpe|patient-controlled analgesia pump|Mit der Schmerzpumpe kann sie selbst nachdosieren.
+die|postoperative Übelkeit|| Übelkeit und Erbrechen nach der Narkose; kurz PONV|postoperative nausea|Gegen postoperative Übelkeit bekommt sie ein Antiemetikum.
+die|Komplikation|die Komplikationen|unerwünschtes Problem während oder nach einer Behandlung|complication|Die OP verlief ohne Komplikationen.
+die|Entlassung|die Entlassungen|Patient verlässt das Krankenhaus|discharge|Die Entlassung ist für Freitag geplant.
+das|Entlassmanagement|| Planung der Versorgung nach dem Krankenhaus, z. B. Reha, Pflegedienst, Hilfsmittel|discharge planning|Das Entlassmanagement organisiert den Pflegedienst.
+die|Rehabilitation|die Rehabilitationen|Behandlung nach Krankheit oder OP, um wieder selbstständig zu werden; kurz Reha|rehabilitation|Nach der Hüft-OP geht er drei Wochen in die Reha.

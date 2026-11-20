@@ -1,0 +1,141 @@
+## koerper|🫀|Körper und Organe|Body and organs|Körperteile, Organe und Organsysteme – die Grundlage für jede Beschreibung von Beschwerden.|Body parts, organs and organ systems – the basis for describing any complaint.
+der|Kopf|die Köpfe|oberster Teil des Körpers mit Gehirn, Augen, Ohren, Nase und Mund|head|Der Patient hat sich beim Sturz den Kopf angeschlagen.
+die|Stirn|die Stirnen|Teil des Gesichts über den Augen|forehead|Ich lege Ihnen einen kühlen Lappen auf die Stirn.
+der|Schädel|die Schädel|Knochen, die das Gehirn umgeben|skull|Das CT zeigt keine Schädelfraktur.
+das|Gehirn|die Gehirne|Organ im Kopf, steuert Denken, Bewegung und Sprache|brain|Bei einem Schlaganfall wird das Gehirn nicht ausreichend durchblutet.
+der|Hals|die Hälse|Verbindung zwischen Kopf und Rumpf; auch: Rachen|neck; throat|Haben Sie Halsschmerzen?
+der|Nacken|die Nacken|hinterer Teil des Halses|nape of the neck|Die Patientin klagt über einen steifen Nacken.
+die|Schulter|die Schultern|Gelenk zwischen Arm und Rumpf|shoulder|Bitte heben Sie die rechte Schulter an.
+der|Oberarm|die Oberarme|Teil des Arms zwischen Schulter und Ellenbogen|upper arm|Die Blutdruckmanschette kommt an den Oberarm.
+der|Ellenbogen|die Ellenbogen|Gelenk in der Mitte des Arms|elbow|In der Ellenbeuge nehme ich Blut ab.
+das|Handgelenk|die Handgelenke|Gelenk zwischen Unterarm und Hand|wrist|Den Puls taste ich am Handgelenk.
+der|Finger|die Finger|einer der fünf Teile an der Hand|finger|Ich messe die Sauerstoffsättigung am Finger.
+der|Brustkorb|die Brustkörbe|knöcherner Teil des Oberkörpers, schützt Herz und Lunge; Fachwort: Thorax|chest; rib cage|Der Brustkorb hebt sich beim Atmen gleichmäßig.
+die|Rippe|die Rippen|gebogene Knochen des Brustkorbs|rib|Er hat sich zwei Rippen gebrochen.
+der|Bauch|die Bäuche|vorderer Teil des Rumpfes unter dem Brustkorb; Fachwort: Abdomen|belly; abdomen|Der Bauch ist weich und nicht druckschmerzhaft.
+der|Rücken|die Rücken|hintere Seite des Rumpfes|back|Ich drehe Sie jetzt auf den Rücken.
+die|Wirbelsäule|die Wirbelsäulen|Knochensäule im Rücken aus vielen Wirbeln|spine|Die Patientin hat eine Verletzung der Wirbelsäule.
+das|Becken|die Becken|knöcherner Ring zwischen Rumpf und Beinen|pelvis|Nach dem Sturz hat er Schmerzen im Becken.
+die|Hüfte|die Hüften|Gelenk zwischen Becken und Oberschenkel|hip|Frau Weber hat eine neue Hüfte bekommen.
+das|Gesäß|die Gesäße|Po, Hinterteil|buttocks|Am Gesäß ist die Haut gerötet.
+das|Steißbein|die Steißbeine|unterstes Ende der Wirbelsäule; typische Stelle für Dekubitus|tailbone; coccyx|Über dem Steißbein sehe ich eine Rötung.
+der|Oberschenkel|die Oberschenkel|Teil des Beins zwischen Hüfte und Knie|thigh|Die Spritze gebe ich in den Oberschenkel.
+das|Knie|die Knie|Gelenk in der Mitte des Beins|knee|Das Knie ist geschwollen.
+der|Unterschenkel|die Unterschenkel|Teil des Beins zwischen Knie und Fuß|lower leg|Am Unterschenkel hat er ein offenes Bein.
+der|Knöchel|die Knöchel|Knochenvorsprung am Fußgelenk|ankle|Die Knöchel sind abends geschwollen.
+die|Ferse|die Fersen|hinterer Teil des Fußes; gefährdet für Dekubitus|heel|Wir lagern die Fersen frei.
+der|Zeh|die Zehen|einer der fünf Teile am Fuß|toe|Können Sie die Zehen bewegen?
+das|Herz|die Herzen|Organ, das das Blut durch den Körper pumpt|heart|Das Herz schlägt regelmäßig.
+die|Lunge|die Lungen|Atmungsorgan im Brustkorb|lungs|Über der Lunge hört der Arzt Rasselgeräusche.
+die|Luftröhre|die Luftröhren|Rohr, das die Luft vom Kehlkopf in die Lunge leitet; Fachwort: Trachea|windpipe; trachea|Bei der Tracheotomie wird die Luftröhre eröffnet.
+die|Leber|die Lebern|großes Organ im rechten Oberbauch, entgiftet den Körper|liver|Die Leberwerte sind erhöht.
+die|Galle|die Gallen|Flüssigkeit aus der Leber für die Fettverdauung; auch kurz für Gallenblase|bile; gallbladder|Ihr wurde die Galle entfernt.
+die|Bauchspeicheldrüse|die Bauchspeicheldrüsen|Organ, das Verdauungssäfte und Insulin bildet; Fachwort: Pankreas|pancreas|Bei Diabetes bildet die Bauchspeicheldrüse zu wenig Insulin.
+der|Magen|die Mägen|Organ, in dem die Nahrung verdaut wird|stomach|Haben Sie Magenschmerzen?
+der|Darm|die Därme|langes Verdauungsorgan zwischen Magen und After|intestine; bowel|Der Darm arbeitet wieder, er hatte Stuhlgang.
+die|Speiseröhre|die Speiseröhren|Schlauch vom Mund zum Magen; Fachwort: Ösophagus|oesophagus; gullet|Die Magensonde wird über die Speiseröhre gelegt.
+die|Niere|die Nieren|paariges Organ, filtert das Blut und bildet Urin|kidney|Die Nieren arbeiten nicht mehr richtig.
+die|Harnblase|die Harnblasen|Organ, in dem sich der Urin sammelt|urinary bladder|Die Harnblase ist voll, er kann aber nicht Wasser lassen.
+die|Harnröhre|die Harnröhren|Gang, durch den der Urin aus der Blase fließt|urethra|Der Katheter wird über die Harnröhre gelegt.
+die|Milz|die Milzen|Organ im linken Oberbauch, wichtig für die Abwehr|spleen|Nach dem Unfall musste die Milz entfernt werden.
+die|Schilddrüse|die Schilddrüsen|Drüse am Hals, bildet Hormone für den Stoffwechsel|thyroid gland|Sie nimmt Tabletten für die Schilddrüse.
+das|Blutgefäß|die Blutgefäße|Ader, in der Blut fließt|blood vessel|Die Blutgefäße sind verengt.
+die|Arterie|die Arterien|Schlagader, führt Blut vom Herzen weg|artery|Der Puls ist an der Arterie tastbar.
+die|Vene|die Venen|Blutader, führt Blut zum Herzen zurück|vein|Für die Infusion lege ich einen Zugang in die Vene.
+der|Muskel|die Muskeln|Gewebe, das sich zusammenzieht und Bewegung ermöglicht|muscle|Die Spritze wird in den Muskel gegeben.
+der|Knochen|die Knochen|harter Teil des Skeletts|bone|Der Knochen ist gebrochen.
+das|Gelenk|die Gelenke|bewegliche Verbindung zwischen zwei Knochen|joint|Die Gelenke sind steif und schmerzen.
+die|Haut|die Häute|äußere Hülle des Körpers|skin|Die Haut ist trocken und rissig.
+die|Schleimhaut|die Schleimhäute|feuchte Haut im Mund, in der Nase und im Darm|mucous membrane|Die Mundschleimhaut ist gerötet.
+das|Nervensystem|die Nervensysteme|Gehirn, Rückenmark und Nerven; leitet Reize und Befehle weiter|nervous system|Parkinson ist eine Erkrankung des Nervensystems.
+das|Immunsystem|die Immunsysteme|körpereigene Abwehr gegen Krankheitserreger|immune system|Ältere Menschen haben ein schwächeres Immunsystem.
+das|Blut|| rote Flüssigkeit, transportiert Sauerstoff und Nährstoffe|blood|Ich nehme Ihnen jetzt Blut ab.
+
+## symptome|🤒|Symptome und Beschwerden|Symptoms and complaints|Wie Patienten ihre Beschwerden beschreiben und wie Pflegekräfte sie genau erfragen und benennen.|How patients describe their complaints and how nurses ask about and name them precisely.
+der|Schmerz|die Schmerzen|unangenehme Empfindung bei Verletzung oder Krankheit|pain|Wie stark sind Ihre Schmerzen auf einer Skala von 0 bis 10?
+die|Schmerzintensität|die Schmerzintensitäten|wie stark ein Schmerz ist|pain intensity|Die Schmerzintensität liegt bei 6 von 10.
+|stechend||Schmerz wie ein Messerstich|stabbing|Der Schmerz ist stechend und links in der Brust.
+|dumpf||Schmerz, der drückt und nicht genau zu orten ist|dull|Sie hat dumpfe Kopfschmerzen.
+|ausstrahlend||Schmerz, der sich in andere Körperteile ausbreitet|radiating|Der Schmerz strahlt in den linken Arm aus.
+|krampfartig||Schmerz, der in Wellen kommt und geht|cramping; colicky|Er hat krampfartige Bauchschmerzen.
+das|Fieber|| erhöhte Körpertemperatur über 38 °C|fever|Der Patient hat seit gestern Fieber.
+der|Schüttelfrost|| starkes Frieren und Zittern, oft wenn Fieber steigt|chills; shivering|Vor dem Fieberanstieg hatte sie Schüttelfrost.
+die|Übelkeit|| Gefühl, sich übergeben zu müssen; Fachwort: Nausea|nausea|Ist Ihnen übel?
+das|Erbrechen|| Mageninhalt kommt durch den Mund heraus; Fachwort: Emesis|vomiting|Sie hat zweimal erbrochen.
+der|Schwindel|| Gefühl, dass sich alles dreht oder man schwankt; Fachwort: Vertigo|dizziness|Beim Aufstehen wird ihm schwindelig.
+die|Atemnot|| Gefühl, nicht genug Luft zu bekommen; Fachwort: Dyspnoe|shortness of breath|Bei Belastung bekommt sie Atemnot.
+der|Husten|| plötzliches, kräftiges Ausatmen, um die Atemwege frei zu machen|cough|Haben Sie Husten mit Auswurf?
+der|Auswurf|| Schleim, der beim Husten aus der Lunge kommt; Fachwort: Sputum|sputum; phlegm|Der Auswurf ist gelblich-grün.
+der|Durchfall|die Durchfälle|häufiger, flüssiger Stuhlgang; Fachwort: Diarrhö|diarrhoea|Er hat seit drei Tagen Durchfall.
+die|Verstopfung|die Verstopfungen|seltener, harter Stuhlgang; Fachwort: Obstipation|constipation|Seit vier Tagen hat sie Verstopfung.
+das|Sodbrennen|| brennendes Gefühl hinter dem Brustbein durch Magensäure|heartburn|Nach dem Essen hat er Sodbrennen.
+die|Appetitlosigkeit|| kein Hunger, keine Lust zu essen|loss of appetite|Seit der Operation leidet sie unter Appetitlosigkeit.
+die|Müdigkeit|| starkes Bedürfnis nach Schlaf, Erschöpfung|tiredness; fatigue|Die Müdigkeit hält den ganzen Tag an.
+die|Schwäche|die Schwächen|fehlende Kraft|weakness|Sie hat eine Schwäche im rechten Arm.
+die|Schwellung|die Schwellungen|Stelle am Körper, die dicker geworden ist|swelling|Am Knöchel ist eine Schwellung zu sehen.
+das|Ödem|die Ödeme|Wassereinlagerung im Gewebe|oedema|Er hat Ödeme an beiden Unterschenkeln.
+die|Rötung|die Rötungen|rote Stelle auf der Haut|redness|Die Einstichstelle zeigt eine Rötung.
+der|Juckreiz|| Gefühl auf der Haut, sich kratzen zu müssen|itching|Nach dem Medikament bekam sie starken Juckreiz.
+der|Ausschlag|die Ausschläge|rote Flecken oder Pusteln auf der Haut; Fachwort: Exanthem|rash|Am Oberkörper ist ein Ausschlag aufgetreten.
+das|Taubheitsgefühl|die Taubheitsgefühle|Körperteil fühlt sich pelzig an, man spürt wenig|numbness|Er hat ein Taubheitsgefühl in den Fingern.
+das|Kribbeln|| Gefühl wie Ameisenlaufen auf der Haut|tingling; pins and needles|Spüren Sie ein Kribbeln in den Beinen?
+die|Lähmung|die Lähmungen|ein Körperteil kann nicht mehr bewegt werden; Fachwort: Parese|paralysis|Nach dem Schlaganfall hat sie eine Lähmung der rechten Seite.
+die|Verwirrtheit|| Person ist nicht klar orientiert, versteht die Situation nicht|confusion|In der Nacht trat eine akute Verwirrtheit auf.
+die|Bewusstlosigkeit|| Person reagiert nicht und ist nicht wach|unconsciousness|Bei Bewusstlosigkeit bringe ich den Patienten in die stabile Seitenlage.
+die|Schlafstörung|die Schlafstörungen|Probleme beim Ein- oder Durchschlafen|sleep disorder; insomnia|Wegen Schlafstörungen bittet er um eine Schlaftablette.
+die|Unruhe|| Patient ist nervös und kann nicht still liegen|restlessness; agitation|Der Patient zeigt seit dem Abend starke Unruhe.
+die|Blässe|| Haut ist sehr hell, wenig Farbe im Gesicht|pallor|Mir fällt die Blässe der Patientin auf.
+das|Herzrasen|| Herz schlägt sehr schnell, das spürt man selbst|racing heart; palpitations|Er klagt über Herzrasen.
+die|Kurzatmigkeit|| schnelles, flaches Atmen bei geringer Anstrengung|breathlessness|Wegen der Kurzatmigkeit muss sie oft Pausen machen.
+der|Blutverlust|die Blutverluste|Verlust von Blut durch eine Blutung|blood loss|Der Blutverlust nach der Operation war gering.
+die|Blutung|die Blutungen|Blut tritt aus einem Gefäß aus|bleeding; haemorrhage|Ich kontrolliere den Verband auf Blutungen.
+das|Beschwerdebild|die Beschwerdebilder|alle Beschwerden eines Patienten zusammen|clinical picture; complaints|Das Beschwerdebild hat sich seit gestern verschlechtert.
+die|Beschwerde|die Beschwerden|etwas, das dem Patienten körperlich Probleme macht|complaint; symptom|Welche Beschwerden haben Sie?
+|akut||plötzlich und heftig auftretend|acute|Die Schmerzen sind akut aufgetreten.
+|chronisch||lange bestehend, länger als drei bis sechs Monate|chronic|Sie hat chronische Rückenschmerzen.
+
+## krankheiten|🩺|Krankheitsbilder|Diseases and conditions|Die häufigsten Erkrankungen im Pflegealltag – im Fachwort und verständlich erklärt.|The most common diseases in everyday nursing – technical term and plain explanation.
+der|Diabetes mellitus|| Zuckerkrankheit: Blutzucker ist dauerhaft zu hoch|diabetes mellitus|Der Patient hat einen insulinpflichtigen Diabetes mellitus.
+die|Hypertonie|die Hypertonien|Bluthochdruck|hypertension|Wegen ihrer Hypertonie nimmt sie Ramipril.
+die|Hypotonie|die Hypotonien|zu niedriger Blutdruck|hypotension|Bei Hypotonie lagere ich die Beine hoch.
+der|Herzinfarkt|die Herzinfarkte|Teil des Herzmuskels stirbt ab, weil ein Herzkranzgefäß verstopft ist; Fachwort: Myokardinfarkt|heart attack; myocardial infarction|Bei Verdacht auf Herzinfarkt alarmiere ich sofort den Arzt.
+die|Herzinsuffizienz|die Herzinsuffizienzen|Herzschwäche: das Herz pumpt nicht genug Blut|heart failure|Wegen der Herzinsuffizienz wird sie täglich gewogen.
+das|Vorhofflimmern|| unregelmäßiger, oft schneller Herzschlag|atrial fibrillation|Wegen Vorhofflimmern bekommt er einen Blutverdünner.
+der|Schlaganfall|die Schlaganfälle|plötzliche Durchblutungsstörung oder Blutung im Gehirn; Fachwort: Apoplex, Insult|stroke|Nach dem Schlaganfall kann er schlecht sprechen.
+die|Thrombose|die Thrombosen|Blutgerinnsel verschließt ein Blutgefäß, meist im Bein|thrombosis|Gegen Thrombose bekommt sie Heparin.
+die|Lungenembolie|die Lungenembolien|Blutgerinnsel verstopft ein Gefäß in der Lunge; lebensgefährlich|pulmonary embolism|Plötzliche Atemnot kann auf eine Lungenembolie hinweisen.
+die|Lungenentzündung|die Lungenentzündungen|Entzündung der Lunge; Fachwort: Pneumonie|pneumonia|Bettlägerige Patienten haben ein hohes Risiko für eine Lungenentzündung.
+die|COPD|| chronische Lungenerkrankung mit verengten Atemwegen, oft durch Rauchen|COPD|Wegen ihrer COPD bekommt sie Sauerstoff.
+das|Asthma|| anfallsweise Atemnot durch verengte Bronchien|asthma|Bei einem Asthmaanfall hilft ihr Spray.
+die|Demenz|die Demenzen|fortschreitender Verlust von Gedächtnis und Denkvermögen|dementia|Herr Klein hat eine fortgeschrittene Demenz.
+die|Alzheimer-Krankheit|| häufigste Form der Demenz|Alzheimer's disease|Bei der Alzheimer-Krankheit geht zuerst das Kurzzeitgedächtnis verloren.
+die|Parkinson-Krankheit|| Erkrankung des Gehirns mit Zittern, steifen Muskeln und langsamen Bewegungen|Parkinson's disease|Wegen der Parkinson-Krankheit braucht sie Hilfe beim Anziehen.
+die|Epilepsie|die Epilepsien|Erkrankung mit wiederkehrenden Krampfanfällen|epilepsy|Während des epileptischen Anfalls schütze ich den Kopf.
+die|Depression|die Depressionen|psychische Erkrankung mit Niedergeschlagenheit und Antriebslosigkeit|depression|Seit dem Tod ihres Mannes leidet sie an einer Depression.
+das|Delir|die Delire|akute Verwirrtheit, z. B. nach einer Operation oder bei Infektion|delirium|Nach der Narkose entwickelte er ein Delir.
+die|Arthrose|die Arthrosen|Gelenkverschleiß|osteoarthritis|Wegen der Arthrose im Knie kann sie schlecht gehen.
+die|Osteoporose|| Knochenschwund: die Knochen werden brüchig|osteoporosis|Durch die Osteoporose bricht der Knochen leichter.
+die|Fraktur|die Frakturen|Knochenbruch|fracture|Sie hat eine Schenkelhalsfraktur.
+die|Schenkelhalsfraktur|die Schenkelhalsfrakturen|Bruch des Oberschenkelknochens direkt an der Hüfte; typisch nach Sturz im Alter|hip fracture; femoral neck fracture|Nach dem Sturz wurde eine Schenkelhalsfraktur festgestellt.
+der|Krebs|| bösartige Geschwulst; Fachwort: Karzinom, Malignom|cancer|Bei ihr wurde Darmkrebs diagnostiziert.
+der|Tumor|die Tumoren|Geschwulst, kann gutartig oder bösartig sein|tumour|Der Tumor wurde operativ entfernt.
+die|Metastase|die Metastasen|Tochtergeschwulst eines Krebses an einer anderen Stelle|metastasis|Es haben sich Metastasen in der Leber gebildet.
+die|Niereninsuffizienz|die Niereninsuffizienzen|Nierenschwäche: die Nieren filtern nicht mehr genug|kidney failure; renal insufficiency|Wegen der Niereninsuffizienz muss er zur Dialyse.
+die|Harnwegsinfektion|die Harnwegsinfektionen|Entzündung der Blase oder Harnwege durch Bakterien|urinary tract infection (UTI)|Brennen beim Wasserlassen kann auf eine Harnwegsinfektion hinweisen.
+die|Sepsis|die Sepsen|Blutvergiftung: lebensbedrohliche Reaktion des Körpers auf eine Infektion|sepsis|Fieber, niedriger Blutdruck und Verwirrtheit können Zeichen einer Sepsis sein.
+die|Infektion|die Infektionen|Krankheitserreger dringen in den Körper ein und vermehren sich|infection|Die Wunde zeigt Zeichen einer Infektion.
+die|Entzündung|die Entzündungen|Abwehrreaktion des Körpers mit Rötung, Wärme, Schwellung und Schmerz|inflammation|Die Entzündungswerte im Blut sind gestiegen.
+die|Gastritis|die Gastritiden|Magenschleimhautentzündung|gastritis|Bei einer Gastritis soll sie leichte Kost essen.
+die|Leberzirrhose|die Leberzirrhosen|Schrumpfleber: Lebergewebe wird zerstört und vernarbt|liver cirrhosis|Die Leberzirrhose ist durch Alkohol entstanden.
+die|Anämie|die Anämien|Blutarmut: zu wenig rote Blutkörperchen oder Hämoglobin|anaemia|Die Blässe kommt von der Anämie.
+die|Dehydratation|| Austrocknung: der Körper hat zu wenig Flüssigkeit|dehydration|Ältere Menschen trinken oft zu wenig und es droht eine Dehydratation.
+die|Mangelernährung|| der Körper bekommt zu wenig Nährstoffe; Fachwort: Malnutrition|malnutrition|Gewichtsverlust kann ein Zeichen für Mangelernährung sein.
+die|Adipositas|| starkes Übergewicht, BMI über 30|obesity|Wegen Adipositas braucht er ein spezielles Bett.
+die|Inkontinenz|die Inkontinenzen|man kann Urin oder Stuhl nicht halten|incontinence|Für die Inkontinenz bekommt sie Vorlagen.
+der|Dekubitus|die Dekubitus oder Dekubiti|Druckgeschwür: Wunde durch langen Druck auf die Haut|pressure ulcer; bedsore|Am Steißbein hat sich ein Dekubitus Kategorie 2 gebildet.
+die|Allergie|die Allergien|überempfindliche Reaktion des Körpers auf einen Stoff|allergy|Sie hat eine Allergie gegen Penicillin.
+die|Corona-Infektion|die Corona-Infektionen|Infektion mit dem Coronavirus SARS-CoV-2; Krankheit: COVID-19|COVID-19 infection|Der Patient mit Corona-Infektion liegt im Einzelzimmer.
+die|Grippe|die Grippen|Virusinfektion mit hohem Fieber, Husten und Gliederschmerzen; Fachwort: Influenza|flu; influenza|Jedes Jahr gibt es eine Impfung gegen die Grippe.
+die|Multiple Sklerose|| Erkrankung, bei der das Immunsystem die Nerven angreift; Abkürzung: MS|multiple sclerosis|Durch die Multiple Sklerose ist er auf den Rollstuhl angewiesen.
+die|periphere arterielle Verschlusskrankheit|| Durchblutungsstörung der Beine; Abkürzung: pAVK; Alltagssprache: Schaufensterkrankheit|peripheral arterial disease|Wegen der pAVK muss er nach 100 Metern stehen bleiben.
+das|Ulcus cruris|| offene Wunde am Unterschenkel, meist durch schlechte Venen; Alltagssprache: offenes Bein|leg ulcer|Das Ulcus cruris wird zweimal pro Woche verbunden.

@@ -1,0 +1,91 @@
+## fachwort-alltag|🔁|Fachwort und Alltagssprache|Medical term and everyday language|In der Prüfung musst du Fachwörter für Patienten verständlich erklären und Patientenaussagen in Fachsprache übersetzen.|In the exam you must explain medical terms in plain language and turn patients' words into medical language.
+die|Dyspnoe|| Atemnot|dyspnoea; shortness of breath|Der Patient leidet unter Dyspnoe.
+die|Tachykardie|die Tachykardien|Herzrasen, Puls über 100 pro Minute|tachycardia|Bei Fieber zeigt sie eine Tachykardie.
+die|Bradykardie|die Bradykardien|langsamer Puls, unter 60 pro Minute|bradycardia|Unter dem Betablocker kam es zu einer Bradykardie.
+die|Tachypnoe|| zu schnelle Atmung|tachypnoea|Die Atemfrequenz liegt bei 28 – das ist eine Tachypnoe.
+die|Apnoe|die Apnoen|Atemstillstand, Atempause|apnoea|Im Schlaf hat er Apnoe-Phasen.
+die|Zyanose|die Zyanosen|bläuliche Verfärbung von Haut und Lippen durch Sauerstoffmangel|cyanosis|Die Lippen zeigen eine leichte Zyanose.
+die|Hyperthermie|| erhöhte Körpertemperatur|hyperthermia|Wir kühlen den Patienten bei Hyperthermie.
+die|Hypothermie|| Unterkühlung|hypothermia|Der gestürzte Mann lag lange auf dem Boden und hat eine Hypothermie.
+die|Hyperglykämie|die Hyperglykämien|zu hoher Blutzucker|hyperglycaemia|Der Blutzucker liegt bei 350 mg/dl – eine deutliche Hyperglykämie.
+die|Hypoglykämie|die Hypoglykämien|Unterzuckerung, zu niedriger Blutzucker|hypoglycaemia|Zittern und Schwitzen können Zeichen einer Hypoglykämie sein.
+die|Diarrhö|die Diarrhöen|Durchfall|diarrhoea|Wegen der Diarrhö achten wir auf genug Flüssigkeit.
+die|Obstipation|die Obstipationen|Verstopfung|constipation|Gegen die Obstipation bekommt sie ein Abführmittel.
+die|Nausea|| Übelkeit|nausea|Der Patient klagt über Nausea.
+die|Emesis|| Erbrechen|vomiting|Nach der Narkose kam es zu Emesis.
+die|Dysphagie|die Dysphagien|Schluckstörung|dysphagia|Wegen der Dysphagie bekommt er angedickte Getränke.
+die|Aphasie|die Aphasien|Sprachstörung, z. B. nach Schlaganfall|aphasia|Die Patientin hat nach dem Schlaganfall eine Aphasie.
+die|Hemiparese|die Hemiparesen|Halbseitenlähmung, Schwäche einer Körperhälfte|hemiparesis|Er hat eine Hemiparese links.
+die|Dysurie|die Dysurien|Schmerzen oder Brennen beim Wasserlassen|dysuria|Die Patientin klagt über Dysurie.
+die|Oligurie|| zu wenig Urin, unter 500 ml pro Tag|oliguria|Die Ausscheidung ist zu gering, es besteht eine Oligurie.
+die|Anurie|| keine Urinausscheidung, unter 100 ml pro Tag|anuria|Bei Anurie informiere ich sofort den Arzt.
+die|Polyurie|| sehr viel Urin|polyuria|Polyurie und großer Durst können auf Diabetes hinweisen.
+die|Hämaturie|| Blut im Urin|haematuria|Der Urin ist rötlich, Verdacht auf Hämaturie.
+das|Hämatom|die Hämatome|Bluterguss, blauer Fleck|haematoma; bruise|An der Einstichstelle hat sich ein Hämatom gebildet.
+das|Exanthem|die Exantheme|Hautausschlag|rash; exanthema|Nach dem Antibiotikum trat ein Exanthem auf.
+der|Pruritus|| Juckreiz|pruritus; itching|Der Patient leidet unter starkem Pruritus.
+die|Somnolenz|| krankhafte Schläfrigkeit, Patient ist aber erweckbar|somnolence; drowsiness|Der Patient ist somnolent, reagiert aber auf Ansprache.
+das|Koma|die Komas|tiefe Bewusstlosigkeit, Patient ist nicht erweckbar|coma|Nach der Hirnblutung liegt sie im Koma.
+die|Synkope|die Synkopen|kurze Ohnmacht, kurzer Bewusstseinsverlust|syncope; fainting|Sie hatte beim Aufstehen eine Synkope.
+der|Tremor|die Tremores|Zittern|tremor|Er hat einen Tremor in beiden Händen.
+die|Desorientiertheit|| Patient weiß nicht, wo er ist, welcher Tag ist oder wer er ist|disorientation|Die Patientin ist zeitlich desorientiert.
+die|Inappetenz|| Appetitlosigkeit|loss of appetite|Wegen der Inappetenz isst er nur wenig.
+die|Kachexie|| starke Abmagerung, Auszehrung|cachexia; wasting|Durch den Tumor ist sie kachektisch.
+die|Exsikkose|die Exsikkosen|Austrocknung des Körpers|dehydration; exsiccosis|Stehende Hautfalten sind ein Zeichen für Exsikkose.
+die|Analgesie|| Schmerzausschaltung, Schmerztherapie|analgesia|Die Analgesie ist ausreichend, der Patient ist schmerzfrei.
+das|Analgetikum|die Analgetika|Schmerzmittel|painkiller; analgesic|Er bekommt bei Bedarf ein Analgetikum.
+das|Antipyretikum|die Antipyretika|fiebersenkendes Mittel|antipyretic|Paracetamol wirkt als Antipyretikum.
+das|Antibiotikum|die Antibiotika|Medikament gegen Bakterien|antibiotic|Das Antibiotikum wird alle acht Stunden gegeben.
+das|Antikoagulans|die Antikoagulanzien|Blutverdünner, Gerinnungshemmer|anticoagulant|Unter Antikoagulanzien achten wir auf Blutungszeichen.
+das|Diuretikum|die Diuretika|harntreibendes Mittel, Entwässerungstablette|diuretic|Nach dem Diuretikum muss sie oft zur Toilette.
+das|Laxans|die Laxanzien|Abführmittel|laxative|Bei Verstopfung gibt es ein Laxans.
+das|Sedativum|die Sedativa|Beruhigungsmittel|sedative|Vor der Untersuchung bekommt er ein Sedativum.
+das|Antiemetikum|die Antiemetika|Mittel gegen Übelkeit und Erbrechen|antiemetic|Gegen die Übelkeit bekommt sie ein Antiemetikum.
+|prophylaktisch||vorbeugend|preventive; prophylactic|Er bekommt prophylaktisch Heparin.
+|therapeutisch||zur Behandlung|therapeutic|Die Dosis ist jetzt therapeutisch, nicht mehr nur vorbeugend.
+|postoperativ||nach der Operation|postoperative|Postoperativ ist der Patient kreislaufstabil.
+|präoperativ||vor der Operation|preoperative|Präoperativ muss der Patient nüchtern bleiben.
+|rechts lateral||an der rechten Seite|on the right side|Die Wunde liegt rechts lateral am Oberschenkel.
+|bilateral||auf beiden Seiten|bilateral|Es bestehen bilaterale Ödeme an den Unterschenkeln.
+|benigne||gutartig|benign|Der Tumor ist zum Glück benigne.
+|maligne||bösartig|malignant|Die Biopsie zeigt einen malignen Befund.
+|mobil||kann sich selbst bewegen und gehen|mobile|Die Patientin ist mit Rollator mobil.
+|immobil||kann sich nicht selbstständig bewegen|immobile|Der Patient ist immobil und muss gelagert werden.
+|nüchtern||hat nichts gegessen und getrunken|fasting; nil by mouth|Für die OP muss er ab Mitternacht nüchtern sein.
+|afebril||ohne Fieber|afebrile|Der Patient ist seit zwei Tagen afebril.
+|subfebril||leicht erhöhte Temperatur, 37,5 bis 38 °C|subfebrile; low-grade fever|Die Temperatur ist subfebril, 37,8 °C.
+|adipös||stark übergewichtig|obese|Der adipöse Patient braucht zwei Pflegekräfte beim Transfer.
+
+## vitalzeichen|📈|Vitalzeichen und Krankenbeobachtung|Vital signs and observation|Messen, beschreiben und weitergeben: Puls, Blutdruck, Atmung, Temperatur, Bewusstsein und mehr.|Measure, describe and report: pulse, blood pressure, breathing, temperature, consciousness and more.
+die|Vitalzeichen|| Grundwerte des Körpers: Puls, Blutdruck, Atmung, Temperatur, Bewusstsein (Wort nur im Plural)|vital signs|Ich messe jetzt Ihre Vitalzeichen.
+der|Puls|die Pulse|Herzschlag, an der Arterie tastbar|pulse|Der Puls ist regelmäßig, 78 Schläge pro Minute.
+die|Pulsfrequenz|die Pulsfrequenzen|Anzahl der Herzschläge pro Minute|pulse rate; heart rate|Die Pulsfrequenz ist erhöht.
+|regelmäßig||gleichmäßiger Rhythmus|regular|Der Puls ist regelmäßig und kräftig.
+|arrhythmisch||unregelmäßig, nicht im Takt|irregular; arrhythmic|Der Puls ist arrhythmisch, ich informiere den Arzt.
+der|Blutdruck|| Druck des Blutes in den Arterien, gemessen in mmHg|blood pressure|Der Blutdruck liegt bei 135 zu 85.
+der|systolische Wert|die systolischen Werte|oberer Blutdruckwert, wenn das Herz pumpt|systolic value|Der systolische Wert ist auf 180 gestiegen.
+der|diastolische Wert|die diastolischen Werte|unterer Blutdruckwert, wenn das Herz sich entspannt|diastolic value|Der diastolische Wert liegt bei 95.
+die|Blutdruckmanschette|die Blutdruckmanschetten|Band, das zum Blutdruckmessen um den Oberarm gelegt wird|blood pressure cuff|Ich lege Ihnen die Blutdruckmanschette an.
+die|Atmung|| Ein- und Ausatmen|breathing; respiration|Die Atmung ist ruhig und gleichmäßig.
+die|Atemfrequenz|die Atemfrequenzen|Anzahl der Atemzüge pro Minute; normal 12 bis 20|respiratory rate|Die Atemfrequenz liegt bei 16 pro Minute.
+die|Sauerstoffsättigung|| Anteil von Sauerstoff im Blut in Prozent; kurz SpO2|oxygen saturation|Die Sauerstoffsättigung liegt bei 94 Prozent.
+das|Pulsoxymeter|die Pulsoxymeter|Gerät, das am Finger Puls und Sauerstoffsättigung misst|pulse oximeter|Ich setze Ihnen das Pulsoxymeter auf den Finger.
+die|Körpertemperatur|| Wärme des Körpers; normal etwa 36,5 bis 37,4 °C|body temperature|Die Körpertemperatur beträgt 38,6 °C.
+das|Fieberthermometer|die Fieberthermometer|Gerät zum Messen der Körpertemperatur|thermometer|Ich messe mit dem Fieberthermometer im Ohr.
+das|Bewusstsein|| Zustand, wach und orientiert zu sein|consciousness|Der Patient ist bei Bewusstsein.
+die|Bewusstseinslage|die Bewusstseinslagen|wie wach und ansprechbar ein Patient ist|level of consciousness|Die Bewusstseinslage hat sich verschlechtert.
+|ansprechbar||reagiert, wenn man ihn anspricht|responsive|Die Patientin ist wach und ansprechbar.
+|orientiert||weiß, wer und wo er ist und welcher Tag ist|oriented|Er ist zeitlich, örtlich und zur Person orientiert.
+der|Blutzucker|| Menge an Zucker im Blut; kurz BZ|blood sugar; blood glucose|Vor dem Essen messe ich den Blutzucker.
+das|Blutzuckermessgerät|die Blutzuckermessgeräte|Gerät zum Messen des Blutzuckers aus einem Tropfen Blut|blood glucose meter|Das Blutzuckermessgerät zeigt 112 mg/dl.
+das|Körpergewicht|| wie schwer jemand ist|body weight|Wir kontrollieren täglich das Körpergewicht.
+der|Body-Mass-Index|| Verhältnis von Gewicht zu Körpergröße; kurz BMI|body mass index (BMI)|Der Body-Mass-Index liegt bei 17 – das ist Untergewicht.
+die|Hautfarbe|die Hautfarben|Farbe der Haut, z. B. rosig, blass, gelblich, bläulich|skin colour|Die Hautfarbe ist rosig.
+der|Hautturgor|| Spannung der Haut; stehende Hautfalten zeigen Flüssigkeitsmangel|skin turgor|Der Hautturgor ist vermindert.
+die|Krankenbeobachtung|| gezieltes Beobachten des Patienten, um Veränderungen früh zu erkennen|patient observation|Die Krankenbeobachtung ist eine wichtige Aufgabe der Pflege.
+der|Normwert|die Normwerte|Wert, der bei gesunden Menschen normal ist|normal value; reference range|Der Puls liegt im Normwert.
+|erhöht||höher als normal|elevated; increased|Der Blutdruck ist deutlich erhöht.
+|erniedrigt||niedriger als normal|decreased; low|Die Sättigung ist erniedrigt.
+|stabil||gleichbleibend, ohne gefährliche Veränderungen|stable|Der Patient ist kreislaufstabil.
+die|Schmerzskala|die Schmerzskalen|Skala von 0 bis 10, mit der Patienten ihren Schmerz einschätzen|pain scale|Auf der Schmerzskala gibt sie eine 7 an.
+die|Flüssigkeitsbilanz|die Flüssigkeitsbilanzen|Vergleich von Einfuhr und Ausfuhr an Flüssigkeit|fluid balance|Die Flüssigkeitsbilanz ist negativ, sie trinkt zu wenig.

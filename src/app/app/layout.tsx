@@ -16,6 +16,7 @@ export default async function CustomerLayout({ children }: { children: React.Rea
 
   const items = [
     { href: "/app", label: t("learn"), icon: "📚", exact: true },
+    { href: "/app/glossary", label: t("glossary"), icon: "📖" },
     { href: "/app/progress", label: t("progress"), icon: "📈" },
     { href: "/app/messages", label: t("messages"), icon: "💬", badge: count ?? 0 },
     { href: "/app/profile", label: t("profile"), icon: "👤" },

@@ -20,6 +20,7 @@ Die Logins (Supabase Auth) teilen sich beide Apps; Zugang zur Trainings-App hat 
 
 - `supabase/migrations/` – Tabellen, Row Level Security, Trigger, Storage-Buckets
 - `supabase/seed/fsp_beispielinhalte.sql` – 3 Beispielmodule mit 15 Lektionen
+- `supabase/seed/fsp_fachbegriffe.sql` – Fachwortschatz Pflege (698 Begriffe in 21 Themen) für Glossar und Vokabeltrainer; Quelle: `supabase/seed/fachbegriffe/*.txt`, neu erzeugen mit `node scripts/build-fachbegriffe-seed.mjs supabase/seed/fachbegriffe supabase/seed/fsp_fachbegriffe.sql`
 
 Jede Tabelle hat RLS: Kunden sehen nur ihre eigenen Profile, Ergebnisse, Abgaben und Nachrichten; GWS-Mitarbeiter
 (`role = 'staff'`) sehen alles. Die Rolle kann ein Kunde nicht selbst ändern.

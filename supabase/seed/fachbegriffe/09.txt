@@ -1,0 +1,56 @@
+## abkuerzungen|🔤|Abkürzungen|Abbreviations|Abkürzungen aus Kurve, Pflegebericht und Übergabe – lesen, aussprechen und verstehen.|Abbreviations from charts, nursing reports and handovers – read, say and understand them.
+|RR||Blutdruck (nach Riva-Rocci)|blood pressure (BP)|RR 140/90 mmHg.
+|HF||Herzfrequenz, Puls pro Minute|heart rate (HR)|HF 88/min, regelmäßig.
+|AF||Atemfrequenz, Atemzüge pro Minute|respiratory rate (RR)|AF 22/min.
+|SpO2||Sauerstoffsättigung, gemessen mit dem Pulsoxymeter|oxygen saturation|SpO2 93 % unter Raumluft.
+|BZ||Blutzucker|blood glucose|BZ vor dem Mittagessen: 186 mg/dl.
+|Temp.||Körpertemperatur|temperature|Temp. 38,4 °C axillär.
+|mmHg||Millimeter Quecksilbersäule, Einheit für den Blutdruck|millimetres of mercury|Der Blutdruck beträgt 120 zu 80 mmHg.
+|mg/dl||Milligramm pro Deziliter, Einheit für den Blutzucker|milligrams per decilitre|Der Nüchternblutzucker liegt bei 98 mg/dl.
+|i. v.||intravenös, in die Vene|intravenous (IV)|Das Antibiotikum wird i. v. gegeben.
+|s. c.||subkutan, unter die Haut|subcutaneous (SC)|Heparin 5.000 I.E. s. c.
+|i. m.||intramuskulär, in den Muskel|intramuscular (IM)|Die Impfung wird i. m. verabreicht.
+|p. o.||per os, über den Mund|by mouth; oral|Paracetamol 1 g p. o.
+|I.E.||Internationale Einheiten, Dosierungseinheit z. B. für Insulin und Heparin|international units (IU)|Er bekommt 8 I.E. Insulin.
+|b. B.||bei Bedarf|as needed (PRN)|Novaminsulfon 20 Tropfen b. B.
+|1-0-1||Dosierschema: morgens 1, mittags 0, abends 1|dosing schedule: morning–noon–evening|Metformin 1000 mg 1-0-1.
+|mg||Milligramm|milligram|Ramipril 5 mg morgens.
+|ml||Milliliter|millilitre|Er hat 1.500 ml getrunken.
+|NaCl 0,9 %||Kochsalzlösung, häufigste Infusionslösung|normal saline|Er bekommt 500 ml NaCl 0,9 % i. v.
+|DK||Dauerkatheter, Blasenkatheter|indwelling urinary catheter|Der DK wurde heute entfernt.
+|ZVK||zentralvenöser Katheter|central venous catheter (CVC)|Über den ZVK läuft die Ernährung.
+|PVK||periphervenöser Katheter, Venenzugang am Arm|peripheral venous catheter|Der PVK ist seit drei Tagen in situ.
+|PEG||perkutane endoskopische Gastrostomie, Ernährungssonde durch die Bauchwand|PEG tube|Über die PEG bekommt sie Sondenkost.
+|MTS||medizinischer Thromboseprophylaxestrumpf|compression stocking (anti-embolism)|MTS beidseits angelegt.
+|EKG||Elektrokardiogramm, Aufzeichnung der Herzströme|ECG|Das EKG zeigt einen Sinusrhythmus.
+|CT||Computertomografie|CT scan|Das CT vom Kopf ist unauffällig.
+|MRT||Magnetresonanztomografie|MRI|Für morgen ist ein MRT der Wirbelsäule geplant.
+|OP||Operation; auch: Operationssaal|operation; operating theatre|Der Patient ist noch im OP.
+|ITS / ICU||Intensivstation|intensive care unit|Er wurde auf die ITS verlegt.
+|ZNA||Zentrale Notaufnahme|emergency department|Die Patientin kam über die ZNA.
+|AZ||Allgemeinzustand|general condition|AZ reduziert.
+|EZ||Ernährungszustand|nutritional status|Patient in gutem AZ und adipösem EZ.
+|o. B.||ohne Befund, nichts Auffälliges|no abnormality detected; normal|Lunge o. B.
+|V. a.||Verdacht auf|suspected|V. a. Pneumonie.
+|Z. n.||Zustand nach, frühere Erkrankung oder OP|status post; history of|Z. n. Hüft-TEP rechts 2019.
+|Dx||Diagnose|diagnosis|Dx: Herzinsuffizienz NYHA III.
+|Tbl.||Tablette|tablet|1 Tbl. morgens.
+|Amp.||Ampulle|ampoule|1 Amp. Furosemid i. v.
+|Lj.||Lebensjahr|year of life; age|Patientin im 82. Lj.
+|KH||Krankenhaus|hospital|Er war letztes Jahr schon im KH.
+|Pat.||Patient oder Patientin|patient|Pat. schläft ruhig.
+|NW||Nebenwirkung|side effect|Keine NW beobachtet.
+|BtM||Betäubungsmittel|controlled drug|Morphin ist ein BtM und wird doppelt gezählt.
+|MRSA||Methicillin-resistenter Staphylococcus aureus, multiresistenter Keim|MRSA|Bei MRSA gilt Kontaktisolierung.
+|TEP||Totalendoprothese, künstliches Gelenk (z. B. Hüfte, Knie)|total joint replacement|Sie hat eine Knie-TEP links bekommen.
+|COPD||chronisch obstruktive Lungenerkrankung|chronic obstructive pulmonary disease|Bei COPD ist die Sauerstoffgabe begrenzt.
+|KHK||koronare Herzkrankheit, verengte Herzkranzgefäße|coronary heart disease|Er hat eine KHK und bekommt ASS.
+|DM||Diabetes mellitus|diabetes mellitus|DM Typ 2, insulinpflichtig.
+|aHT||arterielle Hypertonie, Bluthochdruck|arterial hypertension|Vorerkrankungen: aHT, DM Typ 2.
+|HWI||Harnwegsinfektion|urinary tract infection (UTI)|V. a. HWI, Urinprobe ins Labor.
+|BMI||Body-Mass-Index|body mass index|BMI 31, Adipositas Grad I.
+|DNR||Do not resuscitate: keine Wiederbelebung gewünscht|do not resuscitate|Laut Patientenverfügung gilt DNR.
+|Hb||Hämoglobin, roter Blutfarbstoff|haemoglobin|Der Hb ist auf 8,2 g/dl gefallen.
+|CRP||C-reaktives Protein, Entzündungswert im Blut|C-reactive protein|Das CRP ist deutlich erhöht.
+|Leukos||Leukozyten, weiße Blutkörperchen|white blood cells|Die Leukos sind bei 14.000.
+|ASS||Acetylsalicylsäure, z. B. Aspirin|acetylsalicylic acid; aspirin|ASS 100 mg 1-0-0.

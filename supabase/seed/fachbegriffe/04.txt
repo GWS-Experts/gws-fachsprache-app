@@ -1,0 +1,81 @@
+## mobilisation|🛏️|Mobilisation und Lagerung|Mobilisation and positioning|Patienten bewegen, lagern und sicher transferieren – mit den richtigen Hilfsmitteln.|Moving, positioning and safely transferring patients – with the right aids.
+die|Mobilisation|die Mobilisationen|Patienten in Bewegung bringen, z. B. aufsetzen, aufstehen, gehen|mobilisation|Die erste Mobilisation nach der OP erfolgt heute Nachmittag.
+die|Frühmobilisation|die Frühmobilisationen|Mobilisation möglichst bald nach einer Operation|early mobilisation|Die Frühmobilisation beugt Thrombose und Pneumonie vor.
+die|Lagerung|die Lagerungen|Position, in der ein Patient liegt; auch: Patienten in eine Position bringen|positioning|Wir ändern die Lagerung alle zwei Stunden.
+der|Lagerungswechsel|die Lagerungswechsel|Patient wird regelmäßig in eine andere Position gebracht|change of position; repositioning|Der Lagerungswechsel wird im Lagerungsplan dokumentiert.
+die|Rückenlage|die Rückenlagen|Patient liegt auf dem Rücken|supine position|Für die Untersuchung bitte in Rückenlage.
+die|Seitenlage|die Seitenlagen|Patient liegt auf der Seite|lateral position; side-lying|Ich lagere Sie jetzt in 30-Grad-Seitenlage.
+die|30-Grad-Seitenlage|die 30-Grad-Seitenlagen|leicht schräge Seitenlage zur Druckentlastung|30-degree lateral position|Die 30-Grad-Seitenlage entlastet das Steißbein.
+die|Oberkörperhochlagerung|die Oberkörperhochlagerungen|Kopfteil des Bettes ist hochgestellt|upper body elevation; Fowler's position|Bei Atemnot hilft die Oberkörperhochlagerung.
+die|Schocklage|die Schocklagen|Beine werden hochgelagert, Kopf liegt flach|shock position|Bei niedrigem Blutdruck bringe ich die Patientin in Schocklage.
+die|stabile Seitenlage|| Notfalllage für bewusstlose Patienten, die normal atmen|recovery position|Der bewusstlose Patient atmet und kommt in die stabile Seitenlage.
+der|Transfer|die Transfers|Umsetzen des Patienten, z. B. vom Bett in den Rollstuhl|transfer|Der Transfer vom Bett in den Rollstuhl klappt mit einer Pflegekraft.
+|aufsetzen (setzt auf, hat aufgesetzt)||Patienten an die Bettkante oder im Bett in eine sitzende Position bringen|sit up|Ich helfe Ihnen jetzt, sich an die Bettkante aufzusetzen.
+|umlagern (lagert um, hat umgelagert)||Position des Patienten ändern|reposition; turn|Wir müssen Herrn Braun alle zwei Stunden umlagern.
+|bettlägerig||kann das Bett nicht verlassen|bedridden|Die Patientin ist seit dem Schlaganfall bettlägerig.
+die|Gehhilfe|die Gehhilfen|Hilfsmittel zum Gehen, z. B. Stock, Gehstütze, Rollator|walking aid|Bitte benutzen Sie immer Ihre Gehhilfe.
+der|Rollator|die Rollatoren|Gehwagen mit Rädern, Bremsen und Sitz|rollator; wheeled walker|Mit dem Rollator kann er allein auf dem Flur gehen.
+der|Rollstuhl|die Rollstühle|Stuhl mit Rädern für Menschen, die nicht gehen können|wheelchair|Ich bringe Sie mit dem Rollstuhl zur Untersuchung.
+die|Unterarmgehstütze|die Unterarmgehstützen|Krücke mit Stütze für den Unterarm|forearm crutch|Nach der Knie-OP läuft sie mit zwei Unterarmgehstützen.
+der|Patientenlifter|die Patientenlifter|Hebegerät, um schwere oder immobile Patienten umzusetzen|patient hoist; lift|Für den Transfer benutzen wir den Patientenlifter.
+das|Rutschbrett|die Rutschbretter|Brett, auf dem Patienten vom Bett in den Rollstuhl rutschen|sliding board; transfer board|Mit dem Rutschbrett ist der Transfer leichter.
+die|Kinästhetik|| Konzept für rückenschonende Bewegung von Patienten unter Nutzung ihrer eigenen Bewegung|kinaesthetics|Mit Kinästhetik schonen wir den eigenen Rücken.
+der|Bettgalgen|die Bettgalgen|Haltegriff über dem Bett zum Hochziehen; Alltagswort: Aufrichter|overhead trapeze|Mit dem Bettgalgen kann er sich selbst im Bett hochziehen.
+das|Bettgitter|die Bettgitter|Seitenteile am Bett gegen Herausfallen; gilt als freiheitsentziehende Maßnahme|bed rail; side rail|Das Bettgitter darf nur mit Einwilligung oder richterlicher Genehmigung hochgestellt werden.
+die|Wechseldruckmatratze|die Wechseldruckmatratzen|Matratze, deren Luftkammern abwechselnd aufgepumpt werden, zur Druckentlastung|alternating pressure mattress|Bei hohem Dekubitusrisiko bekommt er eine Wechseldruckmatratze.
+der|Lagerungsplan|die Lagerungspläne|Plan, wann der Patient wie gelagert wird|positioning schedule|Laut Lagerungsplan ist um 14 Uhr die linke Seite dran.
+die|Sturzgefahr|| Risiko, hinzufallen|fall risk|Wegen Sturzgefahr soll sie nachts klingeln.
+die|Kontraktur|die Kontrakturen|Gelenk ist versteift und lässt sich nicht mehr ganz bewegen|contracture|Durch lange Bettlägerigkeit hat sich eine Kontraktur im Knie gebildet.
+
+## prophylaxen|🛡️|Prophylaxen|Prophylaxis|Vorbeugende Maßnahmen gegen typische Komplikationen – ein Kernthema in Prüfung und Praxis.|Preventive measures against typical complications – a core topic in the exam and in practice.
+die|Prophylaxe|die Prophylaxen|vorbeugende Maßnahme, damit eine Komplikation nicht entsteht|prophylaxis; prevention|Die Prophylaxen werden im Pflegeplan festgelegt.
+die|Dekubitusprophylaxe|die Dekubitusprophylaxen|Maßnahmen gegen Druckgeschwüre: Lagerung, Hautpflege, Mobilisation|pressure ulcer prevention|Zur Dekubitusprophylaxe lagern wir ihn alle zwei Stunden um.
+die|Thromboseprophylaxe|die Thromboseprophylaxen|Maßnahmen gegen Blutgerinnsel: Bewegung, Kompressionsstrümpfe, Heparin|thrombosis prevention|Zur Thromboseprophylaxe bekommt sie Kompressionsstrümpfe.
+die|Pneumonieprophylaxe|die Pneumonieprophylaxen|Maßnahmen gegen Lungenentzündung: Atemübungen, Mobilisation, Oberkörperhochlagerung|pneumonia prevention|Zur Pneumonieprophylaxe macht er Übungen mit dem Atemtrainer.
+die|Sturzprophylaxe|die Sturzprophylaxen|Maßnahmen gegen Stürze: feste Schuhe, Licht, Hilfsmittel|fall prevention|Zur Sturzprophylaxe bekommt sie rutschfeste Socken.
+die|Kontrakturenprophylaxe|die Kontrakturenprophylaxen|Maßnahmen gegen Gelenkversteifung: Bewegungsübungen, Lagerung|contracture prevention|Bei der Kontrakturenprophylaxe bewegen wir alle Gelenke durch.
+die|Obstipationsprophylaxe|die Obstipationsprophylaxen|Maßnahmen gegen Verstopfung: Trinken, Ballaststoffe, Bewegung|constipation prevention|Zur Obstipationsprophylaxe soll er viel trinken.
+die|Aspirationsprophylaxe|die Aspirationsprophylaxen|Maßnahmen, damit kein Essen oder Speichel in die Lunge gelangt|aspiration prevention|Zur Aspirationsprophylaxe sitzt sie beim Essen aufrecht.
+die|Soor- und Parotitisprophylaxe|| Mundpflege gegen Pilzbefall und Entzündung der Ohrspeicheldrüse|thrush and parotitis prevention|Zur Soor- und Parotitisprophylaxe bekommt er regelmäßig Mundpflege.
+die|Intertrigoprophylaxe|die Intertrigoprophylaxen|Maßnahmen gegen wunde Haut in Hautfalten|intertrigo prevention|Zur Intertrigoprophylaxe lege ich Kompressen in die Hautfalten.
+die|Dehydratationsprophylaxe|die Dehydratationsprophylaxen|Maßnahmen gegen Austrocknung: regelmäßig zum Trinken anbieten|dehydration prevention|Zur Dehydratationsprophylaxe führen wir ein Trinkprotokoll.
+die|Zystitisprophylaxe|die Zystitisprophylaxen|Maßnahmen gegen Blasenentzündung|cystitis prevention|Viel trinken ist die beste Zystitisprophylaxe.
+die|Delirprophylaxe|die Delirprophylaxen|Maßnahmen gegen akute Verwirrtheit: Orientierung, Brille, Hörgerät, Tag-Nacht-Rhythmus|delirium prevention|Zur Delirprophylaxe hängt eine große Uhr im Zimmer.
+der|Kompressionsstrumpf|die Kompressionsstrümpfe|enger Strumpf, der Druck auf die Beinvenen ausübt; kurz: MTS (medizinischer Thromboseprophylaxestrumpf)|compression stocking|Die Kompressionsstrümpfe ziehe ich morgens im Liegen an.
+der|Atemtrainer|die Atemtrainer|Gerät für Atemübungen zur Pneumonieprophylaxe|incentive spirometer|Bitte benutzen Sie den Atemtrainer zehnmal pro Stunde.
+die|Atemübung|die Atemübungen|gezieltes tiefes Ein- und Ausatmen|breathing exercise|Wir machen zusammen Atemübungen.
+die|Braden-Skala|| Punkteskala zur Einschätzung des Dekubitusrisikos|Braden scale|Laut Braden-Skala besteht ein hohes Dekubitusrisiko.
+der|Fingertest|die Fingertests|Test auf Dekubitus Kategorie 1: Rötung bleibt nach Fingerdruck bestehen|blanch test; finger test|Der Fingertest ist positiv, die Rötung bleibt.
+die|Risikoeinschätzung|die Risikoeinschätzungen|Prüfen, ob ein Patient gefährdet ist, z. B. für Sturz oder Dekubitus|risk assessment|Bei der Aufnahme machen wir die Risikoeinschätzung.
+der|Expertenstandard|die Expertenstandards|verbindliche Empfehlung für die Pflege, z. B. Dekubitusprophylaxe, Sturzprophylaxe|national nursing standard|Wir arbeiten nach dem Expertenstandard Sturzprophylaxe.
+
+## ernaehrung-ausscheidung|🍽️|Ernährung und Ausscheidung|Nutrition and elimination|Essen, Trinken, Sonden, Urin und Stuhl – beobachten, beschreiben und dokumentieren.|Eating, drinking, feeding tubes, urine and stool – observe, describe and document.
+die|Ernährung|| was jemand isst und trinkt|nutrition; diet|Die Ernährung ist ausgewogen.
+die|Kostform|die Kostformen|Art der Ernährung, z. B. Vollkost, Diabeteskost, passierte Kost|diet type|Welche Kostform bekommt Herr Yilmaz?
+die|Schonkost|| leicht verdauliche Kost|light diet; bland diet|Nach der Magen-OP bekommt sie Schonkost.
+die|passierte Kost|| pürierte Nahrung für Menschen mit Kau- oder Schluckstörungen|puréed diet|Wegen der Dysphagie bekommt er passierte Kost.
+die|Nahrungskarenz|die Nahrungskarenzen|Patient darf nichts essen|nil by mouth; food restriction|Bis morgen gilt Nahrungskarenz.
+die|Trinkmenge|die Trinkmengen|wie viel jemand am Tag trinkt|fluid intake|Die Trinkmenge sollte mindestens 1,5 Liter betragen.
+das|Trinkprotokoll|die Trinkprotokolle|Liste, in der jede getrunkene Menge eingetragen wird|fluid intake chart|Bitte tragen Sie alles ins Trinkprotokoll ein.
+das|Andickungsmittel|die Andickungsmittel|Pulver, das Getränke dicker macht, bei Schluckstörungen|thickener|Ins Wasser kommt Andickungsmittel.
+die|Magensonde|die Magensonden|Schlauch durch die Nase in den Magen|nasogastric tube|Über die Magensonde bekommt er Sondenkost.
+die|PEG-Sonde|die PEG-Sonden|Ernährungssonde, die durch die Bauchwand direkt in den Magen geht|PEG tube|Die PEG-Sonde wird täglich auf Rötung kontrolliert.
+die|Sondenkost|| flüssige Nahrung für die Ernährungssonde|enteral feed; tube feed|Die Sondenkost läuft mit 80 ml pro Stunde.
+die|parenterale Ernährung|| Ernährung über die Vene|parenteral nutrition|Bis der Darm wieder arbeitet, bekommt er parenterale Ernährung.
+die|Ausscheidung|die Ausscheidungen|Urin, Stuhl, Schweiß und Erbrochenes, die den Körper verlassen|elimination; excretion|Die Ausscheidung wird bilanziert.
+der|Urin|| gelbe Flüssigkeit aus der Blase; Alltagswort: Harn, Pipi|urine|Der Urin ist dunkel und konzentriert.
+das|Wasserlassen|| Urin ausscheiden; Fachwort: Miktion|urination|Haben Sie Schmerzen beim Wasserlassen?
+der|Harndrang|| Gefühl, auf die Toilette zu müssen|urge to urinate|Sie hat ständig Harndrang.
+der|Blasenkatheter|die Blasenkatheter|Schlauch über die Harnröhre in die Blase, um Urin abzuleiten; kurz: DK (Dauerkatheter)|urinary catheter|Der Blasenkatheter wurde heute entfernt.
+der|Urinbeutel|die Urinbeutel|Beutel, in dem der Urin aus dem Katheter gesammelt wird|urine bag|Der Urinbeutel muss unter Blasenniveau hängen.
+der|Restharn|| Urin, der nach dem Wasserlassen noch in der Blase bleibt|residual urine|Im Ultraschall zeigt sich viel Restharn.
+der|Stuhlgang|| Ausscheidung von Kot; Fachwort: Defäkation|bowel movement|Wann hatten Sie zuletzt Stuhlgang?
+der|Stuhl|| Kot, Ausscheidung aus dem Darm|stool; faeces|Der Stuhl ist schwarz, das melde ich dem Arzt.
+das|Abführmittel|die Abführmittel|Mittel, das den Stuhlgang fördert|laxative|Sie bekommt abends ein Abführmittel.
+der|Einlauf|die Einläufe|Flüssigkeit wird über den After in den Darm gegeben, um ihn zu entleeren|enema|Vor der Darmspiegelung bekommt er einen Einlauf.
+das|Stoma|die Stomata|künstlicher Darmausgang oder Blasenausgang in der Bauchwand|stoma|Die Stomaversorgung wird alle zwei Tage gewechselt.
+der|Stomabeutel|die Stomabeutel|Beutel, der auf das Stoma geklebt wird|stoma bag; ostomy bag|Der Stomabeutel ist voll und muss geleert werden.
+die|Ein- und Ausfuhr|| Menge an Flüssigkeit, die hinein- und hinausgeht; Grundlage der Bilanz|input and output|Bitte dokumentieren Sie genau die Ein- und Ausfuhr.
+der|Schluckakt|die Schluckakte|der Vorgang des Schluckens|swallowing|Der Schluckakt ist verzögert.
+die|Aspiration|die Aspirationen|Essen, Trinken oder Speichel gelangt in die Luftröhre und Lunge|aspiration|Husten beim Trinken kann ein Zeichen für Aspiration sein.
+das|Mangelernährungsrisiko|| Risiko, zu wenig Nährstoffe zu bekommen; wird mit Screening erfasst|risk of malnutrition|Beim Screening zeigt sich ein Mangelernährungsrisiko.
