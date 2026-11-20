@@ -17,7 +17,7 @@ export async function sendMail({ to, subject, text }: { to: string; subject: str
     auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASSWORD },
   });
   try {
-    await transporter.sendMail({ from: process.env.SMTP_FROM ?? process.env.SMTP_USER, to, subject, text });
+    await transporter.sendMail({ from: process.env.SMTP_FROM || `"GWS Fachsprache" <${process.env.SMTP_USER}>`, to, subject, text });
     return true;
   } catch (error) {
     console.error("E-Mail-Versand fehlgeschlagen", error);
