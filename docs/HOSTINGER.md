@@ -20,12 +20,17 @@ Supabase-Dashboard, Projekt **GWS**.
 | `SMTP_PASSWORD` | Passwort dieses Postfachs | dito | **ja** |
 | `SMTP_FROM` | `GWS Fachsprache <noreply@gws-talent-transfer.com>` | Absenderzeile | nein |
 | `STAFF_NOTIFY_EMAIL` | z. B. `fachsprache@gws-transfer.com` | Postfach für Hinweise auf neue Kundennachrichten | nein |
+| `ANTHROPIC_API_KEY` | `sk-ant-…` | platform.claude.com → Settings → API Keys | **ja**, nur auf dem Server |
 
 Wichtig: Variablen mit `NEXT_PUBLIC_` werden beim **Build** in die App übernommen. Nach einer Änderung
 musst du `npm run build` erneut ausführen.
 
 Ohne die SMTP-Werte funktioniert die App trotzdem: Einladungslinks werden dann im GWS-Bereich zum
 Kopieren angezeigt, und es werden keine Benachrichtigungen verschickt.
+
+Ohne `ANTHROPIC_API_KEY` funktioniert die App ebenfalls, nur ohne KI-Korrekturvorschläge für
+Schreibabgaben. Der Schlüssel wird nicht beim Build gebraucht, nach dem Eintragen reicht
+`pm2 restart gws --update-env`.
 
 ## 2. Supabase einmalig einstellen
 
