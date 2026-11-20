@@ -12,10 +12,12 @@ import { Listening } from "./Listening";
 import { Dialogue } from "./Dialogue";
 import { Writing } from "./Writing";
 import { Speaking } from "./Speaking";
+import { GlossaryLinks, LinkedText } from "@/components/glossary/LinkedText";
+import type { LinkedTerm } from "@/lib/term-matcher";
 
 type Result = { score: number; max: number } | null;
 
-export function LessonPlayer({ lesson, locale, userId, audioUrl, nextHref, preview = false }: { lesson: Lesson; locale: Locale; userId: string; audioUrl: string | null; nextHref: string; preview?: boolean }) {
+export function LessonPlayer({ lesson, locale, userId, audioUrl, nextHref, preview = false, glossaryTerms = [] }: { lesson: Lesson; locale: Locale; userId: string; audioUrl: string | null; nextHref: string; preview?: boolean; glossaryTerms?: LinkedTerm[] }) {
   const t = useTranslations("lesson");
   const router = useRouter();
   const [startedAt, setStartedAt] = useState(() => Date.now());
@@ -64,12 +66,13 @@ export function LessonPlayer({ lesson, locale, userId, audioUrl, nextHref, previ
   const questions = c.questions ?? [];
 
   return (
+    <GlossaryLinks terms={glossaryTerms} preview={preview}>
     <div key={round} className="space-y-5">
-      {intro && <p className="rounded-md border-l-4 border-accent bg-accent-light px-4 py-3 text-sm">{intro}</p>}
+      {intro && <p className="rounded-md border-l-4 border-accent bg-accent-light px-4 py-3 text-sm"><LinkedText text={intro} /></p>}
       {task && (
         <div className="card">
           <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-accent">{t("task")}</p>
-          <p className="whitespace-pre-line">{task}</p>
+          <p className="whitespace-pre-line"><LinkedText text={task} /></p>
           {c.hints && c.hints.length > 0 && (
             <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-muted">
               {c.hints.map((h, i) => <li key={i}>{h}</li>)}
@@ -80,7 +83,7 @@ export function LessonPlayer({ lesson, locale, userId, audioUrl, nextHref, previ
 
       {lesson.kind === "reading" && (
         <>
-          <article className="card whitespace-pre-line leading-relaxed">{c.text}</article>
+          <article className="card whitespace-pre-line leading-relaxed"><LinkedText text={c.text ?? ""} /></article>
           <QuestionSet questions={questions} onComplete={complete} />
         </>
       )}
@@ -97,16 +100,17 @@ export function LessonPlayer({ lesson, locale, userId, audioUrl, nextHref, previ
       )}
       {lesson.kind === "writing" && (
         <>
-          {c.text && <article className="card whitespace-pre-line text-sm leading-relaxed">{c.text}</article>}
+          {c.text && <article className="card whitespace-pre-line text-sm leading-relaxed"><LinkedText text={c.text} /></article>}
           <Writing preview={preview} lessonId={lesson.id} minWords={c.min_words ?? 80} startedAt={startedAt} onDone={() => { setSubmitted(true); router.refresh(); }} />
         </>
       )}
       {lesson.kind === "speaking" && (
         <>
-          {c.text && <article className="card whitespace-pre-line text-sm leading-relaxed">{c.text}</article>}
+          {c.text && <article className="card whitespace-pre-line text-sm leading-relaxed"><LinkedText text={c.text} /></article>}
           <Speaking preview={preview} lessonId={lesson.id} userId={userId} maxSeconds={c.max_seconds ?? 120} startedAt={startedAt} onDone={() => { setSubmitted(true); router.refresh(); }} />
         </>
       )}
     </div>
+    </GlossaryLinks>
   );
 }

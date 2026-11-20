@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import type { GlossaryTerm } from "@/lib/types";
-import { speak, useSpeechSupported } from "@/components/lesson/speech";
+import { PronounceButtons } from "./Pronounce";
 
 // Farben für die Artikel helfen beim Merken (der = blau, die = rot, das = grün).
 export const ARTICLE_COLORS: Record<string, string> = {
@@ -26,7 +26,6 @@ export function TermHeading({ term, className = "" }: { term: Pick<GlossaryTerm,
 
 export function TermCard({ term, topicLabel, status }: { term: GlossaryTerm; topicLabel?: string; status?: "known" | "learning" }) {
   const t = useTranslations("glossary");
-  const canSpeak = useSpeechSupported();
 
   return (
     <article className="card space-y-1.5 p-4">
@@ -40,17 +39,7 @@ export function TermCard({ term, topicLabel, status }: { term: GlossaryTerm; top
               {status === "known" ? t("statusKnown") : t("statusLearning")}
             </span>
           )}
-          {canSpeak && (
-            <button
-              type="button"
-              className="rounded-md px-1.5 text-lg hover:bg-primary-light"
-              onClick={() => speak(term.example ? `${termLabel(term)}. ${term.example}` : termLabel(term))}
-              aria-label={t("listen")}
-              title={t("listen")}
-            >
-              🔊
-            </button>
-          )}
+          <PronounceButtons term={term} withExample />
         </div>
       </div>
       {term.plural && <p className="text-sm text-muted">{t("plural")}: {term.plural}</p>}

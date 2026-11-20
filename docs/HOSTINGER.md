@@ -127,3 +127,22 @@ npm ci && npm run build
 cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/
 pm2 restart gws-fachsprache
 ```
+
+## 6. Lern-Erinnerungen per E-Mail (Lernplan)
+
+Kunden können unter „Lernen → Mein Lernplan“ ein Tagesziel und eine Uhrzeit für die Erinnerung festlegen.
+Der Server prüft alle 15 Minuten, wer heute noch nicht genug gelernt hat, und schickt höchstens eine E-Mail pro Tag.
+Voraussetzung: SMTP-Werte und `SUPABASE_SECRET_KEY` sind in `.env.local` eingetragen.
+
+```bash
+cd /var/www/gws
+# 1. Geheimes Passwort erzeugen und in .env.local eintragen
+echo "CRON_SECRET=$(openssl rand -hex 32)" >> .env.local
+npm run build && pm2 restart gws
+
+# 2. Aufruf alle 15 Minuten einrichten (liest das Passwort aus .env.local)
+(crontab -l 2>/dev/null; echo '*/15 * * * * cd /var/www/gws && curl -fsS -H "Authorization: Bearer $(grep ^CRON_SECRET= .env.local | cut -d= -f2)" http://127.0.0.1:3010/api/cron/study-reminders > /dev/null') | crontab -
+
+# 3. Testen: zeigt z. B. {"plans":3,"due":0,"sent":0}
+curl -s -H "Authorization: Bearer $(grep ^CRON_SECRET= .env.local | cut -d= -f2)" http://127.0.0.1:3010/api/cron/study-reminders
+```

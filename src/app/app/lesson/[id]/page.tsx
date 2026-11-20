@@ -8,6 +8,7 @@ import { pick, type Lesson, type Locale, type Submission } from "@/lib/types";
 import { KindBadge } from "@/components/KindBadge";
 import { LessonPlayer } from "@/components/lesson/LessonPlayer";
 import { SubmissionList } from "@/components/SubmissionList";
+import { getLessonTerms } from "@/lib/lesson-terms";
 
 export default async function LessonPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -25,6 +26,8 @@ export default async function LessonPage({ params }: { params: Promise<{ id: str
   const nextId = siblings?.[index + 1]?.id ?? null;
 
   const audioUrl = await resolveAudioUrl(supabase, lesson.content.audio_path);
+
+  const glossaryTerms = await getLessonTerms(lesson);
 
   let submissions: Submission[] = [];
   if (lesson.kind === "writing" || lesson.kind === "speaking") {
@@ -44,7 +47,7 @@ export default async function LessonPage({ params }: { params: Promise<{ id: str
         <KindBadge kind={lesson.kind} />
         <h1 className="text-2xl font-bold text-primary">{pick(lesson, "title", locale)}</h1>
       </header>
-      <LessonPlayer lesson={lesson} locale={locale} userId={profile.id} audioUrl={audioUrl} nextHref={nextId ? `/app/lesson/${nextId}` : `/app/module/${lesson.module_id}`} />
+      <LessonPlayer lesson={lesson} locale={locale} userId={profile.id} audioUrl={audioUrl} glossaryTerms={glossaryTerms} nextHref={nextId ? `/app/lesson/${nextId}` : `/app/module/${lesson.module_id}`} />
       {submissions.length > 0 && <SubmissionList submissions={submissions} />}
       <p className="text-center text-sm">
         <Link href={`/app/messages?lesson=${lesson.id}`} className="text-primary underline">{t("askQuestion")}</Link>

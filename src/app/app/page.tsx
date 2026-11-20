@@ -4,12 +4,14 @@ import { requireCustomer } from "@/lib/auth";
 import { getLearningStats } from "@/lib/data";
 import { pick, type Locale } from "@/lib/types";
 import { ProgressBar } from "@/components/ProgressBar";
+import { StudyToday } from "@/components/study/StudyToday";
+import { getStudyOverview } from "@/lib/study-data";
 
 export default async function LearnPage() {
   const profile = await requireCustomer();
   const t = await getTranslations("learn");
   const locale = (await getLocale()) as Locale;
-  const stats = await getLearningStats(profile.id);
+  const [stats, study] = await Promise.all([getLearningStats(profile.id), getStudyOverview(profile.id)]);
 
   return (
     <div className="space-y-6">
@@ -25,6 +27,8 @@ export default async function LearnPage() {
           <p className="mt-2 text-sm">{t("lessonsDone", { done: stats.doneLessons, total: stats.totalLessons })}</p>
         </div>
       </section>
+
+      <StudyToday overview={study} compact />
 
       {stats.modules.length === 0 ? (
         <p className="card text-muted">{t("empty")}</p>
