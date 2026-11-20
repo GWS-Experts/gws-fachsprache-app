@@ -1,0 +1,60 @@
+## wunden|🩹|Wundversorgung|Wound care|Wunden beschreiben, versorgen und dokumentieren – von der OP-Wunde bis zum Dekubitus.|Describe, dress and document wounds – from surgical wounds to pressure ulcers.
+die|Wunde|die Wunden|Verletzung der Haut oder des Gewebes|wound|Die Wunde ist trocken und reizlos.
+die|Operationswunde|die Operationswunden|Wunde durch einen Schnitt bei der Operation|surgical wound|Die Operationswunde heilt gut.
+die|chronische Wunde|die chronischen Wunden|Wunde, die nach acht Wochen nicht verheilt ist|chronic wound|Das Ulcus cruris ist eine chronische Wunde.
+die|Wundheilung|| Prozess, in dem sich eine Wunde schließt|wound healing|Rauchen verzögert die Wundheilung.
+die|Wundheilungsstörung|die Wundheilungsstörungen|die Wunde heilt nicht wie erwartet|impaired wound healing|Bei Diabetes kommt es häufiger zu Wundheilungsstörungen.
+der|Verband|die Verbände|Material, das eine Wunde abdeckt und schützt|dressing; bandage|Der Verband ist durchgeblutet.
+der|Verbandwechsel|die Verbandwechsel|alter Verband wird entfernt, Wunde gereinigt und neu verbunden|dressing change|Der Verbandwechsel erfolgt aseptisch.
+die|Kompresse|die Kompressen|Stück steriler Mullstoff zum Abdecken von Wunden|gauze swab; compress|Ich lege eine sterile Kompresse auf.
+die|Mullbinde|die Mullbinden|Band aus Stoff zum Fixieren eines Verbands|gauze bandage|Die Kompresse wird mit einer Mullbinde fixiert.
+die|Wundauflage|die Wundauflagen|Material, das direkt auf der Wunde liegt, z. B. Schaumverband, Hydrokolloid|wound dressing|Als Wundauflage verwenden wir einen Schaumverband.
+die|Wundreinigung|die Wundreinigungen|Spülen und Säubern einer Wunde|wound cleansing|Zur Wundreinigung nehme ich eine sterile Spüllösung.
+das|Wundsekret|die Wundsekrete|Flüssigkeit, die aus der Wunde austritt; Fachwort: Exsudat|wound exudate|Es tritt viel gelbliches Wundsekret aus.
+der|Eiter|| gelbliche Flüssigkeit bei Entzündung|pus|Aus der Wunde kommt Eiter.
+|eitrig||mit Eiter|purulent|Die Wunde ist eitrig belegt.
+der|Wundrand|die Wundränder|Haut am Rand der Wunde|wound edge|Die Wundränder sind gerötet.
+der|Wundgrund|die Wundgründe|Boden der Wunde|wound bed|Der Wundgrund ist rosig und sauber.
+der|Belag|die Beläge|Schicht auf dem Wundgrund, z. B. Fibrin oder abgestorbenes Gewebe|slough|Der Wundgrund hat einen gelben Belag.
+die|Nekrose|die Nekrosen|abgestorbenes, oft schwarzes Gewebe|necrosis|Am Zeh hat sich eine Nekrose gebildet.
+die|Naht|die Nähte|Faden, mit dem eine Wunde verschlossen wird|suture; stitches|Die Naht wird am zehnten Tag gezogen.
+die|Klammer|die Klammern|Metallklammer zum Verschließen einer Wunde|staple|Die Klammern werden morgen entfernt.
+die|Drainage|die Drainagen|Schlauch, über den Wundsekret oder Blut abfließt|drain|Aus der Drainage kamen 50 ml blutiges Sekret.
+die|Wunddokumentation|die Wunddokumentationen|Beschreibung der Wunde mit Größe, Aussehen und oft Foto|wound documentation|Bei jedem Verbandwechsel ergänze ich die Wunddokumentation.
+die|Entzündungszeichen|| Rötung, Schwellung, Wärme, Schmerz und Funktionseinschränkung (meist Plural)|signs of inflammation|Die Wunde zeigt keine Entzündungszeichen.
+|reizlos||ohne Zeichen einer Entzündung|non-irritated; clean|Die Wunde ist reizlos und trocken.
+die|Schürfwunde|die Schürfwunden|oberflächliche Wunde durch Reiben über eine raue Fläche|abrasion; graze|Nach dem Sturz hat er eine Schürfwunde am Knie.
+die|Schnittwunde|die Schnittwunden|Wunde durch einen scharfen Gegenstand|cut; incision|Die Schnittwunde muss genäht werden.
+die|Verbrennung|die Verbrennungen|Verletzung der Haut durch Hitze|burn|Sie hat eine Verbrennung ersten Grades an der Hand.
+das|diabetische Fußsyndrom|| schlecht heilende Wunden am Fuß bei Diabetes|diabetic foot syndrome|Beim diabetischen Fußsyndrom kontrollieren wir täglich die Füße.
+
+## hygiene|🧴|Hygiene und Infektionsschutz|Hygiene and infection control|Händedesinfektion, Schutzkleidung, Isolierung und steriles Arbeiten.|Hand disinfection, protective clothing, isolation and sterile technique.
+die|Hygiene|| alle Maßnahmen, die vor Krankheitserregern schützen|hygiene|Hygiene ist im Krankenhaus besonders wichtig.
+die|Händedesinfektion|die Händedesinfektionen|Einreiben der Hände mit Desinfektionsmittel|hand disinfection; hand hygiene|Vor und nach jedem Patientenkontakt mache ich eine Händedesinfektion.
+das|Desinfektionsmittel|die Desinfektionsmittel|Mittel, das Krankheitserreger abtötet|disinfectant|Das Desinfektionsmittel muss 30 Sekunden einwirken.
+die|Einwirkzeit|die Einwirkzeiten|Zeit, die ein Desinfektionsmittel braucht, um zu wirken|contact time|Die Einwirkzeit beträgt mindestens 30 Sekunden.
+die|Flächendesinfektion|die Flächendesinfektionen|Desinfektion von Oberflächen, z. B. Nachttisch|surface disinfection|Nach der Entlassung erfolgt die Flächendesinfektion.
+der|Keim|die Keime|Krankheitserreger, z. B. Bakterium oder Virus|germ; pathogen|Über die Hände werden viele Keime übertragen.
+der|Erreger|die Erreger|Bakterium, Virus oder Pilz, der eine Krankheit auslöst|pathogen|Der Erreger wurde im Blut nachgewiesen.
+das|Bakterium|die Bakterien|kleinstes Lebewesen, kann Krankheiten auslösen|bacterium|Gegen Bakterien helfen Antibiotika.
+das|Virus|die Viren|Krankheitserreger, der sich nur in Zellen vermehrt|virus|Gegen Viren helfen Antibiotika nicht.
+der|multiresistente Erreger|die multiresistenten Erreger|Keim, gegen den viele Antibiotika nicht mehr wirken; z. B. MRSA|multidrug-resistant organism|Der Patient ist mit einem multiresistenten Erreger besiedelt.
+die|Isolierung|die Isolierungen|Patient wird in einem eigenen Zimmer getrennt untergebracht, um andere zu schützen|isolation|Wegen MRSA kommt der Patient in Isolierung.
+die|Schutzkleidung|| Kittel, Handschuhe, Mund-Nasen-Schutz und Schutzbrille|protective clothing; PPE|Vor dem Betreten des Isolierzimmers ziehe ich Schutzkleidung an.
+der|Schutzkittel|die Schutzkittel|Kittel über der Dienstkleidung zum Schutz vor Keimen|protective gown|Den Schutzkittel ziehe ich in der Schleuse aus.
+die|Einmalhandschuhe|| Handschuhe, die nur einmal benutzt werden (meist Plural)|disposable gloves|Bei Kontakt mit Körperflüssigkeiten trage ich Einmalhandschuhe.
+der|Mund-Nasen-Schutz|| Maske, die Mund und Nase bedeckt; kurz MNS|surgical mask|Bitte tragen Sie im Zimmer einen Mund-Nasen-Schutz.
+die|FFP2-Maske|die FFP2-Masken|Atemschutzmaske, die besonders gut vor Viren schützt|FFP2 respirator|Bei Tuberkulose tragen wir eine FFP2-Maske.
+|steril||frei von allen Keimen|sterile|Der Katheter wird steril gelegt.
+|keimarm||mit sehr wenigen Keimen, aber nicht steril|clean; low-germ|Für den Verbandwechsel arbeite ich mit keimarmen Handschuhen.
+die|Asepsis|| Arbeiten ohne Keime, um Infektionen zu verhindern|asepsis|Beim Legen des Katheters gilt strenge Asepsis.
+|kontaminiert||mit Keimen verschmutzt|contaminated|Die Handschuhe sind kontaminiert und werden gewechselt.
+die|Übertragung|die Übertragungen|Weitergabe von Krankheitserregern|transmission|Die Übertragung erfolgt über die Hände.
+die|Tröpfcheninfektion|die Tröpfcheninfektionen|Übertragung durch kleine Tropfen beim Husten, Niesen oder Sprechen|droplet infection|Grippe wird durch Tröpfcheninfektion übertragen.
+die|Kontaktinfektion|die Kontaktinfektionen|Übertragung durch Berührung|contact infection|Die meisten Krankenhausinfektionen sind Kontaktinfektionen.
+die|nosokomiale Infektion|die nosokomialen Infektionen|Infektion, die im Krankenhaus erworben wurde|hospital-acquired infection|Gute Händehygiene verhindert nosokomiale Infektionen.
+der|Abwurfbehälter|die Abwurfbehälter|stichfester Behälter für gebrauchte Kanülen|sharps container|Die Kanüle kommt sofort in den Abwurfbehälter.
+die|Nadelstichverletzung|die Nadelstichverletzungen|Verletzung mit einer benutzten Nadel|needlestick injury|Eine Nadelstichverletzung muss sofort gemeldet werden.
+der|Hygieneplan|die Hygienepläne|Dokument mit allen Hygieneregeln einer Einrichtung|hygiene plan|Im Hygieneplan steht, wie oft desinfiziert wird.
+die|Schleuse|die Schleusen|Vorraum vor einem Isolierzimmer zum An- und Ausziehen der Schutzkleidung|anteroom; airlock|In der Schleuse liegt die Schutzkleidung bereit.
+die|Dienstkleidung|| Kleidung, die nur bei der Arbeit getragen wird|work uniform|Die Dienstkleidung wird in der Klinik gewaschen.

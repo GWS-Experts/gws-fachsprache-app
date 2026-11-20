@@ -1,0 +1,83 @@
+## medikamente|💊|Medikamente und Verabreichung|Medication and administration|Arzneiformen, Applikationswege, Dosierung und die sichere Gabe von Medikamenten.|Dosage forms, routes, dosing and safe administration of medication.
+das|Medikament|die Medikamente|Mittel zur Behandlung von Krankheiten; auch: Arzneimittel|medication; drug|Haben Sie Ihre Medikamente schon genommen?
+die|Tablette|die Tabletten|feste Arzneiform zum Schlucken|tablet; pill|Bitte nehmen Sie die Tablette mit einem Glas Wasser.
+die|Kapsel|die Kapseln|Medikament in einer Hülle zum Schlucken|capsule|Die Kapsel darf nicht geöffnet werden.
+die|Brausetablette|die Brausetabletten|Tablette, die sich in Wasser auflöst|effervescent tablet|Lösen Sie die Brausetablette in Wasser auf.
+die|Tropfen|| flüssiges Medikament, das tropfenweise dosiert wird (meist Plural)|drops|Sie bekommt 20 Tropfen Novaminsulfon.
+der|Saft|die Säfte|flüssiges Medikament zum Trinken|syrup; liquid medicine|Den Hustensaft gibt es dreimal täglich.
+die|Salbe|die Salben|fettige Zubereitung zum Auftragen auf die Haut|ointment|Ich trage die Salbe dünn auf.
+die|Creme|die Cremes|leichte Zubereitung zum Auftragen auf die Haut|cream|Die Creme zieht schnell ein.
+das|Zäpfchen|die Zäpfchen|Medikament, das in den After eingeführt wird; Fachwort: Suppositorium|suppository|Gegen das Fieber bekommt das Kind ein Zäpfchen.
+das|Pflaster|die Pflaster|Klebestreifen; auch Medikament, das über die Haut wirkt (Schmerzpflaster)|plaster; patch|Das Schmerzpflaster wird alle drei Tage gewechselt.
+das|Spray|die Sprays|Medikament zum Sprühen, z. B. in Mund oder Nase|spray|Bei Brustschmerzen nimmt er Nitro-Spray.
+das|Dosieraerosol|die Dosieraerosole|Spray zum Inhalieren mit genau abgemessener Menge|metered-dose inhaler|Bitte schütteln Sie das Dosieraerosol vor der Anwendung.
+die|Inhalation|die Inhalationen|Einatmen von Medikamenten oder Dampf|inhalation|Die Inhalation macht sie zweimal täglich.
+die|Injektion|die Injektionen|Spritze: Medikament wird mit einer Nadel in den Körper gegeben|injection|Die Injektion tut nur kurz weh.
+die|Spritze|die Spritzen|Gerät für Injektionen; auch Alltagswort für die Injektion|syringe; injection|Ich ziehe die Spritze mit 5.000 Einheiten Heparin auf.
+|subkutan||unter die Haut; Abkürzung: s. c.|subcutaneous|Heparin wird subkutan in den Bauch gespritzt.
+|intramuskulär||in den Muskel; Abkürzung: i. m.|intramuscular|Die Impfung wird intramuskulär gegeben.
+|intravenös||in die Vene; Abkürzung: i. v.|intravenous|Das Antibiotikum läuft intravenös.
+|oral||über den Mund; Abkürzung: p. o. (per os)|oral|Die Medikamente werden oral eingenommen.
+|sublingual||unter die Zunge|sublingual|Die Kapsel wird sublingual gegeben.
+|rektal||über den After|rectal|Das Fieberzäpfchen wird rektal verabreicht.
+|transdermal||über die Haut|transdermal|Das Fentanyl-Pflaster wirkt transdermal.
+die|Infusion|die Infusionen|Flüssigkeit, die langsam über eine Vene in den Körper läuft|infusion; drip|Die Infusion läuft über zwei Stunden.
+der|periphervenöse Zugang|die periphervenösen Zugänge|Kunststoffkanüle in einer Vene am Arm oder an der Hand; Alltagswort: Braunüle, Viggo|peripheral IV line; cannula|Der periphervenöse Zugang muss neu gelegt werden.
+der|zentralvenöse Katheter|die zentralvenösen Katheter|Schlauch in einer großen Vene nahe dem Herzen; kurz ZVK|central venous catheter|Über den ZVK bekommt er die parenterale Ernährung.
+die|Tropfgeschwindigkeit|die Tropfgeschwindigkeiten|wie schnell eine Infusion läuft (Tropfen pro Minute)|drip rate|Ich kontrolliere die Tropfgeschwindigkeit.
+der|Perfusor|die Perfusoren|Spritzenpumpe, gibt Medikamente sehr genau über die Vene|syringe pump|Das Insulin läuft über den Perfusor.
+die|Dosis|die Dosen|Menge eines Medikaments, die man auf einmal bekommt|dose|Die Dosis wurde auf 10 mg erhöht.
+die|Einzeldosis|die Einzeldosen|Menge, die auf einmal gegeben wird|single dose|Die Einzeldosis beträgt 500 mg.
+die|Tagesdosis|die Tagesdosen|Gesamtmenge pro Tag|daily dose|Die maximale Tagesdosis darf nicht überschritten werden.
+die|Bedarfsmedikation|die Bedarfsmedikationen|Medikament, das nur bei Bedarf gegeben wird, z. B. bei Schmerzen|PRN medication; as-needed medication|Als Bedarfsmedikation gibt es Paracetamol bis viermal täglich.
+die|Dauermedikation|die Dauermedikationen|Medikamente, die regelmäßig und dauerhaft genommen werden|regular medication|Bitte bringen Sie eine Liste Ihrer Dauermedikation mit.
+der|Medikamentenplan|die Medikamentenpläne|Liste, welches Medikament wann und in welcher Dosis gegeben wird|medication chart|Laut Medikamentenplan bekommt sie morgens Ramipril.
+das|Medikamentendispenser|die Medikamentendispenser|Box mit Fächern, in die Medikamente für den Tag gerichtet werden|pill organiser; dispenser|Ich richte die Medikamente in den Dispenser.
+|richten||Medikamente nach Plan vorbereiten (in der Pflege: Medikamente richten)|prepare (medication)|Der Nachtdienst richtet die Medikamente für den nächsten Tag.
+die|6-R-Regel|| Kontrolle vor jeder Gabe: richtiger Patient, richtiges Medikament, richtige Dosis, richtige Applikationsart, richtiger Zeitpunkt, richtige Dokumentation|six rights of medication administration|Vor jeder Medikamentengabe prüfe ich die 6-R-Regel.
+die|Nebenwirkung|die Nebenwirkungen|unerwünschte Wirkung eines Medikaments|side effect|Eine häufige Nebenwirkung ist Übelkeit.
+die|Wechselwirkung|die Wechselwirkungen|Medikamente beeinflussen sich gegenseitig|interaction|Es gibt eine Wechselwirkung zwischen den beiden Medikamenten.
+die|Unverträglichkeit|die Unverträglichkeiten|der Körper verträgt einen Stoff nicht|intolerance|Sie hat eine Unverträglichkeit gegen Ibuprofen.
+die|Kontraindikation|die Kontraindikationen|Grund, warum ein Medikament nicht gegeben werden darf|contraindication|Eine Schwangerschaft ist hier eine Kontraindikation.
+die|Indikation|die Indikationen|Grund, warum eine Behandlung gemacht wird|indication|Die Indikation für das Antibiotikum ist eine Pneumonie.
+das|Betäubungsmittel|die Betäubungsmittel|starkes Medikament, z. B. Morphin, das besonders dokumentiert und verschlossen werden muss; kurz BtM|controlled drug; narcotic|Betäubungsmittel werden im BtM-Buch dokumentiert.
+das|Opioid|die Opioide|starkes Schmerzmittel wie Morphin|opioid|Unter Opioiden achten wir auf Verstopfung und Atmung.
+das|Insulin|die Insuline|Hormon, das den Blutzucker senkt; wird bei Diabetes gespritzt|insulin|Vor dem Mittagessen bekommt er 6 Einheiten Insulin.
+der|Insulinpen|die Insulinpens|Stift zum Spritzen von Insulin|insulin pen|Sie spritzt ihr Insulin selbst mit dem Pen.
+der|Blutverdünner|die Blutverdünner|Medikament, das die Blutgerinnung hemmt; Fachwort: Antikoagulans|blood thinner|Wegen des Blutverdünners blutet die Wunde länger.
+die|Ampulle|die Ampullen|kleines, verschlossenes Glas- oder Plastikgefäß mit flüssigem Medikament|ampoule|Ich breche die Ampulle auf und ziehe das Medikament auf.
+die|Kanüle|die Kanülen|Hohlnadel für Spritzen|needle; cannula|Gebrauchte Kanülen kommen sofort in den Abwurfbehälter.
+das|Verfallsdatum|die Verfallsdaten|Datum, bis zu dem ein Medikament verwendet werden darf|expiry date|Vor der Gabe prüfe ich das Verfallsdatum.
+|einnehmen (nimmt ein, hat eingenommen)||ein Medikament schlucken|take (medication)|Nehmen Sie die Tablette bitte vor dem Frühstück ein.
+|verabreichen (verabreicht, hat verabreicht)||ein Medikament geben (Fachsprache)|administer|Ich habe um 8 Uhr 1 g Paracetamol verabreicht.
+|verordnen (verordnet, hat verordnet)||ein Arzt legt fest, welche Behandlung jemand bekommt|prescribe; order|Der Arzt hat ein neues Schmerzmittel verordnet.
+|absetzen (setzt ab, hat abgesetzt)||ein Medikament nicht mehr geben|discontinue; stop|Das Antibiotikum wird morgen abgesetzt.
+
+## grundpflege|🧼|Grundpflege und Körperpflege|Basic care and personal hygiene|Waschen, Mundpflege, Anziehen, Hilfe im Alltag – und wie man darüber mit Patienten spricht.|Washing, oral care, dressing, daily support – and how to talk about it with patients.
+die|Grundpflege|| Hilfe bei Körperpflege, Ernährung, Ausscheidung und Bewegung|basic nursing care|Die Grundpflege übernimmt heute die Pflegehelferin.
+die|Behandlungspflege|| ärztlich verordnete Pflege, z. B. Verbandwechsel, Injektionen|treatment care; medical nursing care|Verbandwechsel gehört zur Behandlungspflege.
+die|Körperpflege|| Waschen, Zähneputzen, Rasieren, Haare kämmen|personal hygiene|Bei der Körperpflege beobachte ich die Haut.
+die|Ganzkörperwaschung|die Ganzkörperwaschungen|Waschen des ganzen Körpers, meist im Bett|full body wash; bed bath|Die Ganzkörperwaschung findet am Morgen statt.
+die|Teilwäsche|die Teilwäschen|nur einzelne Körperteile werden gewaschen|partial wash|Heute macht sie die Teilwäsche am Waschbecken selbst.
+die|Intimpflege|| Waschen des Genital- und Analbereichs|intimate care; perineal care|Die Intimpflege wird immer von vorne nach hinten durchgeführt.
+die|Mundpflege|| Pflege von Zähnen, Zahnfleisch und Mundschleimhaut|oral care; mouth care|Bei Patienten mit Sonde ist eine regelmäßige Mundpflege wichtig.
+die|Zahnprothese|die Zahnprothesen|künstliche Zähne zum Herausnehmen; Alltagswort: Gebiss, dritte Zähne|dentures|Die Zahnprothese wird über Nacht in einen Becher gelegt.
+die|Haarpflege|| Waschen und Kämmen der Haare|hair care|Einmal pro Woche hilft die Pflege bei der Haarwäsche.
+die|Nagelpflege|| Schneiden und Pflegen der Finger- und Fußnägel|nail care|Bei Diabetikern übernimmt die Fußpflege die Nagelpflege.
+die|Rasur|die Rasuren|Entfernen von Barthaaren|shave|Möchten Sie heute eine Rasur?
+die|Hautpflege|| Pflege der Haut mit Lotion oder Creme|skin care|Bei trockener Haut ist eine rückfettende Hautpflege wichtig.
+die|Waschschüssel|die Waschschüsseln|Schüssel mit Wasser zum Waschen im Bett|washbowl|Ich fülle die Waschschüssel mit warmem Wasser.
+der|Waschlappen|die Waschlappen|kleines Tuch zum Waschen|washcloth; flannel|Für Gesicht und Intimbereich nehme ich verschiedene Waschlappen.
+das|Inkontinenzmaterial|| Vorlagen, Einlagen und Windelhosen für Menschen mit Inkontinenz|incontinence products|Das Inkontinenzmaterial wird nach Bedarf gewechselt.
+die|Vorlage|die Vorlagen|saugfähige Einlage für die Unterhose bei Inkontinenz|incontinence pad|Die Vorlage ist nass und muss gewechselt werden.
+das|Steckbecken|die Steckbecken|Gefäß, in das bettlägerige Patienten Urin und Stuhl ausscheiden; Alltagswort: Bettpfanne, Schieber|bedpan|Brauchen Sie das Steckbecken?
+die|Urinflasche|die Urinflaschen|Flasche, in die Männer im Bett Wasser lassen können|urine bottle; urinal|Die Urinflasche hängt am Bett.
+der|Toilettenstuhl|die Toilettenstühle|Stuhl mit Toiletteneimer, z. B. neben dem Bett|commode|Nachts benutzt sie den Toilettenstuhl.
+das|Bettenmachen|| Bett frisch beziehen und ordnen|bed making|Beim Bettenmachen achte ich darauf, dass das Laken faltenfrei ist.
+|beziehen (bezieht, hat bezogen)||Bett mit frischer Wäsche überziehen|change the bed linen|Das Bett wird heute frisch bezogen.
+das|Ankleiden|| Hilfe beim Anziehen|dressing|Beim Ankleiden fange ich mit dem gelähmten Arm an.
+die|Selbstständigkeit|| Fähigkeit, etwas ohne Hilfe zu machen|independence|Wir fördern die Selbstständigkeit des Patienten.
+die|Ressource|die Ressourcen|Fähigkeit, die der Patient noch hat und die die Pflege nutzt|resource; ability|Ressource: Sie kann sich das Gesicht selbst waschen.
+die|aktivierende Pflege|| Pflege, bei der der Patient so viel wie möglich selbst macht|activating care; enabling care|Durch aktivierende Pflege bleibt er länger selbstständig.
+die|Intimsphäre|| privater, persönlicher Bereich eines Menschen|privacy; intimate sphere|Bei der Körperpflege achte ich auf die Intimsphäre.
+der|Sichtschutz||Wand oder Vorhang, damit niemand zusehen kann|privacy screen|Vor dem Waschen stelle ich einen Sichtschutz auf.

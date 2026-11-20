@@ -1,0 +1,84 @@
+## dokumentation|📋|Dokumentation und Übergabe|Documentation and handover|Pflegebericht, Pflegeplanung und strukturierte Übergabe – schriftlich und mündlich präzise.|Nursing notes, care planning and structured handover – precise in writing and speech.
+die|Pflegedokumentation|die Pflegedokumentationen|alle schriftlichen Aufzeichnungen der Pflege über einen Patienten|nursing documentation|Was nicht dokumentiert ist, gilt als nicht gemacht.
+der|Pflegebericht|die Pflegeberichte|kurzer Text über Zustand, Beobachtungen und Maßnahmen während einer Schicht|nursing report; nursing notes|Im Pflegebericht notiere ich die Schmerzen und die Gabe des Analgetikums.
+die|Pflegeanamnese|die Pflegeanamnesen|Erfassung von Situation, Gewohnheiten, Ressourcen und Problemen bei der Aufnahme|nursing assessment; nursing history|Die Pflegeanamnese mache ich am Aufnahmetag.
+die|Pflegeplanung|die Pflegeplanungen|schriftlicher Plan mit Problemen, Zielen und Maßnahmen der Pflege|care plan|Die Pflegeplanung wird regelmäßig angepasst.
+der|Pflegeprozess|die Pflegeprozesse|Ablauf: Informationen sammeln, Probleme erkennen, Ziele festlegen, planen, durchführen, bewerten|nursing process|Der Pflegeprozess hat sechs Schritte.
+das|Pflegeproblem|die Pflegeprobleme|Schwierigkeit des Patienten, bei der er Pflege braucht|nursing problem|Pflegeproblem: Der Patient kann sich wegen Schmerzen nicht allein waschen.
+das|Pflegeziel|die Pflegeziele|was durch die Pflege erreicht werden soll|nursing goal|Pflegeziel: Die Patientin geht in einer Woche mit Rollator zur Toilette.
+die|Pflegemaßnahme|die Pflegemaßnahmen|konkrete Handlung der Pflege|nursing intervention|Die Pflegemaßnahmen werden im Plan abgezeichnet.
+die|Evaluation|die Evaluationen|Überprüfung, ob die Ziele erreicht wurden|evaluation|Bei der Evaluation zeigt sich, dass das Ziel erreicht ist.
+die|Übergabe|die Übergaben|Weitergabe aller wichtigen Informationen an die nächste Schicht|handover; shift report|Die Übergabe findet um 13:30 Uhr statt.
+die|Schicht|die Schichten|Arbeitszeitblock, z. B. Frühdienst, Spätdienst, Nachtdienst|shift|In meiner Schicht gab es keine besonderen Vorkommnisse.
+der|Frühdienst|die Frühdienste|Schicht am Morgen, meist ab 6 Uhr|early shift|Im Frühdienst stehen Grundpflege und Visite an.
+der|Spätdienst|die Spätdienste|Schicht am Nachmittag und Abend|late shift|Der Spätdienst übernimmt die Abendmedikation.
+der|Nachtdienst|die Nachtdienste|Schicht in der Nacht|night shift|Im Nachtdienst schlief der Patient ruhig.
+das|Vorkommnis|die Vorkommnisse|Ereignis, das man berichten muss|incident; occurrence|Keine besonderen Vorkommnisse in der Nacht.
+die|Kurve|die Kurven|Formular für Vitalzeichen, Medikamente und Anordnungen; auch: Fieberkurve|patient chart|Ich trage den Blutdruck in die Kurve ein.
+die|ärztliche Anordnung|die ärztlichen Anordnungen|Arzt legt fest, was die Pflege tun soll, z. B. Medikamente oder Untersuchungen|medical order|Laut ärztlicher Anordnung wird der Katheter heute entfernt.
+das|Handzeichen|die Handzeichen|Kürzel, mit dem man eine Eintragung abzeichnet|initials; signature|Jede Eintragung braucht Datum, Uhrzeit und Handzeichen.
+|abzeichnen (zeichnet ab, hat abgezeichnet)||mit Handzeichen bestätigen, dass eine Maßnahme erledigt ist|sign off; initial|Bitte zeichnen Sie die Medikamentengabe ab.
+das|SBAR-Schema|| Struktur für Übergaben und Telefonate: Situation, Hintergrund, Einschätzung, Empfehlung|SBAR|Ich rufe den Arzt an und gehe nach dem SBAR-Schema vor.
+die|Einschätzung|die Einschätzungen|eigene Bewertung der Situation|assessment|Meine Einschätzung: Der Patient ist exsikkiert.
+der|Pflegegrad|die Pflegegrade|Stufe von 1 bis 5, wie viel Unterstützung ein Mensch braucht|care level|Herr Schulz hat Pflegegrad 3.
+das|Assessment|die Assessments|strukturiertes Einschätzungsinstrument, z. B. für Schmerz oder Sturzrisiko|assessment tool|Das Sturzrisiko erfassen wir mit einem Assessment.
+|sachlich||neutral und genau, ohne eigene Wertung|objective; factual|Der Pflegebericht muss sachlich formuliert sein.
+die|Schweigepflicht|| Pflicht, über Patienten keine Informationen an Unbefugte weiterzugeben|confidentiality; duty of confidentiality|Wegen der Schweigepflicht gebe ich am Telefon keine Auskunft.
+
+## kommunikation|💬|Kommunikation mit Patienten und Angehörigen|Communication with patients and relatives|Wichtige Begriffe und Redemittel für Aufnahme, Aufklärung, schwierige Gespräche und Telefonate.|Key terms and phrases for admissions, explanations, difficult conversations and phone calls.
+das|Aufnahmegespräch|die Aufnahmegespräche|erstes Gespräch mit dem Patienten bei der Aufnahme|admission interview|Im Aufnahmegespräch frage ich nach Allergien und Medikamenten.
+die|Angehörigen|| Familienmitglieder und nahe Bezugspersonen eines Patienten (meist Plural)|relatives; family|Die Angehörigen dürfen von 14 bis 19 Uhr zu Besuch kommen.
+die|Bezugsperson|die Bezugspersonen|wichtigste vertraute Person des Patienten|key person; next of kin|Die Tochter ist die wichtigste Bezugsperson.
+die|Bezugspflege|| eine feste Pflegekraft ist für einen Patienten verantwortlich|primary nursing|Durch Bezugspflege hat sie eine feste Ansprechpartnerin.
+die|Ansprechperson|die Ansprechpersonen|Person, an die man sich mit Fragen wenden kann|contact person|Ich bin heute Ihre Ansprechperson.
+das|Anliegen|die Anliegen|Wunsch oder Frage, die jemand hat|concern; request|Was ist Ihr Anliegen?
+die|Rückfrage|die Rückfragen|Nachfrage, wenn man etwas nicht verstanden hat|follow-up question|Haben Sie noch Rückfragen?
+|nachfragen (fragt nach, hat nachgefragt)||noch einmal fragen, um sicher zu verstehen|ask again; check|Ich frage beim Arzt nach und komme dann zu Ihnen.
+die|offene Frage|die offenen Fragen|W-Frage, auf die man frei antwortet (Wie? Was? Wo?)|open question|Mit offenen Fragen erfahre ich mehr: Wie geht es Ihnen?
+die|geschlossene Frage|die geschlossenen Fragen|Frage, auf die man mit Ja oder Nein antwortet|closed question|Geschlossene Frage: Haben Sie Schmerzen?
+das|aktive Zuhören|| zeigen, dass man zuhört: nicken, nachfragen, Gesagtes wiederholen|active listening|Durch aktives Zuhören fühlt sich die Patientin ernst genommen.
+die|Empathie|| Einfühlungsvermögen, die Gefühle anderer verstehen|empathy|Mit Empathie spreche ich mit der ängstlichen Patientin.
+die|Beschwerde|die Beschwerden|Kritik oder Klage über etwas, z. B. lange Wartezeit (auch: Krankheitszeichen)|complaint|Der Sohn hat eine Beschwerde über das Essen.
+die|Entschuldigung|die Entschuldigungen|Bitte um Verzeihung|apology|Entschuldigen Sie bitte die Wartezeit.
+die|Verständnisfrage|die Verständnisfragen|Frage, ob der Patient alles verstanden hat|comprehension check|Zum Schluss stelle ich eine Verständnisfrage.
+das|Missverständnis|die Missverständnisse|etwas wurde falsch verstanden|misunderstanding|Um Missverständnisse zu vermeiden, wiederhole ich die Anordnung.
+der|Dolmetscher|die Dolmetscher|Person, die mündlich in eine andere Sprache übersetzt|interpreter|Für das Aufklärungsgespräch bestellen wir einen Dolmetscher.
+die|Klingel|die Klingeln|Rufknopf, mit dem Patienten die Pflege rufen|call bell|Wenn Sie etwas brauchen, drücken Sie bitte die Klingel.
+das|Telefonat|die Telefonate|Gespräch am Telefon|phone call|Im Telefonat mit dem Arzt nenne ich zuerst Name und Station.
+die|Rückmeldung|die Rückmeldungen|Antwort oder Information zurück|feedback; response|Ich gebe Ihnen eine Rückmeldung, sobald der Befund da ist.
+die|Wertschätzung|| Respekt und Anerkennung zeigen|appreciation; respect|Wir begegnen allen Patienten mit Wertschätzung.
+die|Sie-Form|| höfliche Anrede mit „Sie“ – im Krankenhaus gegenüber Patienten Standard|formal address|Patienten spreche ich immer in der Sie-Form an.
+die|Patientenaufklärung|die Patientenaufklärungen|Patienten in verständlichen Worten über Maßnahmen informieren|patient education|Bei der Patientenaufklärung verwende ich keine Fachwörter.
+die|Anleitung|die Anleitungen|Patienten oder Angehörigen zeigen, wie etwas geht, z. B. Insulin spritzen|instruction; guidance|Die Anleitung zum Insulinspritzen dauert mehrere Tage.
+die|Beratung|die Beratungen|Gespräch mit Informationen und Empfehlungen|counselling; advice|Bei der Beratung erkläre ich die Sturzprophylaxe.
+
+## recht-organisation|⚖️|Krankenhaus, Berufe und Recht|Hospital, professions and law|Stationen, Berufsgruppen und rechtliche Grundlagen, die in der Prüfung vorkommen.|Wards, professions and legal basics that come up in the exam.
+die|Station|die Stationen|Abteilung im Krankenhaus mit Patientenzimmern|ward; unit|Ich arbeite auf der Station 3B, Innere Medizin.
+die|Intensivstation|die Intensivstationen|Station für schwer kranke Patienten mit ständiger Überwachung|intensive care unit (ICU)|Nach der großen OP kommt er auf die Intensivstation.
+die|Notaufnahme|die Notaufnahmen|Bereich für Patienten, die als Notfall ins Krankenhaus kommen|emergency department|Er wurde über die Notaufnahme aufgenommen.
+die|Innere Medizin|| Fachbereich für Erkrankungen der inneren Organe|internal medicine|Auf der Inneren Medizin liegen viele Patienten mit Herzinsuffizienz.
+die|Chirurgie|die Chirurgien|Fachbereich für Operationen|surgery (department)|Nach dem Unfall liegt sie auf der Chirurgie.
+die|Geriatrie|| Altersmedizin|geriatrics|Auf der Geriatrie werden ältere Menschen ganzheitlich behandelt.
+das|Pflegeheim|die Pflegeheime|Einrichtung, in der pflegebedürftige Menschen dauerhaft wohnen|nursing home; care home|Nach dem Krankenhaus zieht sie in ein Pflegeheim.
+der|ambulante Pflegedienst|die ambulanten Pflegedienste|Pflegekräfte kommen zu den Menschen nach Hause|home care service|Der ambulante Pflegedienst kommt zweimal täglich.
+|stationär||im Krankenhaus oder Heim, mit Übernachtung|inpatient|Der Patient wird stationär aufgenommen.
+|ambulant||ohne Übernachtung, der Patient geht wieder nach Hause|outpatient|Die Untersuchung kann ambulant erfolgen.
+die|Pflegefachkraft|die Pflegefachkräfte|ausgebildete Pflegefachfrau oder Pflegefachmann (drei Jahre Ausbildung)|registered nurse|Als Pflegefachkraft darf ich Medikamente verabreichen.
+die|Pflegehilfskraft|die Pflegehilfskräfte|Pflegekraft mit kürzerer Ausbildung, unterstützt in der Grundpflege|nursing assistant|Die Pflegehilfskraft hilft beim Waschen.
+die|Stationsleitung|die Stationsleitungen|Leitung der Pflege auf einer Station|ward manager|Bitte sprechen Sie mit der Stationsleitung.
+der|Oberarzt|die Oberärzte|erfahrener Facharzt mit Leitungsfunktion|senior physician; consultant|Der Oberarzt kommt heute zur Visite.
+der|Stationsarzt|die Stationsärzte|Arzt, der für die Patienten einer Station zuständig ist|ward doctor|Ich informiere den Stationsarzt über den Blutdruck.
+die|Physiotherapie|die Physiotherapien|Behandlung durch Bewegung und Übungen; kurz Physio|physiotherapy|Die Physiotherapie kommt um 10 Uhr.
+die|Ergotherapie|die Ergotherapien|Therapie, um Alltagsfähigkeiten wieder zu lernen|occupational therapy|In der Ergotherapie übt er das Anziehen.
+die|Logopädie|| Therapie bei Sprach-, Sprech- und Schluckstörungen|speech therapy|Die Logopädie testet das Schlucken.
+der|Sozialdienst|die Sozialdienste|organisiert Hilfe nach der Entlassung, z. B. Pflegeheim oder Reha|social services|Der Sozialdienst kümmert sich um den Reha-Antrag.
+die|Patientenverfügung|die Patientenverfügungen|schriftliche Erklärung, welche Behandlung jemand will oder nicht will, falls er nicht mehr entscheiden kann|advance directive; living will|Laut Patientenverfügung möchte sie keine Reanimation.
+die|Vorsorgevollmacht|die Vorsorgevollmachten|Dokument, mit dem jemand eine Person bestimmt, die für ihn entscheiden darf|lasting power of attorney|Der Sohn hat eine Vorsorgevollmacht.
+die|gesetzliche Betreuung|die gesetzlichen Betreuungen|vom Gericht bestellte Person, die rechtliche Entscheidungen für jemanden trifft|legal guardianship|Für Herrn Meier ist eine gesetzliche Betreuung eingerichtet.
+die|freiheitsentziehende Maßnahme|die freiheitsentziehenden Maßnahmen|Maßnahme, die die Bewegungsfreiheit einschränkt, z. B. Bettgitter, Gurt; braucht Einwilligung oder richterliche Genehmigung|restraint; deprivation of liberty|Freiheitsentziehende Maßnahmen müssen genau dokumentiert werden.
+die|Fixierung|die Fixierungen|Festbinden eines Patienten, z. B. mit Gurten|physical restraint|Eine Fixierung ist nur mit richterlicher Genehmigung erlaubt.
+die|Einwilligung|die Einwilligungen|Zustimmung des Patienten zu einer Maßnahme|consent|Ohne Einwilligung darf keine Behandlung erfolgen.
+die|Delegation|die Delegationen|Arzt überträgt eine Aufgabe an die Pflege, z. B. Injektionen|delegation|Die i. v.-Gabe ist eine ärztliche Tätigkeit, die delegiert werden kann.
+die|Haftung|| rechtliche Verantwortung für Schäden|liability|Wer eine Aufgabe übernimmt, trägt die Durchführungsverantwortung und Haftung.
+der|Datenschutz|| Schutz persönlicher Daten vor Missbrauch|data protection|Wegen des Datenschutzes liegen keine Patientenakten offen herum.
+die|Berufsanerkennung|die Berufsanerkennungen|Verfahren, damit ein ausländischer Berufsabschluss in Deutschland gilt|recognition of professional qualifications|Für die Berufsanerkennung brauche ich das Zertifikat der Fachsprachprüfung.

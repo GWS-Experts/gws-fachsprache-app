@@ -1,0 +1,61 @@
+## demenz-palliativ|🕊️|Demenz, Palliativpflege und Sterbebegleitung|Dementia, palliative and end-of-life care|Menschen mit Demenz begleiten, Schmerzen lindern und am Lebensende würdevoll pflegen.|Support people with dementia, relieve pain and provide dignified end-of-life care.
+die|Orientierung|| wissen, wo man ist, welcher Tag ist und wer man ist|orientation|Die Orientierung ist zeitlich eingeschränkt.
+die|Biografiearbeit|| Lebensgeschichte des Menschen kennen und in der Pflege nutzen|biographical work|Durch Biografiearbeit wissen wir, dass er gern Zeitung liest.
+die|Validation|| wertschätzende Kommunikation mit Menschen mit Demenz: Gefühle ernst nehmen, nicht korrigieren|validation therapy|Mit Validation beruhige ich die Bewohnerin, die nach ihrer Mutter sucht.
+das|herausfordernde Verhalten|| Verhalten bei Demenz, das für andere schwierig ist, z. B. Rufen, Weglaufen, Aggression|challenging behaviour|Bei herausforderndem Verhalten suchen wir nach dem Auslöser.
+die|Weglauftendenz|die Weglauftendenzen|Mensch mit Demenz versucht, die Einrichtung zu verlassen|tendency to wander|Wegen der Weglauftendenz trägt er einen Sender.
+die|Tagesstruktur|die Tagesstrukturen|fester, wiederkehrender Ablauf des Tages|daily routine|Eine feste Tagesstruktur gibt Sicherheit.
+die|Palliativpflege|| Pflege, die Beschwerden lindert, wenn keine Heilung mehr möglich ist; Fachwort: Palliative Care|palliative care|Auf der Palliativstation steht die Lebensqualität im Mittelpunkt.
+das|Hospiz|die Hospize|Einrichtung, in der schwerkranke Menschen am Lebensende betreut werden|hospice|Sie verbringt ihre letzten Wochen im Hospiz.
+die|Sterbebegleitung|die Sterbebegleitungen|Menschen in der letzten Lebensphase begleiten und unterstützen|end-of-life care|Zur Sterbebegleitung gehört auch die Unterstützung der Angehörigen.
+die|Lebensqualität|| wie gut es einem Menschen körperlich und seelisch geht|quality of life|Unser Ziel ist eine gute Lebensqualität.
+die|Symptomkontrolle|die Symptomkontrollen|Beschwerden wie Schmerz, Atemnot, Übelkeit gut behandeln|symptom control|Im Vordergrund steht die Symptomkontrolle.
+die|Sterbephase|die Sterbephasen|letzte Tage und Stunden vor dem Tod|dying phase|In der Sterbephase verändert sich die Atmung.
+die|Rasselatmung|| brodelnde Atmung bei Sterbenden durch Schleim in den Atemwegen|death rattle|Die Rasselatmung belastet vor allem die Angehörigen.
+die|Mundpflege|| in der Palliativpflege: Mund befeuchten, gegen Durstgefühl|mouth care|Zur Mundpflege nehmen wir ihr Lieblingsgetränk.
+die|Trauer|| Schmerz und Gefühle nach einem Verlust|grief|Wir geben den Angehörigen Raum für ihre Trauer.
+der|Tod|die Tode|Ende des Lebens|death|Der Tod trat um 3:15 Uhr ein.
+|versterben (verstirbt, ist verstorben)||sterben (höflich, formell)|pass away|Herr Neumann ist heute Nacht friedlich verstorben.
+der|Verstorbene|die Verstorbenen|Person, die gestorben ist|deceased|Wir versorgen den Verstorbenen würdevoll.
+die|Totenversorgung|die Totenversorgungen|Pflege und Vorbereitung eines Verstorbenen|care of the deceased; last offices|Die Totenversorgung erfolgt nach den Wünschen der Familie.
+der|Seelsorger|die Seelsorger|Person, die Menschen bei Glaubensfragen und in schweren Zeiten begleitet|chaplain; pastoral carer|Möchten Sie mit dem Seelsorger sprechen?
+der|Therapieverzicht|die Therapieverzichte|bewusste Entscheidung, eine Behandlung nicht (mehr) zu machen|withholding treatment|Nach dem Gespräch mit der Familie wird Therapieverzicht vereinbart.
+
+## verben|🏃|Wichtige Verben in der Pflege|Key verbs in nursing|Verben für Pflegehandlungen, Berichte und Übergaben – mit Perfektform.|Verbs for nursing tasks, reports and handovers – with perfect tense.
+|messen (misst, hat gemessen)||einen Wert mit einem Gerät bestimmen|measure|Ich habe um 6 Uhr den Blutdruck gemessen.
+|kontrollieren (kontrolliert, hat kontrolliert)||prüfen, ob alles in Ordnung ist|check|Ich kontrolliere jede Stunde die Infusion.
+|beobachten (beobachtet, hat beobachtet)||genau hinsehen, um Veränderungen zu bemerken|observe|Wir beobachten die Wunde auf Entzündungszeichen.
+|dokumentieren (dokumentiert, hat dokumentiert)||schriftlich festhalten|document; record|Ich habe den Sturz dokumentiert.
+|informieren (informiert, hat informiert)||jemandem Bescheid geben|inform; notify|Ich habe den Arzt über den Fieberanstieg informiert.
+|melden (meldet, hat gemeldet)||eine Information weitergeben, besonders eine Auffälligkeit|report|Auffälligkeiten melde ich sofort.
+|übergeben (übergibt, hat übergeben)||Informationen an die nächste Schicht weitergeben|hand over|Ich übergebe Ihnen jetzt Zimmer 12.
+|lagern (lagert, hat gelagert)||Patienten in eine bestimmte Position bringen|position|Wir haben den Patienten auf die linke Seite gelagert.
+|mobilisieren (mobilisiert, hat mobilisiert)||Patienten in Bewegung bringen|mobilise|Die Patientin wurde heute zum ersten Mal an die Bettkante mobilisiert.
+|unterstützen (unterstützt, hat unterstützt)||helfen|support; assist|Ich unterstütze Sie beim Waschen.
+|übernehmen (übernimmt, hat übernommen)||eine Aufgabe ganz für jemanden machen|take over|Die Körperpflege wird vollständig übernommen.
+|anleiten (leitet an, hat angeleitet)||zeigen und erklären, wie etwas geht|instruct; guide|Ich leite den Patienten beim Insulinspritzen an.
+|anlegen (legt an, hat angelegt)||etwas am Körper befestigen, z. B. Verband, Manschette|apply; put on|Ich lege Ihnen jetzt den Verband an.
+|anhängen (hängt an, hat angehängt)||Infusion an den Zugang anschließen|hang (an infusion)|Ich habe um 10 Uhr die zweite Infusion angehängt.
+|legen (legt, hat gelegt)||einen Zugang oder Katheter einführen|insert; place|Der Arzt hat einen neuen Zugang gelegt.
+|entfernen (entfernt, hat entfernt)||wegnehmen, herausziehen|remove|Der Blasenkatheter wurde heute entfernt.
+|wechseln (wechselt, hat gewechselt)||etwas durch etwas Neues ersetzen|change|Ich habe den Verband gewechselt.
+|desinfizieren (desinfiziert, hat desinfiziert)||Keime abtöten|disinfect|Vor der Injektion desinfiziere ich die Haut.
+|spritzen (spritzt, hat gespritzt)||ein Medikament mit einer Spritze geben|inject|Ich spritze Ihnen jetzt das Heparin in den Bauch.
+|verbinden (verbindet, hat verbunden)||eine Wunde mit einem Verband versorgen|dress (a wound)|Die Wunde wurde steril verbunden.
+|versorgen (versorgt, hat versorgt)||sich um jemanden oder etwas kümmern, z. B. eine Wunde|care for; treat|Die Wunde ist versorgt.
+|aufnehmen (nimmt auf, hat aufgenommen)||einen Patienten im Krankenhaus registrieren und aufnehmen|admit|Wir haben heute vier Patienten aufgenommen.
+|entlassen (entlässt, hat entlassen)||Patienten aus dem Krankenhaus nach Hause schicken|discharge|Frau Kaya wird morgen entlassen.
+|verlegen (verlegt, hat verlegt)||Patienten auf eine andere Station oder in eine andere Klinik bringen|transfer|Der Patient wird auf die Intensivstation verlegt.
+|klagen über (klagt, hat geklagt)||von Beschwerden berichten|complain of|Die Patientin klagt über Kopfschmerzen.
+|sich verschlechtern (verschlechtert sich, hat sich verschlechtert)||schlechter werden|deteriorate; get worse|Sein Zustand hat sich in der Nacht verschlechtert.
+|sich verbessern (verbessert sich, hat sich verbessert)||besser werden|improve|Die Atmung hat sich deutlich verbessert.
+|auftreten (tritt auf, ist aufgetreten)||erscheinen, entstehen (Beschwerden)|occur|Die Schmerzen sind gegen 22 Uhr aufgetreten.
+|ablehnen (lehnt ab, hat abgelehnt)||nicht wollen, Nein sagen|refuse; decline|Der Patient lehnt das Abendessen ab.
+|einhalten (hält ein, hat eingehalten)||sich an eine Regel oder Vorgabe halten|comply with; keep to|Die Nahrungskarenz wurde eingehalten.
+|anordnen (ordnet an, hat angeordnet)||(Arzt) festlegen, was gemacht werden soll|order|Der Arzt hat eine Blutkultur angeordnet.
+|erheben (erhebt, hat erhoben)||Informationen sammeln, z. B. die Anamnese|take (a history); collect|Ich habe die Pflegeanamnese erhoben.
+|einschätzen (schätzt ein, hat eingeschätzt)||beurteilen, bewerten|assess|Ich schätze das Sturzrisiko als hoch ein.
+|begleiten (begleitet, hat begleitet)||mit jemandem mitgehen; auch: in schweren Zeiten unterstützen|accompany|Ich begleite Sie zur Untersuchung.
+|beruhigen (beruhigt, hat beruhigt)||jemandem die Angst oder Unruhe nehmen|calm; reassure|Ich habe die ängstliche Patientin beruhigt.
+|schlucken (schluckt, hat geschluckt)||Essen, Trinken oder Tabletten vom Mund in den Magen bringen|swallow|Können Sie die Tablette gut schlucken?
+|ausscheiden (scheidet aus, hat ausgeschieden)||Urin oder Stuhl abgeben|excrete; pass|Er hat heute 1.200 ml Urin ausgeschieden.

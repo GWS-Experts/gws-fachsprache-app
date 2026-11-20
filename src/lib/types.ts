@@ -109,3 +109,37 @@ export function pick(row: object, field: string, locale: Locale): string {
   const fallback = r[`${field}_de`];
   return typeof fallback === "string" ? fallback : "";
 }
+
+// Fachwortschatz (Glossar und Vokabeltrainer) --------------------------------
+export type Article = "" | "der" | "die" | "das";
+
+export interface GlossaryTopic {
+  id: string;
+  slug: string;
+  icon: string;
+  title_de: string;
+  title_en: string;
+  description_de: string;
+  description_en: string;
+  sort: number;
+  published: boolean;
+}
+
+export interface GlossaryTerm {
+  id: string;
+  topic_id: string;
+  article: Article;
+  term: string;
+  plural: string;
+  explanation: string;
+  en: string;
+  example: string;
+  sort: number;
+}
+
+export interface GlossaryReview {
+  term_id: string;
+  known: boolean;
+  reviews: number;
+  updated_at: string;
+}
