@@ -11,7 +11,7 @@ import { QuestionsEditor } from "./QuestionsEditor";
 const usesQuestions = ["reading", "listening", "quiz", "dialogue"];
 const usesTask = ["writing", "speaking"];
 
-export function LessonEditor({ lesson }: { lesson: Lesson }) {
+export function LessonEditor({ lesson, examPart = false }: { lesson: Lesson; examPart?: boolean }) {
   const t = useTranslations("editor");
   const [title_de, setTitleDe] = useState(lesson.title_de);
   const [title_en, setTitleEn] = useState(lesson.title_en);
@@ -28,7 +28,7 @@ export function LessonEditor({ lesson }: { lesson: Lesson }) {
   async function save() {
     setSaving(true);
     setStatus(null);
-    const res = await saveLesson({ id: lesson.id, title_de, title_en, sort, published, content: clean(content, kind) });
+    const res = await saveLesson({ id: lesson.id, title_de, title_en, sort, published, content: clean(content, kind, examPart) });
     setSaving(false);
     setStatus({ ok: !res.error, issues: res.issues });
   }
@@ -43,8 +43,36 @@ export function LessonEditor({ lesson }: { lesson: Lesson }) {
     else setStatus({ ok: false, issues: [error.message] });
   }
 
+  const audioField = (
+    <div>
+      <span className="label">{t("audio")}</span>
+      <div className="flex flex-wrap items-center gap-3">
+        <input type="file" accept="audio/*" disabled={uploading} onChange={(e) => e.target.files?.[0] && uploadAudio(e.target.files[0])} className="text-sm" aria-label={t("audio")} />
+        {content.audio_path && (
+          <>
+            <span className="text-xs text-muted">{content.audio_path}</span>
+            <button type="button" className="text-sm text-danger underline" onClick={() => set("audio_path", null)}>{t("removeAudio")}</button>
+          </>
+        )}
+      </div>
+      <span className="mt-1 block text-xs text-muted">{t("audioHint")}</span>
+    </div>
+  );
+
   return (
     <div className="space-y-6">
+      {examPart && (
+        <section className="card grid gap-4 border-accent sm:grid-cols-3">
+          <p className="text-sm text-muted sm:col-span-3">{t("examPartHint")}</p>
+          <Field label={t("timeMinutes")}><input className="input w-28" type="number" min={1} max={180} value={content.time_minutes ?? ""} onChange={(e) => set("time_minutes", e.target.value ? Number(e.target.value) : undefined)} /></Field>
+          {(kind === "listening" || kind === "dialogue") && (
+            <Field label={t("maxPlays")} hint={t("maxPlaysHint")}><input className="input w-28" type="number" min={0} max={10} value={content.max_plays ?? 2} onChange={(e) => set("max_plays", Number(e.target.value))} /></Field>
+          )}
+          {usesTask.includes(kind) && (
+            <Field label={t("maxPoints")}><input className="input w-28" type="number" min={1} max={100} value={content.max_points ?? 10} onChange={(e) => set("max_points", Number(e.target.value))} /></Field>
+          )}
+        </section>
+      )}
       <section className="card grid gap-4 sm:grid-cols-2">
         <Field label={t("titleDe")}><input className="input" value={title_de} onChange={(e) => setTitleDe(e.target.value)} /></Field>
         <Field label={t("titleEn")}><input className="input" value={title_en} onChange={(e) => setTitleEn(e.target.value)} /></Field>
@@ -87,24 +115,17 @@ export function LessonEditor({ lesson }: { lesson: Lesson }) {
           <Field label={t("transcript")} hint={t("transcriptHint")}>
             <textarea className="input min-h-40" value={content.transcript ?? ""} onChange={(e) => set("transcript", e.target.value)} />
           </Field>
-          <div>
-            <span className="label">{t("audio")}</span>
-            <div className="flex flex-wrap items-center gap-3">
-              <input type="file" accept="audio/*" disabled={uploading} onChange={(e) => e.target.files?.[0] && uploadAudio(e.target.files[0])} className="text-sm" aria-label={t("audio")} />
-              {content.audio_path && (
-                <>
-                  <span className="text-xs text-muted">{content.audio_path}</span>
-                  <button type="button" className="text-sm text-danger underline" onClick={() => set("audio_path", null)}>{t("removeAudio")}</button>
-                </>
-              )}
-            </div>
-            <span className="mt-1 block text-xs text-muted">{t("audioHint")}</span>
-          </div>
+          {audioField}
         </section>
       )}
 
       {kind === "vocabulary" && <VocabEditor items={content.items ?? []} onChange={(items) => set("items", items)} />}
-      {kind === "dialogue" && <LinesEditor lines={content.lines ?? []} onChange={(lines) => set("lines", lines)} />}
+      {kind === "dialogue" && (
+        <>
+          <LinesEditor lines={content.lines ?? []} onChange={(lines) => set("lines", lines)} />
+          <section className="card">{audioField}</section>
+        </>
+      )}
       {usesQuestions.includes(kind) && <QuestionsEditor questions={content.questions ?? []} onChange={(q: Question[]) => set("questions", q)} />}
 
       <div className="sticky bottom-20 z-10 flex flex-wrap items-center gap-3 rounded-lg border border-line bg-surface p-3 shadow-md md:bottom-4">
@@ -133,7 +154,7 @@ function Field({ label, hint, children }: { label: string; hint?: string; childr
 }
 
 // Leere Zeilen und Felder entfernen, die für den Übungstyp nicht gebraucht werden.
-function clean(c: LessonContent, kind: Lesson["kind"]): LessonContent {
+function clean(c: LessonContent, kind: Lesson["kind"], examPart: boolean): LessonContent {
   const out: LessonContent = { intro_de: c.intro_de ?? "", intro_en: c.intro_en ?? "" };
   if (kind === "reading" || usesTask.includes(kind)) out.text = c.text ?? "";
   if (kind === "listening") {
@@ -141,7 +162,10 @@ function clean(c: LessonContent, kind: Lesson["kind"]): LessonContent {
     out.audio_path = c.audio_path ?? null;
   }
   if (kind === "vocabulary") out.items = (c.items ?? []).filter((i) => i.term.trim() && i.en.trim());
-  if (kind === "dialogue") out.lines = (c.lines ?? []).filter((l) => l.speaker.trim() && l.text.trim());
+  if (kind === "dialogue") {
+    out.lines = (c.lines ?? []).filter((l) => l.speaker.trim() && l.text.trim());
+    out.audio_path = c.audio_path ?? null;
+  }
   if (usesQuestions.includes(kind)) out.questions = c.questions ?? [];
   if (usesTask.includes(kind)) {
     out.task_de = c.task_de ?? "";
@@ -149,6 +173,11 @@ function clean(c: LessonContent, kind: Lesson["kind"]): LessonContent {
     out.hints = (c.hints ?? []).map((h) => h.trim()).filter(Boolean);
     if (kind === "writing") out.min_words = c.min_words ?? 80;
     else out.max_seconds = c.max_seconds ?? 120;
+  }
+  if (examPart) {
+    if (c.time_minutes) out.time_minutes = c.time_minutes;
+    if (kind === "listening" || kind === "dialogue") out.max_plays = c.max_plays ?? 2;
+    if (usesTask.includes(kind)) out.max_points = c.max_points ?? 10;
   }
   return out;
 }

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getLocale, getTranslations } from "next-intl/server";
 import { requireStaff } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import { resolveAudioUrl } from "@/lib/media";
 import { pick, type Lesson, type Locale } from "@/lib/types";
 import { KindBadge } from "@/components/KindBadge";
 import { LessonPlayer } from "@/components/lesson/LessonPlayer";
@@ -18,11 +19,7 @@ export default async function LessonPreviewPage({ params }: { params: Promise<{ 
   if (!data) notFound();
   const lesson = data as Lesson;
 
-  let audioUrl: string | null = null;
-  if (lesson.content.audio_path) {
-    const { data: signed } = await supabase.storage.from("fsp-media").createSignedUrl(lesson.content.audio_path, 3600);
-    audioUrl = signed?.signedUrl ?? null;
-  }
+  const audioUrl = await resolveAudioUrl(supabase, lesson.content.audio_path);
 
   const glossaryTerms = await getLessonTerms(lesson);
 

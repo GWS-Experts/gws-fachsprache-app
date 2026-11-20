@@ -8,6 +8,8 @@ import { createAdminClient, hasAdminKey } from "@/lib/supabase/admin";
 import { createClient } from "@/lib/supabase/server";
 import { mailConfigured, sendMail } from "@/lib/mail";
 import { siteUrl } from "@/lib/env";
+import { AI_MODEL, aiConfigured, generateFeedbackDraft } from "@/lib/ai";
+import type { Lesson } from "@/lib/types";
 
 export type InviteState = { error?: string; success?: string; link?: string } | undefined;
 
@@ -107,4 +109,28 @@ export async function saveFeedback(_prev: InviteState, formData: FormData): Prom
   revalidatePath("/admin/submissions");
   revalidatePath(`/admin/customers/${data.user_id}`);
   return { success: "saved" };
+}
+
+export type DraftState = { error?: "noKey" | "noText" | "generic"; draft?: string } | undefined;
+
+// Erstellt (oder erneuert) einen KI-Korrekturvorschlag für eine Schreibabgabe.
+// Der Vorschlag ist nur für GWS sichtbar, bis er als Feedback gespeichert wird.
+export async function createFeedbackDraft(_prev: DraftState, formData: FormData): Promise<DraftState> {
+  const staff = await requireStaff();
+  if (!aiConfigured()) return { error: "noKey" };
+  const id = z.string().uuid().safeParse(formData.get("id"));
+  if (!id.success) return { error: "generic" };
+  const supabase = await createClient();
+  const { data: sub } = await supabase.from("submissions").select("id, user_id, lesson_id, text").eq("id", id.data).maybeSingle();
+  if (!sub) return { error: "generic" };
+  if (!sub.text?.trim()) return { error: "noText" };
+  const { data: lesson } = await supabase.from("lessons").select("*").eq("id", sub.lesson_id).maybeSingle();
+
+  const draft = await generateFeedbackDraft({ lesson: (lesson as Lesson | null) ?? undefined, text: sub.text });
+  if (!draft) return { error: "generic" };
+  await supabase
+    .from("feedback_drafts")
+    .upsert({ submission_id: sub.id, draft, model: AI_MODEL, created_by: staff.id, created_at: new Date().toISOString() });
+  revalidatePath(`/admin/customers/${sub.user_id}`);
+  return { draft };
 }

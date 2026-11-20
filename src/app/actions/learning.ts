@@ -1,9 +1,13 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
+import { after } from "next/server";
 import { z } from "zod";
 import { requireCustomer } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import { createAdminClient, hasAdminKey } from "@/lib/supabase/admin";
+import { AI_MODEL, aiConfigured, generateFeedbackDraft } from "@/lib/ai";
+import type { Lesson } from "@/lib/types";
 
 const progressSchema = z.object({
   lessonId: z.string().uuid(),
@@ -44,12 +48,28 @@ export async function submitWork(input: z.input<typeof submissionSchema>) {
   if (v.audioPath && !v.audioPath.startsWith(`${profile.id}/`)) return { ok: false };
 
   const supabase = await createClient();
-  const { error } = await supabase.from("submissions").insert({
-    lesson_id: v.lessonId,
-    text: v.text || null,
-    audio_path: v.audioPath || null,
-  });
+  const { data: created, error } = await supabase
+    .from("submissions")
+    .insert({
+      lesson_id: v.lessonId,
+      text: v.text || null,
+      audio_path: v.audioPath || null,
+    })
+    .select("id")
+    .single();
   if (error) return { ok: false };
+
+  // Schreibabgabe: KI-Korrekturvorschlag im Hintergrund vorbereiten, damit er
+  // für GWS schon bereitliegt. Kunden sehen ihn nicht (nur GWS hat Zugriff).
+  const text = v.text;
+  if (text && aiConfigured() && hasAdminKey()) {
+    after(async () => {
+      const admin = createAdminClient();
+      const { data: lesson } = await admin.from("lessons").select("*").eq("id", v.lessonId).maybeSingle();
+      const draft = await generateFeedbackDraft({ lesson: (lesson as Lesson | null) ?? undefined, text });
+      if (draft) await admin.from("feedback_drafts").upsert({ submission_id: created.id, draft, model: AI_MODEL });
+    });
+  }
   await supabase.from("progress").insert({
     user_id: profile.id,
     lesson_id: v.lessonId,

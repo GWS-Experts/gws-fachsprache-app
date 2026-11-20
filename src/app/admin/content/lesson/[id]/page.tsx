@@ -17,6 +17,7 @@ export default async function LessonEditPage({ params }: { params: Promise<{ id:
   const { data } = await supabase.from("lessons").select("*").eq("id", id).maybeSingle();
   if (!data) notFound();
   const lesson = data as Lesson;
+  const { data: exam } = await supabase.from("exams").select("id").eq("module_id", lesson.module_id).maybeSingle();
 
   return (
     <div className="space-y-6">
@@ -25,7 +26,7 @@ export default async function LessonEditPage({ params }: { params: Promise<{ id:
         <h1 className="text-2xl font-bold text-primary">{lesson.title_de}</h1>
         <KindBadge kind={lesson.kind} />
       </header>
-      <LessonEditor lesson={lesson} />
+      <LessonEditor lesson={lesson} examPart={Boolean(exam)} />
       <form action={deleteLesson} className="text-right">
         <input type="hidden" name="id" value={lesson.id} />
         <ConfirmButton message={t("confirmDelete")} className="btn-danger">{t("delete")}</ConfirmButton>

@@ -20,11 +20,22 @@ export default async function ModuleEditPage({ params }: { params: Promise<{ mod
   if (!data) notFound();
   const mod = data as Module;
   const lessons = await getLessons(moduleId);
+  const { data: exam } = await supabase.from("exams").select("id, title_de").eq("module_id", moduleId).maybeSingle();
+  const tExam = await getTranslations("examAdmin");
 
   return (
     <div className="space-y-6">
-      <Link href="/admin/content" className="text-sm font-semibold text-primary hover:underline">← {t("allModules")}</Link>
-      <ModuleForm module={mod} />
+      {exam ? (
+        <>
+          <Link href={`/admin/exams/${exam.id}`} className="text-sm font-semibold text-primary hover:underline">← {tExam("backToExam")}</Link>
+          <p className="rounded-md border-l-4 border-accent bg-accent-light px-4 py-3 text-sm">{tExam("moduleHint", { title: exam.title_de })}</p>
+        </>
+      ) : (
+        <>
+          <Link href="/admin/content" className="text-sm font-semibold text-primary hover:underline">← {t("allModules")}</Link>
+          <ModuleForm module={mod} />
+        </>
+      )}
       <section className="space-y-3">
         <h2 className="text-xl font-bold text-primary">{t("lessons")}</h2>
         {lessons.length === 0 && <p className="card text-sm text-muted">{t("noLessons")}</p>}

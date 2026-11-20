@@ -68,6 +68,10 @@ export interface LessonContent {
   hints?: string[];
   min_words?: number;
   max_seconds?: number;
+  // Nur für Prüfungsteile (Probeprüfung): Zeit in Minuten, erlaubte Hördurchgänge, Punkte für Schreiben/Sprechen.
+  time_minutes?: number;
+  max_plays?: number;
+  max_points?: number;
 }
 
 export interface Progress {
