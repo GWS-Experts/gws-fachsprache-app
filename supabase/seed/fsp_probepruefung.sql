@@ -1,5 +1,5 @@
 -- Probeprüfung 1 (Fachsprache Pflege B2) für die Prüfungssimulation.
--- Voraussetzung: Migration 20261120210000_fsp_exams.sql ist eingespielt.
+-- Voraussetzung: Migration 20261120220000_fsp_exams.sql ist eingespielt.
 -- Die Prüfungsteile sind Lektionen eines eigenen, unveröffentlichten Moduls; sichtbar werden sie über die
 -- veröffentlichte Prüfung. Kann mehrfach ausgeführt werden.
 

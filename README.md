@@ -25,7 +25,7 @@ Die Logins (Supabase Auth) teilen sich beide Apps; Zugang zur Trainings-App hat 
 - `supabase/seed/fsp_beispielinhalte.sql` – 3 Beispielmodule mit 15 Lektionen
 - `supabase/seed/fsp_neue_module.sql` – 5 weitere Module (Schichtübergabe, Pflegedokumentation, Telefonat mit dem Arzt,
   Angehörigengespräch, Pflegebericht) mit 30 Lektionen
-- `supabase/seed/fsp_probepruefung.sql` – Probeprüfung 1 mit 10 Teilen (benötigt Migration `20261120210000_fsp_exams.sql`)
+- `supabase/seed/fsp_probepruefung.sql` – Probeprüfung 1 mit 10 Teilen (benötigt Migration `20261120220000_fsp_exams.sql`)
 - `supabase/seed/fsp_audio_beispielinhalte.sql` – verknüpft die Beispiellektionen mit den fertigen Audiodateien
 - `supabase/seed/fsp_fachbegriffe.sql` – Fachwortschatz Pflege (698 Begriffe in 21 Themen) für Glossar und Vokabeltrainer; Quelle: `supabase/seed/fachbegriffe/*.txt`, neu erzeugen mit `node scripts/build-fachbegriffe-seed.mjs supabase/seed/fachbegriffe supabase/seed/fsp_fachbegriffe.sql`
 
