@@ -3,17 +3,9 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import type { Question } from "@/lib/types";
+import { isCorrect } from "@/lib/questions";
 
-function normalize(s: string) {
-  return s.trim().toLowerCase().replace(/\s+/g, " ").replace(/[.!?,;:]$/, "");
-}
-
-export function isCorrect(q: Question, answer: string | number | undefined) {
-  if (answer === undefined || answer === "") return false;
-  if (q.type === "mc") return answer === q.answer;
-  const given = normalize(String(answer));
-  return [q.answer, ...(q.alternatives ?? [])].some((a) => normalize(a) === given);
-}
+export { isCorrect };
 
 export function QuestionSet({ questions, onComplete }: { questions: Question[]; onComplete: (score: number, max: number) => void }) {
   const t = useTranslations("lesson");

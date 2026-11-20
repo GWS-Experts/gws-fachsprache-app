@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import type { Question } from "@/lib/types";
 import { QuestionSet } from "./QuestionSet";
-import { speak, stopSpeaking, useSpeechSupported } from "./speech";
+import { speakScript, stopSpeaking, useSpeechSupported } from "./speech";
 
 export function Listening({
   transcript,
@@ -27,7 +27,7 @@ export function Listening({
   function play(rate: number) {
     setPlays((p) => p + 1);
     setPlaying(true);
-    speak(transcript, { rate, onEnd: () => setPlaying(false) });
+    speakScript(transcript, { rate, onEnd: () => setPlaying(false) });
   }
 
   return (

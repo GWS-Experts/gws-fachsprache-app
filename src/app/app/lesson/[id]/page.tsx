@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getLocale, getTranslations } from "next-intl/server";
 import { requireCustomer } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import { resolveAudioUrl } from "@/lib/media";
 import { pick, type Lesson, type Locale, type Submission } from "@/lib/types";
 import { KindBadge } from "@/components/KindBadge";
 import { LessonPlayer } from "@/components/lesson/LessonPlayer";
@@ -23,11 +24,7 @@ export default async function LessonPage({ params }: { params: Promise<{ id: str
   const index = (siblings ?? []).findIndex((s) => s.id === lesson.id);
   const nextId = siblings?.[index + 1]?.id ?? null;
 
-  let audioUrl: string | null = null;
-  if (lesson.content.audio_path) {
-    const { data: signed } = await supabase.storage.from("fsp-media").createSignedUrl(lesson.content.audio_path, 60 * 60);
-    audioUrl = signed?.signedUrl ?? null;
-  }
+  const audioUrl = await resolveAudioUrl(supabase, lesson.content.audio_path);
 
   let submissions: Submission[] = [];
   if (lesson.kind === "writing" || lesson.kind === "speaking") {
