@@ -190,7 +190,18 @@
     "messages": "Messages",
     "open": "{count} open",
     "empty": "No customers found.",
-    "staffTitle": "GWS staff"
+    "staffTitle": "GWS staff",
+    "readiness": "Readiness",
+    "parts": "Exam parts",
+    "status": "Status",
+    "allStatuses": "All",
+    "openWork": "Open",
+    "openSubmissions": "{count} submission(s)",
+    "sortBy": "Sort",
+    "sortName": "Name",
+    "sortReadiness": "Readiness",
+    "sortActivity": "Last active",
+    "partsHint": "🎧 Listening, 📖 Reading, ✍️ Writing, 🎙️ Speaking. Green = well practised, blue = started, red = not practised yet."
   },
   "invite": {
     "title": "Invite a customer",
@@ -226,7 +237,8 @@
     "email": "Email",
     "save": "Save",
     "saved": "Saved.",
-    "error": "That did not work."
+    "error": "That did not work.",
+    "readiness": "Exam readiness"
   },
   "inbox": {
     "title": "Messages",
@@ -246,7 +258,18 @@
     "save": "Save feedback",
     "saved": "Saved, the customer will be notified.",
     "error": "Saving failed.",
-    "pending": "waiting for feedback"
+    "pending": "waiting for feedback",
+    "aiBadge": "AI suggestion – not released yet",
+    "aiHint": "This suggestion was written by AI. Please check and adjust it. The customer only sees it after you click “Review and release”.",
+    "aiCreate": "🤖 Create AI suggestion",
+    "aiRedo": "🤖 New AI suggestion",
+    "aiWorking": "AI is writing …",
+    "release": "Review and release",
+    "aiErrors": {
+      "noKey": "ANTHROPIC_API_KEY is missing on the server.",
+      "noText": "Only possible for written submissions.",
+      "generic": "The AI suggestion could not be created. Please try again later."
+    }
   },
   "content": {
     "title": "Learning content",
@@ -564,5 +587,29 @@
     "pointsError": "Please enter valid points.",
     "deleteAttempt": "Delete attempt",
     "confirmDeleteAttempt": "Really delete this exam attempt?"
+  },
+  "readiness": {
+    "title": "Exam readiness",
+    "score": "Readiness (0–100)",
+    "lessons": "Lessons done",
+    "avg": "Avg. best result",
+    "partDone": "{done} of {total} lessons",
+    "partNone": "no lessons",
+    "partScore": "avg. {score} %",
+    "status": {
+      "ready": "Exam ready",
+      "onTrack": "On track",
+      "behind": "Needs help",
+      "inactive": "Inactive"
+    },
+    "reasons": {
+      "idle": "Has not studied for more than 14 days.",
+      "neverStarted": "Has not started studying yet.",
+      "lowScore": "Exercise results are below 60 %.",
+      "manyWeak": "At least 3 lessons below 70 % – needs revision.",
+      "lessonsMissing": "Less than 80 % of lessons done.",
+      "partsMissing": "At least one exam part (listening, reading, writing, speaking) not practised yet."
+    },
+    "rule": "Exam ready = at least 80 % of lessons done, average result at least 75 % and all four exam parts practised."
   }
 }
