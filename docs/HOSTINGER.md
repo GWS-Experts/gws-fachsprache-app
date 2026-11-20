@@ -31,6 +31,7 @@ aus `/var/www/gws/.env.local` neu.
 | `SMTP_PASSWORD` | Passwort dieses Postfachs | dito | **ja** |
 | `SMTP_FROM` | leer lassen oder `"GWS Fachsprache <dieselbe Adresse wie SMTP_USER>"` | Absenderzeile | nein |
 | `STAFF_NOTIFY_EMAIL` | GWS-Postfach | bekommt Hinweise auf neue Kundennachrichten | nein |
+| `ANTHROPIC_API_KEY` | `sk-ant-…` | platform.claude.com → Settings → API Keys | **ja**, nur auf dem Server |
 
 Wichtig: Variablen mit `NEXT_PUBLIC_` werden beim **Build** in die App übernommen. Nach jeder Änderung
 an `.env.local` daher `bash /var/www/gws/scripts/deploy.sh` ausführen.
@@ -45,6 +46,10 @@ Das zeigt, welche Werte fehlen, meldet sich beim Mailserver an und schickt eine 
 
 Ohne die SMTP-Werte funktioniert die App trotzdem: Einladungslinks werden dann im GWS-Bereich zum
 Kopieren angezeigt, und es werden keine Benachrichtigungen verschickt.
+
+Ohne `ANTHROPIC_API_KEY` funktioniert die App ebenfalls, nur ohne KI-Korrekturvorschläge für
+Schreibabgaben. Der Schlüssel wird nicht beim Build gebraucht, nach dem Eintragen reicht
+`pm2 restart gws --update-env`.
 
 ## 2. Supabase einmalig einstellen
 

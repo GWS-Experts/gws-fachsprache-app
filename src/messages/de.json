@@ -188,7 +188,18 @@
     "messages": "Nachrichten",
     "open": "{count} offen",
     "empty": "Keine Kunden gefunden.",
-    "staffTitle": "GWS-Mitarbeiter"
+    "staffTitle": "GWS-Mitarbeiter",
+    "readiness": "Bereitschaft",
+    "parts": "Prüfungsteile",
+    "status": "Status",
+    "allStatuses": "Alle",
+    "openWork": "Offen",
+    "openSubmissions": "{count} Abgabe(n)",
+    "sortBy": "Sortieren",
+    "sortName": "Name",
+    "sortReadiness": "Bereitschaft",
+    "sortActivity": "Zuletzt aktiv",
+    "partsHint": "🎧 Hören, 📖 Lesen, ✍️ Schreiben, 🎙️ Sprechen. Grün = gut geübt, blau = begonnen, rot = noch nicht geübt."
   },
   "invite": {
     "title": "Kunden einladen",
@@ -224,7 +235,8 @@
     "email": "E-Mail",
     "save": "Speichern",
     "saved": "Gespeichert.",
-    "error": "Das hat nicht geklappt."
+    "error": "Das hat nicht geklappt.",
+    "readiness": "Prüfungsbereitschaft"
   },
   "inbox": {
     "title": "Nachrichten",
@@ -244,7 +256,18 @@
     "save": "Feedback speichern",
     "saved": "Gespeichert, Kunde wird benachrichtigt.",
     "error": "Speichern fehlgeschlagen.",
-    "pending": "wartet auf Feedback"
+    "pending": "wartet auf Feedback",
+    "aiBadge": "KI-Vorschlag – noch nicht freigegeben",
+    "aiHint": "Diesen Vorschlag hat die KI erstellt. Bitte prüfen und anpassen. Der Kunde sieht ihn erst, wenn du auf „Prüfen und freigeben“ klickst.",
+    "aiCreate": "🤖 KI-Vorschlag erstellen",
+    "aiRedo": "🤖 Neuen KI-Vorschlag",
+    "aiWorking": "KI schreibt …",
+    "release": "Prüfen und freigeben",
+    "aiErrors": {
+      "noKey": "Für KI-Vorschläge fehlt der ANTHROPIC_API_KEY auf dem Server.",
+      "noText": "Nur für Schreibabgaben mit Text möglich.",
+      "generic": "Der KI-Vorschlag konnte nicht erstellt werden. Bitte später erneut versuchen."
+    }
   },
   "content": {
     "title": "Lerninhalte",
@@ -424,5 +447,29 @@
     "importSubmit": "Einfügen",
     "imported": "{count, plural, one {# Begriff} other {# Begriffe}} gespeichert.",
     "importLineError": "Diese Zeile konnte nicht gelesen werden (Artikel muss der, die, das oder leer sein): {line}"
+  },
+  "readiness": {
+    "title": "Prüfungsbereitschaft",
+    "score": "Bereitschaft (0–100)",
+    "lessons": "Lektionen erledigt",
+    "avg": "Ø bestes Ergebnis",
+    "partDone": "{done} von {total} Lektionen",
+    "partNone": "keine Lektionen",
+    "partScore": "Ø {score} %",
+    "status": {
+      "ready": "Prüfungsbereit",
+      "onTrack": "Auf Kurs",
+      "behind": "Braucht Hilfe",
+      "inactive": "Inaktiv"
+    },
+    "reasons": {
+      "idle": "Seit mehr als 14 Tagen nicht mehr gelernt.",
+      "neverStarted": "Hat noch nicht mit dem Lernen begonnen.",
+      "lowScore": "Ergebnisse in den Übungen liegen unter 60 %.",
+      "manyWeak": "Mindestens 3 Lektionen unter 70 % – Wiederholung nötig.",
+      "lessonsMissing": "Noch weniger als 80 % der Lektionen erledigt.",
+      "partsMissing": "Mindestens ein Prüfungsteil (Hören, Lesen, Schreiben, Sprechen) noch gar nicht geübt."
+    },
+    "rule": "Prüfungsbereit = mindestens 80 % der Lektionen erledigt, Ø Ergebnis mindestens 75 % und alle vier Prüfungsteile geübt."
   }
 }

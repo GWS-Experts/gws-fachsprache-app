@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { pick, type Lesson, type Locale, type Submission } from "@/lib/types";
 import { FeedbackForm } from "@/components/FeedbackForm";
 import { KindBadge } from "@/components/KindBadge";
+import { aiConfigured } from "@/lib/ai";
 
 type Row = Submission & { lesson?: Lesson; customerName?: string };
 
@@ -18,6 +19,15 @@ export async function FeedbackList({ submissions }: { submissions: Row[] }) {
     const { data } = await supabase.storage.from("fsp-recordings").createSignedUrls(paths, 60 * 60);
     data?.forEach((d) => d.path && d.signedUrl && urls.set(d.path, d.signedUrl));
   }
+
+  // KI-Vorschläge (nur für GWS lesbar, RLS)
+  const drafts = new Map<string, string>();
+  const ids = submissions.filter((s) => s.text).map((s) => s.id);
+  if (ids.length) {
+    const { data } = await supabase.from("feedback_drafts").select("submission_id, draft").in("submission_id", ids);
+    data?.forEach((d) => drafts.set(d.submission_id, d.draft));
+  }
+  const ai = aiConfigured();
 
   if (submissions.length === 0) return <p className="card text-sm text-muted">{t("empty")}</p>;
 
@@ -36,7 +46,7 @@ export async function FeedbackList({ submissions }: { submissions: Row[] }) {
           {s.lesson?.content.task_de && <p className="rounded-md bg-page px-3 py-2 text-xs text-muted">{s.lesson.content.task_de}</p>}
           {s.text && <p className="whitespace-pre-line text-sm">{s.text}</p>}
           {s.audio_path && urls.get(s.audio_path) && <audio controls src={urls.get(s.audio_path)} className="w-full" />}
-          <FeedbackForm id={s.id} initial={s.feedback ?? ""} />
+          <FeedbackForm id={s.id} initial={s.feedback ?? ""} draft={drafts.get(s.id) ?? ""} canDraft={ai && Boolean(s.text)} />
         </li>
       ))}
     </ul>
