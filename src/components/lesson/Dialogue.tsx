@@ -2,17 +2,22 @@
 
 import { useTranslations } from "next-intl";
 import type { DialogueLine } from "@/lib/types";
-import { speak, useSpeechSupported } from "./speech";
+import { speak, speakLines, useSpeechSupported } from "./speech";
 
-export function Dialogue({ lines }: { lines: DialogueLine[] }) {
+export function Dialogue({ lines, audioUrl }: { lines: DialogueLine[]; audioUrl?: string | null }) {
   const t = useTranslations("lesson");
   const canSpeak = useSpeechSupported();
   const speakers = [...new Set(lines.map((l) => l.speaker))];
 
   return (
     <div className="card space-y-3">
-      {canSpeak && (
-        <button className="btn-outline" onClick={() => speak(lines.map((l) => l.text).join(" "))}>🔊 {t("playDialogue")}</button>
+      {audioUrl ? (
+        <div>
+          <p className="mb-1 text-sm font-semibold text-primary">🔊 {t("playDialogue")}</p>
+          <audio controls src={audioUrl} className="w-full" />
+        </div>
+      ) : canSpeak && (
+        <button className="btn-outline" onClick={() => speakLines(lines)}>🔊 {t("playDialogue")}</button>
       )}
       <ul className="space-y-3">
         {lines.map((line, i) => {

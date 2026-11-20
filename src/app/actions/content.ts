@@ -128,6 +128,9 @@ const contentSchema = z.object({
   hints: z.array(z.string().trim().min(1)).optional(),
   min_words: z.number().int().min(0).max(2000).optional(),
   max_seconds: z.number().int().min(10).max(900).optional(),
+  time_minutes: z.number().int().min(1).max(180).optional(),
+  max_plays: z.number().int().min(0).max(10).optional(),
+  max_points: z.number().int().min(1).max(100).optional(),
 });
 
 const lessonSchema = z.object({

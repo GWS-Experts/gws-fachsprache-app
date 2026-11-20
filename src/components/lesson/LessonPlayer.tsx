@@ -89,7 +89,7 @@ export function LessonPlayer({ lesson, locale, userId, audioUrl, nextHref, previ
       {lesson.kind === "quiz" && <QuestionSet questions={questions} onComplete={complete} />}
       {lesson.kind === "dialogue" && (
         <>
-          <Dialogue lines={c.lines ?? []} />
+          <Dialogue lines={c.lines ?? []} audioUrl={audioUrl} />
           {questions.length > 0 ? <QuestionSet questions={questions} onComplete={complete} /> : (
             <button className="btn-primary" onClick={() => complete(0, 0)}>{t("finish")}</button>
           )}
