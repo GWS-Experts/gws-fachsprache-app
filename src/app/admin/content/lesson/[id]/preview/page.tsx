@@ -6,6 +6,7 @@ import { createClient } from "@/lib/supabase/server";
 import { pick, type Lesson, type Locale } from "@/lib/types";
 import { KindBadge } from "@/components/KindBadge";
 import { LessonPlayer } from "@/components/lesson/LessonPlayer";
+import { getLessonTerms } from "@/lib/lesson-terms";
 
 export default async function LessonPreviewPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -23,6 +24,8 @@ export default async function LessonPreviewPage({ params }: { params: Promise<{ 
     audioUrl = signed?.signedUrl ?? null;
   }
 
+  const glossaryTerms = await getLessonTerms(lesson);
+
   return (
     <div className="mx-auto max-w-3xl space-y-6">
       <Link href={`/admin/content/lesson/${lesson.id}`} className="text-sm font-semibold text-primary hover:underline">← {t("backToEditor")}</Link>
@@ -31,7 +34,7 @@ export default async function LessonPreviewPage({ params }: { params: Promise<{ 
         <KindBadge kind={lesson.kind} />
         <h1 className="text-2xl font-bold text-primary">{pick(lesson, "title", locale)}</h1>
       </header>
-      <LessonPlayer lesson={lesson} locale={locale} userId={staff.id} audioUrl={audioUrl} nextHref={`/admin/content/lesson/${lesson.id}`} preview />
+      <LessonPlayer lesson={lesson} locale={locale} userId={staff.id} audioUrl={audioUrl} glossaryTerms={glossaryTerms} nextHref={`/admin/content/lesson/${lesson.id}`} preview />
     </div>
   );
 }

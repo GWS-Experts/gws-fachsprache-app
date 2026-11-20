@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import type { Question } from "@/lib/types";
 import { QuestionSet } from "./QuestionSet";
 import { speak, stopSpeaking, useSpeechSupported } from "./speech";
+import { LinkedText } from "@/components/glossary/LinkedText";
 
 export function Listening({
   transcript,
@@ -56,7 +57,7 @@ export function Listening({
             {showTranscript ? t("hideTranscript") : t("showTranscript")}
           </button>
         )}
-        {showTranscript && <p className="whitespace-pre-line rounded-md bg-primary-light p-3 text-sm">{transcript}</p>}
+        {showTranscript && <p className="whitespace-pre-line rounded-md bg-primary-light p-3 text-sm"><LinkedText text={transcript} /></p>}
       </div>
       <QuestionSet
         questions={questions}

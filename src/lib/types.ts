@@ -135,6 +135,8 @@ export interface GlossaryTerm {
   en: string;
   example: string;
   sort: number;
+  // Aussprache-Aufnahme im Bucket fsp-media (optional)
+  audio_path?: string | null;
 }
 
 export interface GlossaryReview {

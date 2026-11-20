@@ -6,15 +6,14 @@ import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import type { GlossaryTerm } from "@/lib/types";
 import { recordGlossaryReview } from "@/app/actions/glossary";
-import { speak, useSpeechSupported } from "@/components/lesson/speech";
-import { TermHeading, termLabel } from "./TermCard";
+import { TermHeading } from "./TermCard";
+import { PronounceButtons } from "./Pronounce";
 
 type Direction = "term" | "meaning";
 
 export function GlossaryTrainer({ cards, backHref }: { cards: GlossaryTerm[]; backHref: string }) {
   const t = useTranslations("glossary");
   const router = useRouter();
-  const canSpeak = useSpeechSupported();
   const [deck, setDeck] = useState(cards);
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
@@ -140,11 +139,7 @@ export function GlossaryTrainer({ cards, backHref }: { cards: GlossaryTerm[]; ba
         )}
       </button>
       <div className="flex flex-wrap items-center gap-3">
-        {canSpeak && (showTermFirst || flipped) && (
-          <button type="button" className="btn-outline" onClick={() => speak(card.example ? `${termLabel(card)}. ${card.example}` : termLabel(card))}>
-            🔊 {t("listen")}
-          </button>
-        )}
+        {(showTermFirst || flipped) && <PronounceButtons key={card.id} term={card} size="md" withExample={flipped} />}
         {flipped ? (
           <>
             <button type="button" className="btn-outline" onClick={() => answer(false)}>{t("didntKnow")}</button>

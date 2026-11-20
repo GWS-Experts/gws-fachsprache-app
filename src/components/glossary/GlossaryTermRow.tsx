@@ -7,6 +7,7 @@ import { ConfirmButton } from "@/components/ConfirmButton";
 import type { GlossaryTerm } from "@/lib/types";
 import { TermHeading } from "./TermCard";
 import { GlossaryTermForm } from "./GlossaryAdminForms";
+import { TermAudioEditor } from "./TermAudioEditor";
 
 export function GlossaryTermRow({ term }: { term: GlossaryTerm }) {
   const t = useTranslations("glossaryAdmin");
@@ -17,7 +18,7 @@ export function GlossaryTermRow({ term }: { term: GlossaryTerm }) {
       <div className="flex items-start gap-3">
         <span className="w-8 shrink-0 pt-0.5 text-center text-sm font-bold text-muted">{term.sort}</span>
         <div className="min-w-0 flex-1">
-          <p className="font-semibold"><TermHeading term={term} /></p>
+          <p className="font-semibold"><TermHeading term={term} />{term.audio_path && <span className="ml-2 text-sm" title={t("hasAudio")}>🎙️</span>}</p>
           {!open && (
             <p className="mt-0.5 truncate text-sm text-muted">
               {[term.plural, term.explanation, term.en].filter(Boolean).join(" · ")}
@@ -31,6 +32,7 @@ export function GlossaryTermRow({ term }: { term: GlossaryTerm }) {
       {open && (
         <div className="mt-4 space-y-3 border-t border-line pt-4">
           <GlossaryTermForm topicId={term.topic_id} term={term} />
+          <TermAudioEditor term={term} />
           <form action={deleteGlossaryTerm} className="text-right">
             <input type="hidden" name="id" value={term.id} />
             <ConfirmButton message={t("confirmDeleteTerm")} className="btn-danger px-3 py-1.5">{t("deleteTerm")}</ConfirmButton>
