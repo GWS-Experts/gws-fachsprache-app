@@ -19,7 +19,7 @@ export const LEGAL = {
   contentResponsible: "Dr. Dr. Agata Ehrhard, Nordring 8a, 85417 Marzling",
   // Datenschutzbeauftragte(r) – nur eintragen, wenn förmlich jemand benannt ist; sonst "" lassen.
   // Die Geschäftsführung selbst kann diese Rolle nicht übernehmen (Interessenkonflikt).
-  dataProtectionOfficer: "",
+  dataProtectionOfficer: "Robert Zedelmair, c/o GWS language GmbH, Nordring 8a, 85417 Marzling",
   // Zuständige Datenschutz-Aufsichtsbehörde (für Firmen in Bayern das BayLDA)
   supervisoryAuthority: "Bayerisches Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522 Ansbach",
   // Standort des App-Servers bei Hostinger

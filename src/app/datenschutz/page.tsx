@@ -26,7 +26,9 @@ export default function PrivacyPage() {
       </p>
       {LEGAL.dataProtectionOfficer && (
         <p>
-          <strong>Datenschutzbeauftragte(r):</strong> {LEGAL.dataProtectionOfficer}
+          <strong>Datenschutzbeauftragter:</strong> {LEGAL.dataProtectionOfficer}
+          <br />
+          Du erreichst ihn per Post unter dieser Anschrift (Vermerk „Datenschutz“) oder über eine Nachricht in der App.
         </p>
       )}
 
