@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "mail:test": "node --env-file=.env.local scripts/test-mail.mjs"
+    "mail:test": "node --env-file=.env.local scripts/test-mail.mjs",
+    "ops:backup": "node --env-file=.env.local scripts/ops/backup.mjs",
+    "ops:restore": "node --env-file=.env.local scripts/ops/restore.mjs",
+    "ops:watchdog": "node --env-file=.env.local scripts/ops/watchdog.mjs",
+    "ops:alert-test": "node --env-file=.env.local scripts/ops/alert-test.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.12.0",
