@@ -375,7 +375,11 @@
     "staffBody": "{name} hat in der Fachsprache-App geschrieben:\n\n{body}\n\nAntworten: {link}",
     "reminderSubject": "Deine {min} Minuten Deutsch für heute",
     "reminderSubjectAlmost": "Fast geschafft – dein Lernziel für heute",
-    "reminderBody": "Hallo {name},\n\ndein Ziel für heute sind {min} Minuten. Bisher hast du {done} Minuten gelernt – es fehlen noch {left} Minuten.\n\nHier geht es weiter:\n{link}\n\nErinnerungen kannst du dort im Lernplan ändern oder abstellen.\n\nViele Grüße\nDein GWS-Team"
+    "reminderBody": "Hallo {name},\n\ndein Ziel für heute sind {min} Minuten. Bisher hast du {done} Minuten gelernt – es fehlen noch {left} Minuten.\n\nHier geht es weiter:\n{link}\n\nErinnerungen kannst du dort im Lernplan ändern oder abstellen.\n\nViele Grüße\nDein GWS-Team",
+    "deletedSubject": "Deine Daten in der GWS Fachsprache-App wurden gelöscht",
+    "deletedBody": "Hallo {name},\n\nwir haben alle deine Daten aus der Trainings-App gelöscht: Lernfortschritt, Abgaben, Sprachaufnahmen, Prüfungsversuche und Nachrichten.\n\nDein Login-Konto wird gemeinsam mit dem Visa-Portal genutzt und bleibt deshalb bestehen. Wenn du auch dieses Konto löschen lassen möchtest, antworte einfach auf diese E-Mail.\n\nViele Grüße\nDein GWS-Team",
+    "deletionRequestSubject": "Löschantrag von {name}",
+    "deletionRequestBody": "{name} ({email}) hat in der Fachsprache-App die Löschung der eigenen Daten beantragt.\n\nLöschen kannst du hier (ganz unten auf der Kundenseite):\n{link}"
   },
   "glossary": {
     "title": "Fachbegriffe Pflege",
@@ -679,5 +683,38 @@
       "partsMissing": "Mindestens ein Prüfungsteil (Hören, Lesen, Schreiben, Sprechen) noch gar nicht geübt."
     },
     "rule": "Prüfungsbereit = mindestens 80 % der Lektionen erledigt, Ø Ergebnis mindestens 75 % und alle vier Prüfungsteile geübt."
+  },
+  "legal": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "draft": "Entwurf: Einige Angaben fehlen noch und werden in Kürze ergänzt.",
+    "germanOnly": "Diese Seite ist nur auf Deutsch verfügbar.",
+    "updated": "Stand: {date}"
+  },
+  "privacy": {
+    "requestTitle": "Meine Daten löschen",
+    "requestIntro": "Du kannst jederzeit verlangen, dass wir alle deine Daten aus der Trainings-App löschen: Lernfortschritt, Abgaben, Sprachaufnahmen, Prüfungsversuche und Nachrichten. Danach kannst du die App nicht mehr nutzen.",
+    "privacyLink": "Mehr in der Datenschutzerklärung",
+    "requestStart": "Löschung beantragen",
+    "requestConfirm": "Bist du sicher? GWS löscht danach alle deine Daten in der App. Das kann nicht rückgängig gemacht werden.",
+    "requestButton": "Ja, Löschung beantragen",
+    "cancel": "Abbrechen",
+    "requestSent": "Dein Antrag ist bei GWS angekommen. Wir löschen deine Daten und schicken dir eine Bestätigung per E-Mail.",
+    "requestError": "Das hat nicht geklappt. Bitte versuche es noch einmal oder schreib uns eine Nachricht.",
+    "requestMessage": "Ich beantrage die Löschung aller meiner Daten in der Trainings-App (Art. 17 DSGVO).",
+    "deleteTitle": "Kundendaten löschen",
+    "deleteIntro": "Löscht alle Daten dieser Person aus der Trainings-App. Das kann nicht rückgängig gemacht werden.",
+    "deleteWhat": "Gelöscht werden: Profil, Lernfortschritt, Lernplan und Lernzeiten, Fachbegriff-Lernstand, Schreibabgaben, Sprachaufnahmen, Feedback, Probeprüfungen und alle Nachrichten.",
+    "deleteKeeps": "Bestehen bleibt nur das Login-Konto, weil es mit dem Visa-Portal geteilt wird. In die Trainings-App kommt die Person damit nicht mehr.",
+    "deleteConfirmLabel": "Zur Bestätigung die E-Mail-Adresse eintippen: {email}",
+    "deleteButton": "Endgültig löschen",
+    "deleting": "Wird ausgeführt …",
+    "deleted": "Die Daten wurden gelöscht. Die Person hat eine Bestätigung per E-Mail bekommen.",
+    "deleteErrors": {
+      "noKey": "Auf dem Server fehlt der Supabase Secret Key (SUPABASE_SECRET_KEY).",
+      "confirm": "Die eingetippte E-Mail-Adresse stimmt nicht.",
+      "notCustomer": "GWS-Mitarbeiter können hier nicht gelöscht werden.",
+      "generic": "Das Löschen hat nicht geklappt. Bitte noch einmal versuchen."
+    }
   }
 }
