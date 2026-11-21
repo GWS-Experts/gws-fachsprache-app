@@ -366,7 +366,7 @@
   },
   "mail": {
     "inviteSubject": "Your invitation to the GWS language training app",
-    "inviteBody": "Hello {name},\n\nGWS talent transfer has invited you to the training app for the German nursing language exam (Fachsprachprüfung Pflege).\n\nSet your password here:\n{link}\n\nThe link is valid for 24 hours.\n\nBest regards\nYour GWS team",
+    "inviteBody": "Hello {name},\n\nGWS language has invited you to the training app for the German nursing language exam (Fachsprachprüfung Pflege).\n\nSet your password here:\n{link}\n\nThe link is valid for 24 hours.\n\nBest regards\nYour GWS team",
     "resetSubject": "New password for the GWS language training app",
     "resetBody": "Hello {name},\n\nuse this link to set a new password:\n{link}\n\nIf you did not request this, you can ignore this email.\n\nBest regards\nYour GWS team",
     "replySubject": "New reply from GWS",
@@ -377,7 +377,11 @@
     "staffBody": "{name} wrote in the language training app:\n\n{body}\n\nReply: {link}",
     "reminderSubject": "Your {min} minutes of German for today",
     "reminderSubjectAlmost": "Almost there – your study goal for today",
-    "reminderBody": "Hello {name},\n\nyour goal for today is {min} minutes. So far you have studied {done} minutes – {left} minutes to go.\n\nContinue here:\n{link}\n\nYou can change or turn off reminders in your study plan.\n\nBest regards\nYour GWS team"
+    "reminderBody": "Hello {name},\n\nyour goal for today is {min} minutes. So far you have studied {done} minutes – {left} minutes to go.\n\nContinue here:\n{link}\n\nYou can change or turn off reminders in your study plan.\n\nBest regards\nYour GWS team",
+    "deletedSubject": "Your data in the GWS language app has been deleted",
+    "deletedBody": "Hello {name},\n\nwe have deleted all your data from the training app: learning progress, submissions, voice recordings, exam attempts and messages.\n\nYour login account is shared with the visa portal and therefore still exists. If you would like that account deleted as well, simply reply to this email.\n\nBest regards\nYour GWS team",
+    "deletionRequestSubject": "Deletion request from {name}",
+    "deletionRequestBody": "{name} ({email}) has requested deletion of their data in the language app.\n\nYou can delete it here (at the bottom of the customer page):\n{link}"
   },
   "glossary": {
     "title": "Nursing terminology",
@@ -682,6 +686,39 @@
       "partsMissing": "At least one exam part (listening, reading, writing, speaking) not practised yet."
     },
     "rule": "Exam ready = at least 80 % of lessons done, average result at least 75 % and all four exam parts practised."
+  },
+  "legal": {
+    "imprint": "Legal notice",
+    "privacy": "Privacy policy",
+    "draft": "Draft: some details are still missing and will be added shortly.",
+    "germanOnly": "This page is only available in German.",
+    "updated": "Last updated: {date}"
+  },
+  "privacy": {
+    "requestTitle": "Delete my data",
+    "requestIntro": "You can ask us at any time to delete all your data from the training app: learning progress, submissions, voice recordings, exam attempts and messages. After that you can no longer use the app.",
+    "privacyLink": "More in the privacy policy",
+    "requestStart": "Request deletion",
+    "requestConfirm": "Are you sure? GWS will then delete all your data in the app. This cannot be undone.",
+    "requestButton": "Yes, request deletion",
+    "cancel": "Cancel",
+    "requestSent": "GWS has received your request. We will delete your data and send you a confirmation by email.",
+    "requestError": "That didn't work. Please try again or send us a message.",
+    "requestMessage": "I request the deletion of all my data in the training app (Art. 17 GDPR).",
+    "deleteTitle": "Delete customer data",
+    "deleteIntro": "Deletes all of this person's data from the training app. This cannot be undone.",
+    "deleteWhat": "Deleted: profile, learning progress, study plan and study time, glossary progress, writing submissions, voice recordings, feedback, mock exams and all messages.",
+    "deleteKeeps": "Only the login account remains, because it is shared with the visa portal. The person can no longer access the training app with it.",
+    "deleteConfirmLabel": "To confirm, type the email address: {email}",
+    "deleteButton": "Delete permanently",
+    "deleting": "Working …",
+    "deleted": "The data has been deleted. The person has received a confirmation email.",
+    "deleteErrors": {
+      "noKey": "The Supabase secret key (SUPABASE_SECRET_KEY) is missing on the server.",
+      "confirm": "The email address you typed does not match.",
+      "notCustomer": "GWS staff cannot be deleted here.",
+      "generic": "Deletion failed. Please try again."
+    }
   },
   "pwa": {
     "bannerTitle": "Get the app on your phone",

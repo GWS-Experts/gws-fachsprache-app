@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { requireCustomer } from "@/lib/auth";
 import { ProfileForms } from "@/components/ProfileForms";
+import { DeletionRequest } from "@/components/privacy/DeletionRequest";
 import { InstallApp } from "@/components/pwa/InstallApp";
 import { PushToggle } from "@/components/pwa/PushToggle";
 import { pushConfigured, vapidPublicKey } from "@/lib/push";
@@ -21,6 +22,7 @@ export default async function CustomerProfilePage() {
           </section>
         )}
       </div>
+      <DeletionRequest />
     </div>
   );
 }

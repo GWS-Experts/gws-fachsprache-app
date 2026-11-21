@@ -6,7 +6,7 @@ export default function manifest(): MetadataRoute.Manifest {
     id: "/",
     name: "GWS Fachsprache Pflege",
     short_name: "GWS Pflege",
-    description: "Training für die Fachsprachprüfung Pflege – GWS talent transfer GmbH",
+    description: "Training für die Fachsprachprüfung Pflege – GWS language GmbH",
     lang: "de",
     start_url: "/?source=pwa",
     scope: "/",

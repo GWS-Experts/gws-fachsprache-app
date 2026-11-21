@@ -9,7 +9,7 @@ const openSans = Open_Sans({ variable: "--font-open-sans", subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "GWS Fachsprache Pflege",
-  description: "Training für die Fachsprachprüfung Pflege – GWS talent transfer GmbH",
+  description: "Training für die Fachsprachprüfung Pflege – GWS language GmbH",
   applicationName: "GWS Fachsprache",
   // iPhone/iPad: als App vom Home-Bildschirm starten (eigenes Fenster, Name unter dem Symbol).
   appleWebApp: { capable: true, title: "GWS Pflege", statusBarStyle: "default" },
