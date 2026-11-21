@@ -8,7 +8,7 @@ const openSans = Open_Sans({ variable: "--font-open-sans", subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "GWS Fachsprache Pflege",
-  description: "Training für die Fachsprachprüfung Pflege – GWS talent transfer GmbH",
+  description: "Training für die Fachsprachprüfung Pflege – GWS language GmbH",
 };
 
 export const viewport: Viewport = {

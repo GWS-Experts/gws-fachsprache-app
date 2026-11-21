@@ -7,18 +7,20 @@ import type { Message, Profile } from "@/lib/types";
 import { computeReadiness, type ReadinessStatus } from "@/lib/readiness";
 import { ProgressBar } from "@/components/ProgressBar";
 import { InviteForm } from "@/components/InviteForm";
+import { FormMessage } from "@/components/FormMessage";
 import { PartChips, ReadinessBadge } from "@/components/Readiness";
 
 const STATUSES: ReadinessStatus[] = ["ready", "onTrack", "behind", "inactive"];
 const SORTS = ["readiness", "name", "activity"] as const;
 type Sort = (typeof SORTS)[number];
 
-export default async function CustomersPage({ searchParams }: { searchParams: Promise<{ q?: string; status?: string; sort?: string }> }) {
+export default async function CustomersPage({ searchParams }: { searchParams: Promise<{ q?: string; status?: string; sort?: string; deleted?: string }> }) {
   await requireStaff();
   const t = await getTranslations("customers");
   const tr = await getTranslations("readiness");
   const format = await getFormatter();
-  const { q = "", status: statusParam, sort: sortParam } = await searchParams;
+  const { q = "", status: statusParam, sort: sortParam, deleted } = await searchParams;
+  const tp = await getTranslations("privacy");
   const status = STATUSES.includes(statusParam as ReadinessStatus) ? (statusParam as ReadinessStatus) : null;
   const sort: Sort = SORTS.includes(sortParam as Sort) ? (sortParam as Sort) : "readiness";
   const supabase = await createClient();
@@ -77,6 +79,7 @@ export default async function CustomersPage({ searchParams }: { searchParams: Pr
 
   return (
     <div className="space-y-6">
+      {deleted && <FormMessage success={tp("deleted")} />}
       <header className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <h1 className="text-2xl font-bold text-primary">{t("title")}</h1>

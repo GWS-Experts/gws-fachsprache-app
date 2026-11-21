@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { Logo } from "@/components/Logo";
 import { LanguageSwitch } from "@/components/LanguageSwitch";
 import { NavLinks, type NavItem } from "@/components/NavLinks";
+import { LegalLinks } from "@/components/LegalLinks";
 import { signOut } from "@/app/actions/auth";
 import type { Profile } from "@/lib/types";
 
@@ -27,6 +28,9 @@ export async function AppShell({ profile, items, home, children }: { profile: Pr
         </div>
       </header>
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6">{children}</main>
+      <footer className="border-t border-line py-4 text-center text-xs text-muted">
+        <LegalLinks />
+      </footer>
       <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-surface md:hidden">
         <NavLinks items={items} variant="bottom" />
       </nav>

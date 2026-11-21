@@ -11,6 +11,7 @@ import { ProgressDashboard } from "@/components/ProgressDashboard";
 import { MessageThread } from "@/components/MessageThread";
 import { FeedbackList } from "@/components/FeedbackList";
 import { CustomerDataForm } from "@/components/CustomerDataForm";
+import { DeleteCustomerForm } from "@/components/privacy/DeleteCustomerForm";
 
 export default async function CustomerDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -54,6 +55,7 @@ export default async function CustomerDetailPage({ params }: { params: Promise<{
         <h2 className="text-xl font-bold text-primary">{t("messages")}</h2>
         <MessageThread customerId={customer.id} viewer={staff} />
       </section>
+      {customer.role === "customer" && <DeleteCustomerForm customerId={customer.id} email={customer.email} />}
     </div>
   );
 }
