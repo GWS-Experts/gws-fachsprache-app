@@ -6,6 +6,7 @@ import { pick, type Locale } from "@/lib/types";
 import { ProgressBar } from "@/components/ProgressBar";
 import { StudyToday } from "@/components/study/StudyToday";
 import { getStudyOverview } from "@/lib/study-data";
+import { InstallApp } from "@/components/pwa/InstallApp";
 
 export default async function LearnPage() {
   const profile = await requireCustomer();
@@ -27,6 +28,8 @@ export default async function LearnPage() {
           <p className="mt-2 text-sm">{t("lessonsDone", { done: stats.doneLessons, total: stats.totalLessons })}</p>
         </div>
       </section>
+
+      <InstallApp variant="banner" />
 
       <StudyToday overview={study} compact />
 

@@ -83,7 +83,7 @@ export default function PrivacyPage() {
         DSGVO).
       </p>
 
-      <h2>5. Mikrofon und Sprachausgabe</h2>
+      <h2>5. Mikrofon, Sprachausgabe und Benachrichtigungen</h2>
       <p>
         Für Sprechübungen fragt dein Browser um Erlaubnis, das Mikrofon zu nutzen. Aufgenommen wird
         nur, solange du die Aufnahme selbst startest. Die Aufnahme wird erst gespeichert, wenn du sie
@@ -93,6 +93,14 @@ export default function PrivacyPage() {
         Zum Vorlesen von Übungstexten nutzt die App die Sprachausgabe deines Browsers. Je nach Browser
         kann dabei der vorzulesende Übungstext an den Browser-Anbieter (z. B. Google, Microsoft, Apple)
         übermittelt werden. Es handelt sich um Lerninhalte, nicht um deine persönlichen Daten.
+      </p>
+      <p>
+        Benachrichtigungen aufs Handy (Lern-Erinnerungen, neue Nachrichten) gibt es nur, wenn du sie
+        auf einem Gerät selbst einschaltest. Dafür speichern wir die Push-Adresse, die dein Browser
+        dafür erzeugt. Zugestellt werden die Benachrichtigungen über den Push-Dienst des
+        Browser-Anbieters (z. B. Google, Apple, Mozilla). Der Inhalt deiner Nachrichten wird dabei nicht
+        mitgeschickt, nur ein kurzer Hinweis wie „Neue Nachricht von GWS“. Du kannst Benachrichtigungen
+        jederzeit im Profil ausschalten; dann löschen wir die Push-Adresse.
       </p>
 
       <h2>6. Cookies</h2>

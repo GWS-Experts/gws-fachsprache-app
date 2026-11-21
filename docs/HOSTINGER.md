@@ -32,6 +32,8 @@ aus `/var/www/gws/.env.local` neu.
 | `SMTP_FROM` | leer lassen oder `"GWS Fachsprache <dieselbe Adresse wie SMTP_USER>"` | Absenderzeile | nein |
 | `STAFF_NOTIFY_EMAIL` | GWS-Postfach | bekommt Hinweise auf neue Kundennachrichten | nein |
 | `ANTHROPIC_API_KEY` | `sk-ant-…` | platform.claude.com → Settings → API Keys | **ja**, nur auf dem Server |
+| `VAPID_PUBLIC_KEY` / `VAPID_PRIVATE_KEY` | erzeugt `npm run push:setup` (Abschnitt 7) | nicht von Hand eintragen | privater Schlüssel **ja** |
+| `VAPID_SUBJECT` | optional, z. B. `mailto:noreply@gws-transfer-visa.com` | Kontakt für die Push-Dienste | nein |
 
 Wichtig: Variablen mit `NEXT_PUBLIC_` werden beim **Build** in die App übernommen. Nach jeder Änderung
 an `.env.local` daher `bash /var/www/gws/scripts/deploy.sh` ausführen.
@@ -143,6 +145,27 @@ npm run build && pm2 restart gws
 # 2. Aufruf alle 15 Minuten einrichten (liest das Passwort aus .env.local)
 (crontab -l 2>/dev/null; echo '*/15 * * * * cd /var/www/gws && curl -fsS -H "Authorization: Bearer $(grep ^CRON_SECRET= .env.local | cut -d= -f2)" http://127.0.0.1:3010/api/cron/study-reminders > /dev/null') | crontab -
 
-# 3. Testen: zeigt z. B. {"plans":3,"due":0,"sent":0}
+# 3. Testen: zeigt z. B. {"plans":3,"due":0,"sent":0,"pushed":0}
 curl -s -H "Authorization: Bearer $(grep ^CRON_SECRET= .env.local | cut -d= -f2)" http://127.0.0.1:3010/api/cron/study-reminders
 ```
+
+Kunden können im Lernplan wählen, ob sie zusätzlich zur Push-Benachrichtigung (Abschnitt 7) auch eine E-Mail bekommen.
+
+## 7. Handy-App und Push-Benachrichtigungen
+
+Die App ist eine installierbare Web-App (PWA): Auf Android bietet Chrome „App installieren“ an, auf dem
+iPhone geht es in Safari über „Teilen → Zum Home-Bildschirm“. Die Anleitung sehen Kunden auf der
+Startseite und im Profil. Dafür ist nichts einzurichten.
+
+Push-Benachrichtigungen (Lern-Erinnerungen, Antwort von GWS, für GWS: neue Kundennachricht) brauchen einmalig ein
+Schlüsselpaar:
+
+```bash
+cd /var/www/gws
+npm run push:setup
+pm2 restart gws
+```
+
+Danach erscheint im Profil und im Lernplan „Benachrichtigungen einschalten“. Den Schlüssel nicht neu erzeugen,
+sonst müssen alle Geräte Push neu einschalten. Auf dem iPhone funktioniert Push nur in der installierten App
+(iOS 16.4 oder neuer).
