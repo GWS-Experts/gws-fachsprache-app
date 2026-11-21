@@ -1,0 +1,105 @@
+# Stellt die Trainings-App automatisch live:
+#   - nach jedem Merge auf main
+#   - per Knopfdruck: GitHub -> Actions -> "Live stellen" -> "Run workflow"
+#
+# Zuerst wird geprüft, ob der Code fehlerfrei baut. Nur dann meldet sich GitHub per SSH beim
+# Hostinger-VPS und startet dort scripts/deploy.sh. Der SSH-Schlüssel (Secret DEPLOY_SSH_KEY) darf auf
+# dem Server nur dieses Skript ausführen. Einrichtung: docs/HOSTINGER.md, "Automatisch live stellen".
+name: Live stellen
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      aktion:
+        description: "Was soll passieren?"
+        type: choice
+        options:
+          - Neueste Version live stellen
+          - Zurück zur vorigen Version
+        default: Neueste Version live stellen
+
+# Nie zwei Updates gleichzeitig; ein laufendes Update wird nicht abgebrochen.
+concurrency:
+  group: live-stellen
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  DEPLOY_HOST: 72.60.39.230
+  SITE_URL: https://training.gws-transfer-visa.com
+
+jobs:
+  pruefen:
+    name: Code prüfen
+    if: github.event_name == 'push' || inputs.aktion != 'Zurück zur vorigen Version'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Lint
+        run: npm run lint
+      - name: Typen prüfen
+        run: npx tsc --noEmit
+      - name: Testweise bauen
+        run: npm run build
+        env:
+          # Platzhalter: Die echten Werte liegen nur auf dem Server in .env.local.
+          NEXT_PUBLIC_SUPABASE_URL: https://example.supabase.co
+          NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: sb_publishable_platzhalter
+          NEXT_PUBLIC_SITE_URL: https://example.com
+
+  live:
+    name: Auf dem Server live stellen
+    needs: pruefen
+    # Läuft auch, wenn "pruefen" bei einem Rollback übersprungen wurde, aber nie nach einem Fehler.
+    if: ${{ !cancelled() && !failure() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: SSH-Schlüssel vorbereiten
+        id: ssh
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: |
+          if [ -z "$DEPLOY_SSH_KEY" ]; then
+            echo "::warning::Secret DEPLOY_SSH_KEY fehlt noch. Einrichtung: docs/HOSTINGER.md, Abschnitt 'Automatisch live stellen'. Diesmal wurde nichts live gestellt."
+            echo "bereit=nein" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" | tr -d '\r' > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -T 15 -t ed25519 "$DEPLOY_HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          echo "bereit=ja" >> "$GITHUB_OUTPUT"
+
+      - name: Update auf dem Server ausführen
+        if: steps.ssh.outputs.bereit == 'ja'
+        env:
+          DEPLOY_USER: ${{ vars.DEPLOY_USER || 'root' }}
+          AKTION: ${{ inputs.aktion == 'Zurück zur vorigen Version' && 'rollback' || 'deploy' }}
+        run: |
+          ssh -i ~/.ssh/deploy_key -o BatchMode=yes -o ServerAliveInterval=30 \
+            "$DEPLOY_USER@$DEPLOY_HOST" "$AKTION"
+
+      - name: Website von außen prüfen
+        if: steps.ssh.outputs.bereit == 'ja'
+        run: |
+          for i in $(seq 1 10); do
+            code="$(curl -s -o /dev/null -w '%{http_code}' "$SITE_URL/" || true)"
+            if [ "$code" != "000" ] && [ "$code" -lt 500 ]; then
+              echo "Website antwortet (HTTP $code): $SITE_URL"
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "::error::Website $SITE_URL antwortet nicht (zuletzt HTTP $code)."
+          exit 1
