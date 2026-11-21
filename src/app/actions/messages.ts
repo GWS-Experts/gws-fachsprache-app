@@ -7,6 +7,7 @@ import { requireProfile } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { sendMail } from "@/lib/mail";
 import { siteUrl } from "@/lib/env";
+import { sendPush, staffIds } from "@/lib/push";
 import type { FormState } from "@/app/actions/auth";
 
 const schema = z.object({
@@ -37,6 +38,8 @@ export async function sendMessage(_prev: FormState, formData: FormData): Promise
     await supabase.from("messages").update({ read_at: new Date().toISOString() }).eq("customer_id", customerId).eq("sender_id", customerId).is("read_at", null);
     const { data: customer } = await supabase.from("profiles").select("email, first_name, locale").eq("id", customerId).maybeSingle();
     if (customer) {
+      const tp = await getTranslations({ locale: customer.locale, namespace: "push" });
+      await sendPush([customerId], { title: tp("replyTitle"), body: tp("replyBody"), url: "/app/messages", tag: "messages" }).catch(() => 0);
       const t = await getTranslations({ locale: customer.locale, namespace: "mail" });
       await sendMail({
         to: customer.email,
@@ -47,10 +50,14 @@ export async function sendMessage(_prev: FormState, formData: FormData): Promise
     revalidatePath(`/admin/customers/${customerId}`);
     revalidatePath("/admin/messages");
   } else {
+    const name = [profile.first_name, profile.last_name].filter(Boolean).join(" ") || profile.email;
+    const tp = await getTranslations({ locale: "de", namespace: "push" });
+    await staffIds()
+      .then((ids) => sendPush(ids, { title: tp("staffTitle"), body: tp("staffBody", { name }), url: `/admin/customers/${profile.id}`, tag: `customer-${profile.id}` }))
+      .catch(() => 0);
     const to = process.env.STAFF_NOTIFY_EMAIL;
     if (to) {
       const t = await getTranslations({ locale: "de", namespace: "mail" });
-      const name = [profile.first_name, profile.last_name].filter(Boolean).join(" ") || profile.email;
       await sendMail({
         to,
         subject: t("staffSubject", { name }),
@@ -61,3 +68,4 @@ export async function sendMessage(_prev: FormState, formData: FormData): Promise
   }
   return { success: "sent" };
 }
+

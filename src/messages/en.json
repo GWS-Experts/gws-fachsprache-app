@@ -175,7 +175,9 @@
       "email": "The email address could not be changed.",
       "mismatch": "The passwords do not match.",
       "tooShort": "The password must have at least 8 characters."
-    }
+    },
+    "pushInfo": "You get a notification at your study times (see study plan) and when GWS replies to you.",
+    "pushInfoStaff": "You get a notification when a customer writes a message."
   },
   "customers": {
     "title": "Customers",
@@ -488,7 +490,7 @@
   },
   "plan": {
     "title": "My study plan",
-    "intro": "Decide how much you want to study on which days. We can remind you by email.",
+    "intro": "Decide how much you want to study and on which days. If you like, we remind you with a notification on your phone or by email.",
     "today": "Today",
     "minutesOf": "{done} of {goal} minutes",
     "goalReached": "Daily goal reached – great!",
@@ -514,14 +516,15 @@
     "minutes": "{min} min",
     "studyDays": "Study days",
     "reminder": "Reminder",
-    "remindLabel": "Remind me by email if I haven’t studied yet on a study day",
+    "remindLabel": "Remind me if I haven't studied yet on a study day",
     "remindAt": "Remind at",
-    "remindInfo": "Time in your time zone ({tz}). At most one email per day.",
+    "remindInfo": "Time in your time zone ({tz}). At most one reminder per day.",
     "create": "Save plan",
     "save": "Save changes",
     "saved": "Saved.",
     "error": "Saving failed.",
-    "errorNoDays": "Please choose at least one study day."
+    "errorNoDays": "Please choose at least one study day.",
+    "remindEmail": "Also remind me by email"
   },
   "exam": {
     "title": "Mock exam",
@@ -679,5 +682,41 @@
       "partsMissing": "At least one exam part (listening, reading, writing, speaking) not practised yet."
     },
     "rule": "Exam ready = at least 80 % of lessons done, average result at least 75 % and all four exam parts practised."
+  },
+  "pwa": {
+    "bannerTitle": "Get the app on your phone",
+    "bannerText": "Install the training app on your home screen. Then you open it with one tap like a normal app and can get reminders as notifications.",
+    "install": "Install app",
+    "dismiss": "Close hint",
+    "cardTitle": "App on your phone",
+    "installed": "✓ You are using the installed app.",
+    "iosStep1": "In Safari, tap “Share” at the bottom (square with an arrow pointing up).",
+    "iosStep2": "Choose “Add to Home Screen”.",
+    "iosStep3": "Tap “Add”. Then open the app from the new icon.",
+    "otherHint": "Open this page on your phone in Chrome (Android) or Safari (iPhone). There you can install the app on your home screen. On a computer, use the install icon in the address bar of Chrome or Edge."
+  },
+  "push": {
+    "title": "Notifications on this device",
+    "offText": "Off. Turn them on to get reminders and replies directly on your phone.",
+    "onText": "✓ Turned on for this device.",
+    "enable": "Turn on notifications",
+    "disable": "Turn off",
+    "test": "Send test",
+    "testSent": "Test sent. The notification should appear shortly.",
+    "enabled": "Notifications are turned on.",
+    "error": "That didn't work. Please try again later.",
+    "unsupported": "This browser does not support notifications.",
+    "iosInstall": "On iPhone, notifications only work in the installed app. Add the app to your home screen first (see profile) and open it from there.",
+    "denied": "Notifications are blocked for this site. You can allow them again in your browser or phone settings.",
+    "testTitle": "GWS Fachsprache",
+    "testBody": "This is what your notifications look like. 👍",
+    "reminderTitle": "Time to study 📚",
+    "reminderBody": "Your daily goal: {min} minutes. Even a few minutes help!",
+    "reminderTitleAlmost": "Almost there 💪",
+    "reminderBodyAlmost": "{left} more minutes to reach your daily goal.",
+    "replyTitle": "New message from GWS",
+    "replyBody": "Tap here to read the reply.",
+    "staffTitle": "New customer message",
+    "staffBody": "{name} wrote a message."
   }
 }

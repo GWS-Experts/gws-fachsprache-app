@@ -5,6 +5,7 @@ export interface StudyPlan {
   daily_minutes: number;
   days: number[]; // ISO-Wochentage 1 = Montag … 7 = Sonntag
   remind: boolean;
+  remind_email: boolean;
   remind_hour: number;
   timezone: string;
   last_reminded_on: string | null;
@@ -21,6 +22,7 @@ export const DEFAULT_PLAN: Omit<StudyPlan, "user_id"> = {
   daily_minutes: 10,
   days: [1, 2, 3, 4, 5, 6, 7],
   remind: true,
+  remind_email: true,
   remind_hour: 18,
   timezone: "Europe/Berlin",
   last_reminded_on: null,

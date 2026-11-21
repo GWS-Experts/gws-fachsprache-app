@@ -7,6 +7,7 @@ import { createClient } from "@/lib/supabase/server";
 import { pick, type Locale } from "@/lib/types";
 import { StudyPlanForm } from "@/components/study/StudyPlanForm";
 import { StudyToday } from "@/components/study/StudyToday";
+import { pushConfigured, vapidPublicKey } from "@/lib/push";
 
 export default async function StudyPlanPage() {
   const profile = await requireCustomer();
@@ -68,7 +69,7 @@ export default async function StudyPlanPage() {
         </ul>
       </section>
 
-      <StudyPlanForm plan={overview.plan} isNew={!overview.hasPlan} />
+      <StudyPlanForm plan={overview.plan} isNew={!overview.hasPlan} pushKey={pushConfigured() ? vapidPublicKey() : ""} />
     </div>
   );
 }

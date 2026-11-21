@@ -175,7 +175,9 @@
       "email": "Die E-Mail-Adresse konnte nicht geändert werden.",
       "mismatch": "Die Passwörter stimmen nicht überein.",
       "tooShort": "Das Passwort muss mindestens 8 Zeichen haben."
-    }
+    },
+    "pushInfo": "Du bekommst eine Benachrichtigung zu deinen Lernzeiten (siehe Lernplan) und wenn GWS dir antwortet.",
+    "pushInfoStaff": "Du bekommst eine Benachrichtigung, wenn eine Kundin oder ein Kunde eine Nachricht schreibt."
   },
   "customers": {
     "title": "Kunden",
@@ -488,7 +490,7 @@
   },
   "plan": {
     "title": "Mein Lernplan",
-    "intro": "Lege fest, wie viel du an welchen Tagen lernen möchtest. Auf Wunsch erinnern wir dich per E-Mail.",
+    "intro": "Lege fest, wie viel du an welchen Tagen lernen möchtest. Auf Wunsch erinnern wir dich per Benachrichtigung auf dem Handy oder per E-Mail.",
     "today": "Heute",
     "minutesOf": "{done} von {goal} Minuten",
     "goalReached": "Tagesziel erreicht – super!",
@@ -514,14 +516,15 @@
     "minutes": "{min} Min.",
     "studyDays": "Lerntage",
     "reminder": "Erinnerung",
-    "remindLabel": "Per E-Mail erinnern, wenn ich an einem Lerntag noch nicht gelernt habe",
+    "remindLabel": "Erinnern, wenn ich an einem Lerntag noch nicht gelernt habe",
     "remindAt": "Erinnern um",
-    "remindInfo": "Uhrzeit in deiner Zeitzone ({tz}). Höchstens eine E-Mail pro Tag.",
+    "remindInfo": "Uhrzeit in deiner Zeitzone ({tz}). Höchstens eine Erinnerung pro Tag.",
     "create": "Plan speichern",
     "save": "Änderungen speichern",
     "saved": "Gespeichert.",
     "error": "Speichern hat nicht geklappt.",
-    "errorNoDays": "Bitte mindestens einen Lerntag wählen."
+    "errorNoDays": "Bitte mindestens einen Lerntag wählen.",
+    "remindEmail": "Zusätzlich per E-Mail erinnern"
   },
   "exam": {
     "title": "Probeprüfung",
@@ -679,5 +682,41 @@
       "partsMissing": "Mindestens ein Prüfungsteil (Hören, Lesen, Schreiben, Sprechen) noch gar nicht geübt."
     },
     "rule": "Prüfungsbereit = mindestens 80 % der Lektionen erledigt, Ø Ergebnis mindestens 75 % und alle vier Prüfungsteile geübt."
+  },
+  "pwa": {
+    "bannerTitle": "Die App aufs Handy holen",
+    "bannerText": "Installiere die Trainings-App auf deinem Startbildschirm. Dann öffnest du sie mit einem Tipp wie eine normale App und kannst Erinnerungen als Benachrichtigung bekommen.",
+    "install": "App installieren",
+    "dismiss": "Hinweis schließen",
+    "cardTitle": "App auf dem Handy",
+    "installed": "✓ Du nutzt die installierte App.",
+    "iosStep1": "Tippe unten in Safari auf „Teilen“ (Quadrat mit Pfeil nach oben).",
+    "iosStep2": "Wähle „Zum Home-Bildschirm“.",
+    "iosStep3": "Tippe auf „Hinzufügen“. Danach die App über das neue Symbol öffnen.",
+    "otherHint": "Öffne diese Seite auf deinem Handy in Chrome (Android) oder Safari (iPhone). Dort kannst du die App auf dem Startbildschirm installieren. Am Computer geht es in Chrome oder Edge über das Installations-Symbol in der Adresszeile."
+  },
+  "push": {
+    "title": "Benachrichtigungen auf diesem Gerät",
+    "offText": "Aus. Schalte sie ein, um Erinnerungen und Antworten direkt aufs Handy zu bekommen.",
+    "onText": "✓ Eingeschaltet auf diesem Gerät.",
+    "enable": "Benachrichtigungen einschalten",
+    "disable": "Ausschalten",
+    "test": "Test senden",
+    "testSent": "Test verschickt. Die Benachrichtigung sollte gleich erscheinen.",
+    "enabled": "Benachrichtigungen sind eingeschaltet.",
+    "error": "Das hat nicht geklappt. Bitte später noch einmal versuchen.",
+    "unsupported": "Dieser Browser unterstützt keine Benachrichtigungen.",
+    "iosInstall": "Auf dem iPhone gehen Benachrichtigungen nur in der installierten App. Füge die App zuerst zum Home-Bildschirm hinzu (siehe Profil) und öffne sie von dort.",
+    "denied": "Benachrichtigungen sind für diese Seite blockiert. Du kannst sie in den Einstellungen deines Browsers bzw. Handys wieder erlauben.",
+    "testTitle": "GWS Fachsprache",
+    "testBody": "So sehen deine Benachrichtigungen aus. 👍",
+    "reminderTitle": "Zeit zum Lernen 📚",
+    "reminderBody": "Dein Tagesziel: {min} Minuten. Schon ein paar Minuten helfen!",
+    "reminderTitleAlmost": "Fast geschafft 💪",
+    "reminderBodyAlmost": "Noch {left} Minuten bis zu deinem Tagesziel.",
+    "replyTitle": "Neue Nachricht von GWS",
+    "replyBody": "Tippe hier, um die Antwort zu lesen.",
+    "staffTitle": "Neue Kundennachricht",
+    "staffBody": "{name} hat eine Nachricht geschrieben."
   }
 }

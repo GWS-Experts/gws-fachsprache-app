@@ -4,12 +4,13 @@ import { useActionState, useSyncExternalStore } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { saveStudyPlan } from "@/app/actions/study";
 import { FormMessage } from "@/components/FormMessage";
+import { PushToggle } from "@/components/pwa/PushToggle";
 import { MINUTE_OPTIONS, type StudyPlan } from "@/lib/study";
 
 const noop = () => () => {};
 const browserZone = () => Intl.DateTimeFormat().resolvedOptions().timeZone || "Europe/Berlin";
 
-export function StudyPlanForm({ plan, isNew }: { plan: StudyPlan; isNew: boolean }) {
+export function StudyPlanForm({ plan, isNew, pushKey }: { plan: StudyPlan; isNew: boolean; pushKey: string }) {
   const t = useTranslations("plan");
   const locale = useLocale();
   const [state, action, pending] = useActionState(saveStudyPlan, undefined);
@@ -75,6 +76,15 @@ export function StudyPlanForm({ plan, isNew }: { plan: StudyPlan; isNew: boolean
         </div>
         <p className="text-xs text-muted">{t("remindInfo", { tz: timezone })}</p>
         <input type="hidden" name="timezone" value={timezone} />
+        <label className="flex items-center gap-2 text-sm">
+          <input type="checkbox" name="remind_email" defaultChecked={plan.remind_email ?? true} className="h-4 w-4 accent-[var(--gws-primary)]" />
+          {t("remindEmail")}
+        </label>
+        {pushKey && (
+          <div className="rounded-md border border-line p-3">
+            <PushToggle publicKey={pushKey} />
+          </div>
+        )}
       </fieldset>
 
       <button className="btn-primary" disabled={pending}>{isNew ? t("create") : t("save")}</button>

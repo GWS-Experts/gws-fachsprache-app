@@ -31,6 +31,7 @@ const planSchema = z.object({
   daily_minutes: z.coerce.number().int().min(5).max(120),
   days: z.array(z.coerce.number().int().min(1).max(7)).min(1).max(7),
   remind: z.boolean(),
+  remind_email: z.boolean(),
   remind_hour: z.coerce.number().int().min(0).max(23),
   timezone: z.string().trim().max(64).refine(validTimeZone),
 });
@@ -41,6 +42,7 @@ export async function saveStudyPlan(_prev: PlanState, formData: FormData): Promi
     daily_minutes: formData.get("daily_minutes"),
     days: [...new Set(formData.getAll("days"))],
     remind: formData.get("remind") === "on",
+    remind_email: formData.get("remind_email") === "on",
     remind_hour: formData.get("remind_hour"),
     timezone: formData.get("timezone") || "Europe/Berlin",
   });
