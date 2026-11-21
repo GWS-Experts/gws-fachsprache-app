@@ -20,7 +20,7 @@ export default function ImprintPage() {
         {LEGAL.country}
       </p>
       <p>
-        <strong>Vertreten durch die Geschäftsführung:</strong> {LEGAL.managingDirectors}
+        <strong>Vertreten durch die Geschäftsführerin:</strong> {LEGAL.managingDirectors}
       </p>
 
       <h2>Kontakt</h2>

@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Logo } from "@/components/Logo";
 import { LanguageSwitch } from "@/components/LanguageSwitch";
 import { LegalLinks } from "@/components/LegalLinks";
+import { LEGAL } from "@/content/legal";
 
 export function AuthShell({ title, intro, children }: { title: string; intro?: string; children: React.ReactNode }) {
   return (
@@ -21,7 +22,7 @@ export function AuthShell({ title, intro, children }: { title: string; intro?: s
         </div>
       </main>
       <footer className="border-t border-line bg-surface py-4 text-center text-xs text-muted">
-        <span>GWS talent transfer GmbH</span>
+        <span>{LEGAL.company}</span>
         <LegalLinks className="ml-4" />
       </footer>
     </div>

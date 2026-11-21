@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: "Datenschutzerklärung – GWS Fachsp
 // ENTWURF – keine Rechtsberatung. Vor dem produktiven Einsatz von einer
 // fachkundigen Person prüfen lassen. Firmendaten stehen in src/content/legal.ts.
 export default function PrivacyPage() {
-  const fields = [LEGAL.street, LEGAL.city, LEGAL.email, LEGAL.supervisoryAuthority, LEGAL.retention];
+  const fields = [LEGAL.street, LEGAL.city, LEGAL.email, LEGAL.supervisoryAuthority, LEGAL.serverLocation];
   return (
     <LegalShell title="Datenschutzerklärung" draft={fields.some(isPlaceholder)}>
       <p>
@@ -60,7 +60,7 @@ export default function PrivacyPage() {
         <li>
           <strong>Hostinger</strong> (Hostinger International Ltd., Zypern): Server, auf dem die App läuft, und
           Versand von E-Mails (Einladungen, Hinweise auf Feedback und Antworten, Lern-Erinnerungen).
-          Serverstandort: [Land des Server-Standorts, z. B. Deutschland/EU – im Hostinger-Konto prüfen].
+          Serverstandort: {LEGAL.serverLocation}.
         </li>
         <li>
           <strong>Supabase</strong> (Supabase Inc., USA): Datenbank, Anmeldung und Speicher für
@@ -102,15 +102,15 @@ export default function PrivacyPage() {
 
       <h2>7. Speicherdauer</h2>
       <p>
-        Wir speichern deine Daten, solange du an unserem Training teilnimmst. Danach werden deine
-        Lerndaten, Abgaben, Aufnahmen und Nachrichten gelöscht: {LEGAL.retention}, soweit keine
-        gesetzlichen Aufbewahrungspflichten entgegenstehen. Du kannst die Löschung jederzeit vorher
+        Wir speichern deine Daten, solange du die App nutzt. Nach Kündigung der App-Nutzung löschen wir
+        dein Profil, deine Lerndaten, Abgaben, Aufnahmen und Nachrichten, soweit keine gesetzlichen
+        Aufbewahrungspflichten entgegenstehen. Du kannst die Löschung jederzeit vorher
         verlangen, auch direkt in der App unter „Mein Profil“. Server-Protokolle werden in der Regel
         nach 14 Tagen gelöscht.
       </p>
       <p>
-        Hinweis: Dein Login-Konto (E-Mail-Adresse und Passwort) wird gemeinsam mit dem Visa-Portal von{" "}
-        {LEGAL.company} genutzt. Wenn du auch das Visa-Portal nicht mehr nutzt, löschen wir auf Wunsch
+        Hinweis: Dein Login-Konto (E-Mail-Adresse und Passwort) wird gemeinsam mit dem GWS Visa-Portal
+        genutzt. Wenn du auch das Visa-Portal nicht mehr nutzt, löschen wir auf Wunsch
         auch dieses Konto.
       </p>
 
@@ -126,7 +126,7 @@ export default function PrivacyPage() {
       <p>
         Schreib uns dazu einfach eine Nachricht in der App oder eine E-Mail an {LEGAL.email}. Außerdem
         kannst du dich bei einer Datenschutz-Aufsichtsbehörde beschweren, zum Beispiel bei der für uns
-        zuständigen Behörde: {LEGAL.supervisoryAuthority}.
+        zuständigen Behörde, dem {LEGAL.supervisoryAuthority}.
       </p>
 
       <h2>9. Pflicht zur Bereitstellung</h2>

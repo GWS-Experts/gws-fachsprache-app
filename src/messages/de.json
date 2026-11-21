@@ -364,7 +364,7 @@
   },
   "mail": {
     "inviteSubject": "Deine Einladung zur GWS Fachsprache-App",
-    "inviteBody": "Hallo {name},\n\nGWS talent transfer hat dich zur Trainings-App für die Fachsprachprüfung Pflege eingeladen.\n\nLege hier dein Passwort fest:\n{link}\n\nDer Link ist 24 Stunden gültig.\n\nViele Grüße\nDein GWS-Team",
+    "inviteBody": "Hallo {name},\n\nGWS language hat dich zur Trainings-App für die Fachsprachprüfung Pflege eingeladen.\n\nLege hier dein Passwort fest:\n{link}\n\nDer Link ist 24 Stunden gültig.\n\nViele Grüße\nDein GWS-Team",
     "resetSubject": "Neues Passwort für die GWS Fachsprache-App",
     "resetBody": "Hallo {name},\n\nüber diesen Link kannst du ein neues Passwort festlegen:\n{link}\n\nWenn du das nicht angefordert hast, kannst du diese E-Mail ignorieren.\n\nViele Grüße\nDein GWS-Team",
     "replySubject": "Neue Antwort von GWS",

@@ -4,25 +4,26 @@
 // Leere Felder ("") werden auf den Seiten einfach weggelassen.
 
 export const LEGAL = {
-  company: "GWS talent transfer GmbH",
-  street: "[Straße und Hausnummer]",
-  city: "[PLZ Ort]",
+  company: "GWS language GmbH",
+  street: "Nordring 8a",
+  city: "85417 Marzling",
   country: "Deutschland",
-  managingDirectors: "[Vor- und Nachname der Geschäftsführung]",
-  phone: "[Telefonnummer]",
-  email: "[E-Mail-Adresse für Anfragen]",
-  register: "[Registergericht, z. B. Amtsgericht München]",
-  registerNumber: "[HRB-Nummer]",
-  vatId: "[USt-IdNr., z. B. DE123456789 – falls vorhanden]",
+  managingDirectors: "Dr. Dr. Agata Ehrhard",
+  phone: "+49 151 61735220",
+  email: "agata.ehrhard@gws-experts.com",
+  register: "Amtsgericht München",
+  registerNumber: "HRB 290451",
+  // Nur eintragen, wenn eine USt-IdNr. vorhanden ist (die Steuernummer gehört nicht ins Impressum).
+  vatId: "",
   // Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV (Name und Anschrift)
-  contentResponsible: "[Vor- und Nachname, Anschrift wie oben]",
-  // Datenschutzbeauftragte(r) – nur nötig, wenn einer benannt ist; sonst "" lassen.
+  contentResponsible: "Dr. Dr. Agata Ehrhard, Nordring 8a, 85417 Marzling",
+  // Datenschutzbeauftragte(r) – nur eintragen, wenn förmlich jemand benannt ist; sonst "" lassen.
+  // Die Geschäftsführung selbst kann diese Rolle nicht übernehmen (Interessenkonflikt).
   dataProtectionOfficer: "",
   // Zuständige Datenschutz-Aufsichtsbehörde (für Firmen in Bayern das BayLDA)
-  supervisoryAuthority:
-    "[Bayerisches Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522 Ansbach – bitte prüfen, ob Bayern zutrifft]",
-  // Wie lange Daten nach Ende der Zusammenarbeit aufbewahrt werden
-  retention: "[z. B. 6 Monate nach Ende des Trainings]",
+  supervisoryAuthority: "Bayerisches Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522 Ansbach",
+  // Standort des App-Servers bei Hostinger
+  serverLocation: "Deutschland (Frankfurt am Main)",
   // Stand der Texte
   updated: "21.11.2026",
 } as const;
