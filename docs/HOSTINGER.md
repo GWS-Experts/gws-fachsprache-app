@@ -8,14 +8,45 @@ Die App läuft unter **https://training.gws-transfer-visa.com** auf demselben VP
 | pm2-Prozess | `gws`, Port 3010 | eigener Prozess, Port 3000 |
 | Nginx-Site | `/etc/nginx/sites-available/gws` | `gws-visa` |
 
-**Updates einspielen:** im Hostinger-Browser-Terminal
+**Updates einspielen:** passiert automatisch. Sobald ein Pull Request auf `main` gemergt ist, prüft GitHub
+den Code und stellt ihn live (Dauer etwa 5 Minuten). Per Knopfdruck geht es auch: GitHub → **Actions** →
+**Live stellen** → **Run workflow**. Einrichtung siehe Abschnitt 0.
+
+Von Hand im Hostinger-Browser-Terminal geht es weiterhin:
 
 ```bash
 bash /var/www/gws/scripts/deploy.sh
 ```
 
 Das Skript holt die neueste Version, baut die App und startet den pm2-Prozess `gws` mit den Werten
-aus `/var/www/gws/.env.local` neu.
+aus `/var/www/gws/.env.local` neu. Die App läuft aus dem Ordner `/var/www/gws/.live`. Schlägt der Build
+fehl, bleibt die bisherige Version online. Antwortet die neue Version nach dem Start nicht, holt das
+Skript automatisch die vorige zurück.
+
+**Zurück zur vorigen Version:** GitHub → Actions → Live stellen → Run workflow → „Zurück zur vorigen
+Version“, oder im Terminal `bash /var/www/gws/scripts/deploy.sh --rollback`.
+
+## 0. Automatisch live stellen (einmalig einrichten)
+
+GitHub meldet sich dafür mit einem eigenen SSH-Schlüssel beim Server an. Dieser Schlüssel darf auf dem
+Server nur `scripts/deploy.sh` starten, sonst nichts (kein Terminal, kein Zugriff auf das Visa-Portal).
+
+1. Im Hostinger-Browser-Terminal (einmal, nach dem Merge dieser Änderung):
+
+   ```bash
+   cd /var/www/gws && git pull && bash scripts/setup-auto-deploy.sh
+   ```
+
+2. Das Skript zeigt einen Block zwischen `-----BEGIN OPENSSH PRIVATE KEY-----` und
+   `-----END OPENSSH PRIVATE KEY-----`. Diesen Block inklusive beider Zeilen markieren und kopieren.
+3. GitHub → Repository `gws-fachsprache-app` → **Settings** → **Secrets and variables** → **Actions** →
+   **New repository secret**. Name: `DEPLOY_SSH_KEY`, Secret: Block einfügen → **Add secret**.
+4. Zurück im Terminal Enter drücken. Der geheime Schlüssel wird vom Server gelöscht.
+5. Test: GitHub → **Actions** → **Live stellen** → **Run workflow** → grüner Haken = fertig.
+
+Schlüssel tauschen (z. B. wenn er versehentlich weitergegeben wurde): Schritte 1 bis 4 wiederholen und
+in Schritt 3 das vorhandene Secret `DEPLOY_SSH_KEY` mit **Update** überschreiben. Der alte Schlüssel
+funktioniert danach nicht mehr.
 
 ## 1. Umgebungsvariablen (`/var/www/gws/.env.local`)
 
@@ -34,7 +65,8 @@ aus `/var/www/gws/.env.local` neu.
 | `ANTHROPIC_API_KEY` | `sk-ant-…` | platform.claude.com → Settings → API Keys | **ja**, nur auf dem Server |
 
 Wichtig: Variablen mit `NEXT_PUBLIC_` werden beim **Build** in die App übernommen. Nach jeder Änderung
-an `.env.local` daher `bash /var/www/gws/scripts/deploy.sh` ausführen.
+an `.env.local` daher neu live stellen (GitHub → Actions → Live stellen → Run workflow, oder
+`bash /var/www/gws/scripts/deploy.sh`).
 
 **E-Mail-Versand testen:**
 
@@ -49,7 +81,7 @@ Kopieren angezeigt, und es werden keine Benachrichtigungen verschickt.
 
 Ohne `ANTHROPIC_API_KEY` funktioniert die App ebenfalls, nur ohne KI-Korrekturvorschläge für
 Schreibabgaben. Der Schlüssel wird nicht beim Build gebraucht, nach dem Eintragen reicht
-`pm2 restart gws --update-env`.
+`pm2 restart gws`.
 
 ## 2. Supabase einmalig einstellen
 
@@ -138,7 +170,7 @@ Voraussetzung: SMTP-Werte und `SUPABASE_SECRET_KEY` sind in `.env.local` eingetr
 cd /var/www/gws
 # 1. Geheimes Passwort erzeugen und in .env.local eintragen
 echo "CRON_SECRET=$(openssl rand -hex 32)" >> .env.local
-npm run build && pm2 restart gws
+bash scripts/deploy.sh
 
 # 2. Aufruf alle 15 Minuten einrichten (liest das Passwort aus .env.local)
 (crontab -l 2>/dev/null; echo '*/15 * * * * cd /var/www/gws && curl -fsS -H "Authorization: Bearer $(grep ^CRON_SECRET= .env.local | cut -d= -f2)" http://127.0.0.1:3010/api/cron/study-reminders > /dev/null') | crontab -

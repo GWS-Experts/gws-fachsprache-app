@@ -40,3 +40,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Live-Versionen auf dem Server (scripts/deploy.sh)
+/.live/
+/.live.*/
