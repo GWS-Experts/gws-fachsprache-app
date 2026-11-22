@@ -12,6 +12,11 @@ Next.js 16 (App Router) mit Supabase für Login, Datenbank, Speicher und Zugriff
   Einladung neuer Kunden und Kollegen per E-Mail.
 - **Probeprüfung:** kompletter Durchlauf (Lesen, Sprachbausteine, Hören, Schreiben, Sprechen) mit Zeitlimit pro Teil,
   begrenzten Hördurchgängen und Auswertung nach Bereichen; Schreiben und Sprechen bewertet GWS unter „Prüfungen“.
+- **Fehlertrainer** (`/app/mistakes`): sammelt falsch beantwortete Fragen aus Übungen und Probeprüfungen sowie die
+  Korrekturen aus freigegebenem Schreib-Feedback (Zeilen `- "falsch" → "richtig" (Erklärung)`) und übt sie gezielt,
+  bis sie zweimal hintereinander richtig sind. GWS sieht die häufigsten offenen Fehler auf der Kundenseite.
+- **Übungszertifikat** (PDF, `/api/certificate/<Versuch>`): nach einer bestandenen und vollständig bewerteten
+  Probeprüfung, mit GWS-Logo. Ausdrücklich kein Nachweis der offiziellen Fachsprachprüfung.
 - Oberfläche auf Deutsch und Englisch umschaltbar, die Wahl wird im Profil gespeichert.
 - Hörtexte und Dialoge haben fertige Audiodateien mit verschiedenen Stimmen (`public/audio`). Ohne Audiodatei liest
   die Sprachausgabe des Browsers vor, bei Dialogen mit wechselnden Stimmen.

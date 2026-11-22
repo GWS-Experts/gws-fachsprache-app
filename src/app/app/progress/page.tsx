@@ -3,6 +3,7 @@ import { requireCustomer } from "@/lib/auth";
 import { getLearningStats } from "@/lib/data";
 import { ProgressDashboard } from "@/components/ProgressDashboard";
 import { SubmissionList } from "@/components/SubmissionList";
+import { MistakeCard } from "@/components/mistakes/MistakeCard";
 
 export default async function ProgressPage() {
   const profile = await requireCustomer();
@@ -12,6 +13,7 @@ export default async function ProgressPage() {
   return (
     <div className="space-y-6">
       <h1 className="text-2xl font-bold text-primary">{t("title")}</h1>
+      <MistakeCard userId={profile.id} />
       <ProgressDashboard stats={stats} lessonHref={(id) => `/app/lesson/${id}`} />
       {stats.submissions.length > 0 && <SubmissionList submissions={stats.submissions} title={t("submissions")} />}
     </div>

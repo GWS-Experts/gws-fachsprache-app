@@ -28,10 +28,10 @@ export function LessonPlayer({ lesson, locale, userId, audioUrl, nextHref, previ
   const intro = locale === "en" ? c.intro_en || c.intro_de : c.intro_de;
   const task = locale === "en" ? c.task_en || c.task_de : c.task_de;
 
-  async function complete(score: number, max: number) {
+  async function complete(score: number, max: number, answers?: (string | number | null)[]) {
     setResult({ score, max });
     if (preview) return;
-    await saveProgress({ lessonId: lesson.id, score, maxScore: max, durationSeconds: Math.round((Date.now() - startedAt) / 1000) });
+    await saveProgress({ lessonId: lesson.id, score, maxScore: max, durationSeconds: Math.round((Date.now() - startedAt) / 1000), answers });
     router.refresh();
   }
 

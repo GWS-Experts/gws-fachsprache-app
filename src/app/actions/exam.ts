@@ -6,8 +6,13 @@ import { z } from "zod";
 import { requireCustomer, requireStaff } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { getAttempt, getExam, getExamParts } from "@/lib/exam-data";
-import { autoScore, isManual, partMax, partMinutes, type ExamAttempt, type PartAnswer } from "@/lib/exam";
+import { autoScore, isManual, partMax, partMinutes, summarize, type ExamAttempt, type PartAnswer } from "@/lib/exam";
+import { getTranslations } from "next-intl/server";
+import { sendMail } from "@/lib/mail";
+import { sendPush } from "@/lib/push";
+import { siteUrl } from "@/lib/env";
 import type { Lesson } from "@/lib/types";
+import { recordQuestionResults } from "@/lib/mistakes-data";
 
 const uuid = z.string().uuid();
 
@@ -110,6 +115,8 @@ export async function finishPart(input: z.input<typeof finishSchema>): Promise<{
 
   const { error } = await supabase.from("exam_attempts").update(update).eq("id", attempt.id);
   if (error) return { ok: false };
+  // Falsche Antworten landen im Fehlertrainer.
+  if (!isManual(lesson)) await recordQuestionResults(supabase, profile.id, lesson, entry.answers ?? [], "exam");
   revalidatePath("/app/exam", "layout");
   return { ok: true, finished };
 }
@@ -216,6 +223,14 @@ export async function saveExamReview(_prev: ExamState, formData: FormData): Prom
     .update({ staff_points: points, staff_comment: comment || null, reviewed_by: staff.id, reviewed_at: new Date().toISOString() })
     .eq("id", attempt.id);
   if (error) return { error: "generic" };
+
+  // Gerade bestanden (vorher noch nicht): Kunde bekommt Bescheid, dass das Zertifikat bereitliegt.
+  if (exam && attempt.finished_at) {
+    const published = parts.filter((l) => l.published);
+    const before = summarize(attempt, published, exam.pass_percent).passed;
+    const after = summarize({ ...attempt, staff_points: points }, published, exam.pass_percent).passed;
+    if (after === true && before !== true) await notifyCertificate(attempt.user_id, attempt.id).catch(() => undefined);
+  }
   revalidatePath("/admin/exams", "layout");
   revalidatePath("/app/exam", "layout");
   return { success: "saved" };
@@ -228,4 +243,19 @@ export async function deleteAttempt(formData: FormData) {
   await supabase.from("exam_attempts").delete().eq("id", id);
   revalidatePath("/admin/exams", "layout");
   redirect("/admin/exams");
+}
+
+async function notifyCertificate(userId: string, attemptId: string) {
+  const supabase = await createClient();
+  const { data: customer } = await supabase.from("profiles").select("email, first_name, locale").eq("id", userId).maybeSingle();
+  if (!customer) return;
+  const url = `/app/exam/attempt/${attemptId}`;
+  const tp = await getTranslations({ locale: customer.locale, namespace: "push" });
+  await sendPush([userId], { title: tp("certificateTitle"), body: tp("certificateBody"), url, tag: `exam-${attemptId}` }).catch(() => 0);
+  const t = await getTranslations({ locale: customer.locale, namespace: "mail" });
+  await sendMail({
+    to: customer.email,
+    subject: t("certificateSubject"),
+    text: t("certificateBody", { name: customer.first_name || customer.email, link: `${siteUrl()}${url}` }),
+  });
 }

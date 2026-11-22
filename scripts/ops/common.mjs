@@ -14,7 +14,7 @@ export const STATE_DIR = env.OPS_STATE_DIR || path.join(BACKUP_DIR, "state");
 export const TABLES = [
   "profiles", "modules", "lessons", "progress", "submissions", "messages",
   "glossary_topics", "glossary_terms", "glossary_reviews", "feedback_drafts",
-  "exams", "exam_attempts", "study_plans", "study_activity", "push_subscriptions",
+  "exams", "exam_attempts", "study_plans", "study_activity", "push_subscriptions", "mistakes",
 ];
 // Primärschlüssel, falls nicht "id" (für upsert bei der Wiederherstellung).
 export const KEYS = {

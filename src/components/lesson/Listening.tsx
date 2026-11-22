@@ -16,7 +16,7 @@ export function Listening({
   transcript: string;
   audioUrl: string | null;
   questions: Question[];
-  onComplete: (score: number, max: number) => void;
+  onComplete: (score: number, max: number, answers: (string | number | null)[]) => void;
 }) {
   const t = useTranslations("lesson");
   const canSpeak = useSpeechSupported();
@@ -61,9 +61,9 @@ export function Listening({
       </div>
       <QuestionSet
         questions={questions}
-        onComplete={(s, m) => {
+        onComplete={(s, m, a) => {
           setAnswered(true);
-          onComplete(s, m);
+          onComplete(s, m, a);
         }}
       />
     </div>

@@ -7,6 +7,7 @@ import { ProgressBar } from "@/components/ProgressBar";
 import { StudyToday } from "@/components/study/StudyToday";
 import { getStudyOverview } from "@/lib/study-data";
 import { InstallApp } from "@/components/pwa/InstallApp";
+import { MistakeCard } from "@/components/mistakes/MistakeCard";
 
 export default async function LearnPage() {
   const profile = await requireCustomer();
@@ -32,6 +33,8 @@ export default async function LearnPage() {
       <InstallApp variant="banner" />
 
       <StudyToday overview={study} compact />
+
+      <MistakeCard userId={profile.id} />
 
       {stats.modules.length === 0 ? (
         <p className="card text-muted">{t("empty")}</p>

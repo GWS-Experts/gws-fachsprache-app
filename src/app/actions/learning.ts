@@ -8,15 +8,18 @@ import { createClient } from "@/lib/supabase/server";
 import { createAdminClient, hasAdminKey } from "@/lib/supabase/admin";
 import { AI_MODEL, aiConfigured, generateFeedbackDraft } from "@/lib/ai";
 import type { Lesson } from "@/lib/types";
+import { recordQuestionResults } from "@/lib/mistakes-data";
 
 const progressSchema = z.object({
   lessonId: z.string().uuid(),
   score: z.number().int().min(0),
   maxScore: z.number().int().min(0),
   durationSeconds: z.number().int().min(0).max(60 * 60 * 4),
+  // Antworten pro Frage (für den Fehlertrainer); fehlt bei Übungen ohne Fragen.
+  answers: z.array(z.union([z.string().max(500), z.number().int(), z.null()])).max(200).optional(),
 });
 
-export async function saveProgress(input: z.infer<typeof progressSchema>) {
+export async function saveProgress(input: z.input<typeof progressSchema>) {
   const profile = await requireCustomer();
   const v = progressSchema.parse(input);
   const supabase = await createClient();
@@ -28,6 +31,10 @@ export async function saveProgress(input: z.infer<typeof progressSchema>) {
     duration_seconds: v.durationSeconds,
   });
   if (error) return { ok: false };
+  if (v.answers) {
+    const { data: lesson } = await supabase.from("lessons").select("*").eq("id", v.lessonId).maybeSingle();
+    if (lesson) await recordQuestionResults(supabase, profile.id, lesson as Lesson, v.answers, "lesson");
+  }
   revalidatePath("/app", "layout");
   return { ok: true };
 }
