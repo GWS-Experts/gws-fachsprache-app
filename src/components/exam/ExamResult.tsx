@@ -6,6 +6,7 @@ import { PRACTICE_KINDS, formatClock, isManual, summarize, type Bucket, type Exa
 import { isCorrect } from "@/lib/questions";
 import { pick, type Lesson, type Locale, type Submission } from "@/lib/types";
 import { ExamReviewForm } from "./ExamReviewForm";
+import { getCurrentProfile } from "@/lib/auth";
 
 function Meter({ value, pass }: { value: number | null; pass: number }) {
   const v = value ?? 0;
@@ -49,6 +50,11 @@ export async function ExamResult({ exam, attempt, parts, locale, staff = false }
     }
   }
 
+  // Falsch beantwortete Fragen landen im Fehlertrainer.
+  const wrongAnswers = summary.parts.reduce((n, p) => n + (isManual(p.lesson) || p.score === null ? 0 : p.max - p.score), 0);
+  const viewer = !staff && summary.passed ? await getCurrentProfile() : null;
+  const hasName = staff || Boolean(viewer && `${viewer.first_name}${viewer.last_name}`.trim());
+
   const fmt = new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "de-DE", { dateStyle: "long", timeStyle: "short" });
   const status = summary.passed === null ? "pending" : summary.passed ? "passed" : "failed";
   const statusStyle = { pending: "bg-accent-light text-accent", passed: "bg-success-light text-success", failed: "bg-danger-light text-danger" }[status];
@@ -90,6 +96,33 @@ export async function ExamResult({ exam, attempt, parts, locale, staff = false }
         {summary.areas.map((a) => <div key={a.area}>{bucketRow(t(`areas.${a.area}`), a)}</div>)}
         <p className="text-xs text-muted">{t("passLine", { percent: pass })}</p>
       </section>
+
+      {summary.passed && (
+        <section className="card space-y-3 border-success text-center">
+          <p className="text-4xl" aria-hidden>🎓</p>
+          <h2 className="font-bold text-primary">{t("certificateTitle")}</h2>
+          <p className="text-sm">{t("certificateText")}</p>
+          {hasName ? (
+            <a href={`/api/certificate/${attempt.id}`} target="_blank" rel="noopener" className="btn-primary inline-block">{t("certificateDownload")}</a>
+          ) : (
+            <p className="text-sm">
+              {t("certificateNeedsName")}{" "}
+              <Link href="/app/profile" className="font-semibold text-primary underline">{t("certificateToProfile")}</Link>
+            </p>
+          )}
+          <p className="text-xs text-muted">{t("certificateNote")}</p>
+        </section>
+      )}
+
+      {!staff && wrongAnswers > 0 && (
+        <Link href="/app/mistakes" className="card flex items-center justify-between gap-3 transition hover:border-primary">
+          <span>
+            <span className="block font-semibold text-primary">🎯 {t("mistakesTitle", { count: wrongAnswers })}</span>
+            <span className="block text-sm text-muted">{t("mistakesText")}</span>
+          </span>
+          <span className="text-primary" aria-hidden>→</span>
+        </Link>
+      )}
 
       {attempt.staff_comment && (
         <section className="card border-accent">

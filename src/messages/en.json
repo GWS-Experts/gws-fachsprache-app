@@ -381,7 +381,9 @@
     "deletedSubject": "Your data in the GWS language app has been deleted",
     "deletedBody": "Hello {name},\n\nwe have deleted all your data from the training app: learning progress, submissions, voice recordings, exam attempts and messages.\n\nYour login account is shared with the visa portal and therefore still exists. If you would like that account deleted as well, simply reply to this email.\n\nBest regards\nYour GWS team",
     "deletionRequestSubject": "Deletion request from {name}",
-    "deletionRequestBody": "{name} ({email}) has requested deletion of their data in the language app.\n\nYou can delete it here (at the bottom of the customer page):\n{link}"
+    "deletionRequestBody": "{name} ({email}) has requested deletion of their data in the language app.\n\nYou can delete it here (at the bottom of the customer page):\n{link}",
+    "certificateSubject": "Practice exam passed – your certificate",
+    "certificateBody": "Hello {name},\n\ncongratulations! GWS has assessed your practice exam: you passed.\n\nYou can find your result and your practice certificate (PDF) here:\n{link}\n\nPlease note: the certificate confirms an internal GWS practice exam. It is not the official specialist language exam.\n\nBest regards\nYour GWS team"
   },
   "glossary": {
     "title": "Nursing terminology",
@@ -614,7 +616,15 @@
     "yourAnswer": "Your answer",
     "correctAnswer": "Correct answer",
     "nothingSubmitted": "Nothing submitted.",
-    "feedback": "Feedback from GWS"
+    "feedback": "Feedback from GWS",
+    "certificateTitle": "Congratulations – you passed!",
+    "certificateText": "Your practice certificate is ready as a PDF. You can download, print or forward it.",
+    "certificateDownload": "Download certificate (PDF)",
+    "certificateNeedsName": "We need your name for the certificate.",
+    "certificateToProfile": "Add your name in your profile",
+    "certificateNote": "Note: The certificate confirms an internal GWS practice exam. It is not the official specialist language exam (Fachsprachprüfung) and not an official language certificate.",
+    "mistakesTitle": "{count, plural, one {# wrong answer} other {# wrong answers}} in the mistake trainer",
+    "mistakesText": "Practise exactly these questions again until they stick."
   },
   "examAdmin": {
     "title": "Mock exams",
@@ -754,6 +764,59 @@
     "replyTitle": "New message from GWS",
     "replyBody": "Tap here to read the reply.",
     "staffTitle": "New customer message",
-    "staffBody": "{name} wrote a message."
+    "staffBody": "{name} wrote a message.",
+    "certificateTitle": "Passed! 🎓",
+    "certificateBody": "Your practice exam has been assessed. Your certificate is ready."
+  },
+  "mistakes": {
+    "title": "Mistake trainer",
+    "intro": "The app collects your mistakes from exercises, practice exams and the corrections to your texts. Practise them until they stick: two correct answers in a row and a mistake is done.",
+    "statOpen": "mistakes to practise",
+    "statMastered": "already mastered",
+    "statWhere": "Where do they come from?",
+    "fromLessons": "{count} from exercises",
+    "fromExams": "{count} from practice exams",
+    "fromWriting": "{count} from your texts",
+    "source": {
+      "lesson": "Exercise: {title}",
+      "exam": "Practice exam: {title}",
+      "writing": "Your text: {title}"
+    },
+    "sourceShort": {
+      "lesson": "Exercise",
+      "exam": "Practice exam",
+      "writing": "Your text"
+    },
+    "counter": "Mistake {n} of {total}",
+    "wrongTimes": "{count} × wrong",
+    "question": "Question",
+    "gapPlaceholder": "Your answer",
+    "check": "Check",
+    "next": "Next",
+    "finish": "Finish round",
+    "correctStreak": "Correct! {left} more correct {left, plural, one {answer} other {answers}} and it sticks.",
+    "mastered": "Correct – done! This mistake is mastered. 🎉",
+    "wrong": "Not quite right yet.",
+    "solution": "Correct answer",
+    "dismiss": "Doesn't fit – remove",
+    "saveError": "Could not save. Please try again.",
+    "roundDone": "Round done: {correct} of {total} correct",
+    "roundMastered": "{count, plural, one {# mistake is now mastered.} other {# mistakes are now mastered.}}",
+    "nextRound": "Next round",
+    "toLearn": "Go to lessons",
+    "emptyTitle": "No mistakes collected yet",
+    "allMastered": "Great – all mistakes mastered!",
+    "emptyText": "When you answer something wrong in an exercise or practice exam, or GWS corrects your text, it lands here automatically.",
+    "notReady": "The mistake trainer is being set up. Please check back later.",
+    "termsTitle": "{count, plural, one {# technical term not yet secure} other {# technical terms not yet secure}}",
+    "termsText": "Review them in the vocabulary trainer",
+    "homeTitle": "Mistake trainer: {count} to practise",
+    "homeText": "Practise exactly what is still hard for you – a few minutes are enough.",
+    "staffTitle": "Mistake trainer",
+    "staffSummary": "{open} open · {mastered} mastered",
+    "staffTop": "Most frequent open mistakes",
+    "staffNone": "No mistakes collected yet.",
+    "staffAnswer": "correct",
+    "practise": "Practise"
   }
 }

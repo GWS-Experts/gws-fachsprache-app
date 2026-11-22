@@ -381,7 +381,9 @@
     "deletedSubject": "Deine Daten in der GWS Fachsprache-App wurden gelöscht",
     "deletedBody": "Hallo {name},\n\nwir haben alle deine Daten aus der Trainings-App gelöscht: Lernfortschritt, Abgaben, Sprachaufnahmen, Prüfungsversuche und Nachrichten.\n\nDein Login-Konto wird gemeinsam mit dem Visa-Portal genutzt und bleibt deshalb bestehen. Wenn du auch dieses Konto löschen lassen möchtest, antworte einfach auf diese E-Mail.\n\nViele Grüße\nDein GWS-Team",
     "deletionRequestSubject": "Löschantrag von {name}",
-    "deletionRequestBody": "{name} ({email}) hat in der Fachsprache-App die Löschung der eigenen Daten beantragt.\n\nLöschen kannst du hier (ganz unten auf der Kundenseite):\n{link}"
+    "deletionRequestBody": "{name} ({email}) hat in der Fachsprache-App die Löschung der eigenen Daten beantragt.\n\nLöschen kannst du hier (ganz unten auf der Kundenseite):\n{link}",
+    "certificateSubject": "Probeprüfung bestanden – dein Zertifikat",
+    "certificateBody": "Hallo {name},\n\nherzlichen Glückwunsch! GWS hat deine Probeprüfung bewertet: Du hast bestanden.\n\nDein Ergebnis und dein Übungszertifikat (PDF) findest du hier:\n{link}\n\nBitte beachte: Das Zertifikat bestätigt eine interne Probeprüfung von GWS. Es ist keine offizielle Fachsprachprüfung.\n\nViele Grüße\nDein GWS-Team"
   },
   "glossary": {
     "title": "Fachbegriffe Pflege",
@@ -614,7 +616,15 @@
     "yourAnswer": "Deine Antwort",
     "correctAnswer": "Richtig wäre",
     "nothingSubmitted": "Nichts abgegeben.",
-    "feedback": "Feedback von GWS"
+    "feedback": "Feedback von GWS",
+    "certificateTitle": "Herzlichen Glückwunsch – bestanden!",
+    "certificateText": "Dein Übungszertifikat als PDF liegt bereit. Du kannst es herunterladen, ausdrucken oder weiterschicken.",
+    "certificateDownload": "Zertifikat herunterladen (PDF)",
+    "certificateNeedsName": "Für das Zertifikat brauchen wir deinen Namen.",
+    "certificateToProfile": "Namen im Profil eintragen",
+    "certificateNote": "Hinweis: Das Zertifikat bestätigt eine interne Probeprüfung von GWS. Es ist keine offizielle Fachsprachprüfung und kein amtlicher Sprachnachweis.",
+    "mistakesTitle": "{count, plural, one {# falsche Antwort} other {# falsche Antworten}} im Fehlertrainer",
+    "mistakesText": "Übe genau diese Fragen noch einmal, bis sie sitzen."
   },
   "examAdmin": {
     "title": "Probeprüfungen",
@@ -754,6 +764,59 @@
     "replyTitle": "Neue Nachricht von GWS",
     "replyBody": "Tippe hier, um die Antwort zu lesen.",
     "staffTitle": "Neue Kundennachricht",
-    "staffBody": "{name} hat eine Nachricht geschrieben."
+    "staffBody": "{name} hat eine Nachricht geschrieben.",
+    "certificateTitle": "Bestanden! 🎓",
+    "certificateBody": "Deine Probeprüfung ist bewertet. Dein Zertifikat liegt bereit."
+  },
+  "mistakes": {
+    "title": "Fehlertrainer",
+    "intro": "Hier sammelt die App deine Fehler aus Übungen, Probeprüfungen und den Korrekturen zu deinen Texten. Übe sie, bis sie sitzen: Zweimal hintereinander richtig, dann ist ein Fehler geschafft.",
+    "statOpen": "Fehler zum Üben",
+    "statMastered": "schon sicher",
+    "statWhere": "Woher kommen sie?",
+    "fromLessons": "{count, plural, one {# aus Übungen} other {# aus Übungen}}",
+    "fromExams": "{count, plural, one {# aus Probeprüfungen} other {# aus Probeprüfungen}}",
+    "fromWriting": "{count, plural, one {# aus deinen Texten} other {# aus deinen Texten}}",
+    "source": {
+      "lesson": "Übung: {title}",
+      "exam": "Probeprüfung: {title}",
+      "writing": "Dein Text: {title}"
+    },
+    "sourceShort": {
+      "lesson": "Übung",
+      "exam": "Probeprüfung",
+      "writing": "Dein Text"
+    },
+    "counter": "Fehler {n} von {total}",
+    "wrongTimes": "{count, plural, one {# × falsch} other {# × falsch}}",
+    "question": "Frage",
+    "gapPlaceholder": "Deine Antwort",
+    "check": "Prüfen",
+    "next": "Weiter",
+    "finish": "Runde beenden",
+    "correctStreak": "Richtig! Noch {left, plural, one {# × richtig} other {# × richtig}}, dann sitzt es.",
+    "mastered": "Richtig – geschafft! Dieser Fehler ist jetzt sicher. 🎉",
+    "wrong": "Leider noch nicht richtig.",
+    "solution": "Richtig ist",
+    "dismiss": "Passt nicht – entfernen",
+    "saveError": "Speichern hat nicht geklappt. Bitte noch einmal versuchen.",
+    "roundDone": "Runde geschafft: {correct} von {total} richtig",
+    "roundMastered": "{count, plural, one {# Fehler sitzt jetzt sicher.} other {# Fehler sitzen jetzt sicher.}}",
+    "nextRound": "Nächste Runde",
+    "toLearn": "Zu den Lektionen",
+    "emptyTitle": "Noch keine Fehler gesammelt",
+    "allMastered": "Super – alle Fehler sind geschafft!",
+    "emptyText": "Wenn du in einer Übung oder Probeprüfung etwas falsch beantwortest oder GWS deinen Text korrigiert, landet es automatisch hier.",
+    "notReady": "Der Fehlertrainer wird gerade eingerichtet. Bitte schau später noch einmal vorbei.",
+    "termsTitle": "{count, plural, one {# Fachbegriff noch nicht sicher} other {# Fachbegriffe noch nicht sicher}}",
+    "termsText": "Im Vokabeltrainer gezielt wiederholen",
+    "homeTitle": "Fehlertrainer: {count, plural, one {# Fehler} other {# Fehler}} zum Üben",
+    "homeText": "Übe genau das, was dir noch schwerfällt – ein paar Minuten reichen.",
+    "staffTitle": "Fehlertrainer",
+    "staffSummary": "{open} offen · {mastered} sicher",
+    "staffTop": "Häufigste offene Fehler",
+    "staffNone": "Noch keine Fehler gesammelt.",
+    "staffAnswer": "richtig",
+    "practise": "Üben"
   }
 }

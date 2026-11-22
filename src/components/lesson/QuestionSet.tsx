@@ -7,7 +7,7 @@ import { isCorrect } from "@/lib/questions";
 
 export { isCorrect };
 
-export function QuestionSet({ questions, onComplete }: { questions: Question[]; onComplete: (score: number, max: number) => void }) {
+export function QuestionSet({ questions, onComplete }: { questions: Question[]; onComplete: (score: number, max: number, answers: (string | number | null)[]) => void }) {
   const t = useTranslations("lesson");
   const [answers, setAnswers] = useState<Record<number, string | number>>({});
   const [checked, setChecked] = useState(false);
@@ -77,7 +77,7 @@ export function QuestionSet({ questions, onComplete }: { questions: Question[]; 
           {t("check")}
         </button>
       ) : (
-        <button className="btn-accent w-full sm:w-auto" onClick={() => onComplete(score, questions.length)}>
+        <button className="btn-accent w-full sm:w-auto" onClick={() => onComplete(score, questions.length, questions.map((_, i) => answers[i] ?? null))}>
           {t("finish")}
         </button>
       )}

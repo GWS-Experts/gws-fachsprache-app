@@ -24,7 +24,7 @@ async function listFiles(admin: ReturnType<typeof createAdminClient>, folder: st
 // Löscht alle Daten eines Kunden aus der Trainings-App:
 // Sprachaufnahmen im Speicher und das fsp-Profil. Über "on delete cascade"
 // verschwinden damit auch Fortschritt, Abgaben, Feedback, Nachrichten,
-// Fachbegriff-Lernstand, Lernplan, Lernzeiten und Prüfungsversuche.
+// Fachbegriff-Lernstand, Lernplan, Lernzeiten, Prüfungsversuche und Fehlertrainer.
 //
 // Das Login-Konto (auth.users) bleibt bestehen, weil es mit dem Visa-Portal
 // geteilt wird. Ohne fsp-Profil hat die Person keinen Zugang mehr zur App.

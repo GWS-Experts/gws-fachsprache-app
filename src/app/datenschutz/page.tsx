@@ -35,9 +35,9 @@ export default function PrivacyPage() {
       <h2>2. Welche Daten wir verarbeiten</h2>
       <ul>
         <li><strong>Konto:</strong> Vor- und Nachname, E-Mail-Adresse, Passwort (nur verschlüsselt gespeichert), gewählte Sprache, Rolle in der App.</li>
-        <li><strong>Lernfortschritt:</strong> bearbeitete Lektionen, Ergebnisse, Lernzeit pro Tag, gelernte Fachbegriffe, Lernplan und Erinnerungszeiten.</li>
+        <li><strong>Lernfortschritt:</strong> bearbeitete Lektionen, Ergebnisse, Lernzeit pro Tag, gelernte Fachbegriffe, Lernplan und Erinnerungszeiten sowie deine gesammelten Fehler im Fehlertrainer.</li>
         <li><strong>Abgaben:</strong> deine Texte aus Schreibübungen und deine Sprachaufnahmen aus Sprechübungen sowie das Feedback von GWS dazu.</li>
-        <li><strong>Probeprüfungen:</strong> Antworten, Texte, Aufnahmen und Ergebnisse deiner Prüfungsversuche.</li>
+        <li><strong>Probeprüfungen:</strong> Antworten, Texte, Aufnahmen und Ergebnisse deiner Prüfungsversuche sowie das daraus erstellte Übungszertifikat.</li>
         <li><strong>Nachrichten:</strong> der Nachrichtenverlauf zwischen dir und GWS.</li>
         <li><strong>Technische Daten:</strong> beim Aufruf der App IP-Adresse, Datum und Uhrzeit, aufgerufene Seite und Browser-Kennung (Server-Protokolle).</li>
       </ul>
